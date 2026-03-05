@@ -1,0 +1,76 @@
+[0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)
+  /home/nam/ignition_fortress_ws/install/lib/cmake/ignition-fuel_tools7/ignition-fuel_tools7-config.cmake:94 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/ignition-gazebo6/ignition-gazebo6-config.cmake:97 (find_package)
+  CMakeLists.txt:8 (find_package)
+
+[0m
+gmake[2]: Warning: File '/home/nam/ignition_fortress_ws/install/lib/libignition-fuel_tools7.so.7.3.1' has modification time 346901 s in the future
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:[m[K In member function ‘[01m[Kvirtual void ignition::gazebo::LekiwiServoControlPlugin::Configure(const Entity&, const std::shared_ptr<const sdf::v12::Element>&, ignition::gazebo::v6::EntityComponentManager&, ignition::gazebo::v6::EventManager&)[m[K’:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:50:53:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kstd::__shared_ptr_access<const sdf::v12::Element, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kconst sdf::v12::Element[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   50 |       sdf::ElementPtr joints_elem = [01;31m[K_sdf->GetElement("joints")[m[K;
+      |                                     [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:30[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:1[m[K:
+[01m[K/usr/include/ignition/sdformat12/sdf/Element.hh:432:24:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Ksdf::v12::ElementPtr sdf::v12::Element::GetElement(const string&)[m[K’
+  432 |     public: ElementPtr [01;36m[KGetElement[m[K(const std::string &_name);
+      |                        [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/plugin1/gz/plugin/Register.hh:22[m[K,
+                 from [01m[K/usr/include/ignition/plugin1/ignition/plugin/Register.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:7[m[K:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:[m[K In constructor ‘[01m[Kignition::ignition::plugin::{anonymous}::ExecuteWhenLoadingLibrary0::ExecuteWhenLoadingLibrary0()[m[K’:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:169:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ is not a member of ‘[01m[Kignition::ignition[m[K’; did you mean ‘[01m[Kignition::gazebo[m[K’?
+  169 |   ignition::[01;31m[Kgazebo[m[K::LekiwiServoControlPlugin,
+      |             [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:22[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:1[m[K:
+[01m[K/usr/include/ignition/gazebo6/gz/sim/config.hh:30:13:[m[K [01;36m[Knote: [m[K‘[01m[Kignition::gazebo[m[K’ declared here
+   30 |   namespace [01;36m[Kgazebo[m[K
+      |             [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/plugin1/gz/plugin/Register.hh:22[m[K,
+                 from [01m[K/usr/include/ignition/plugin1/ignition/plugin/Register.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:7[m[K:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:168:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  168 | [01;31m[KIGNITION_ADD_PLUGIN[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:168:1:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  168 | [01;31m[KIGNITION_ADD_PLUGIN[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:[m[K In constructor ‘[01m[Kignition::ignition::plugin::{anonymous}::ExecuteWhenLoadingLibrary1::ExecuteWhenLoadingLibrary1()[m[K’:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:175:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ is not a member of ‘[01m[Kignition::ignition[m[K’; did you mean ‘[01m[Kignition::gazebo[m[K’?
+  175 | IGNITION_ADD_PLUGIN_ALIAS(ignition::[01;31m[Kgazebo[m[K::LekiwiServoControlPlugin, "LekiwiServoControlPlugin")
+      |                                     [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:22[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:1[m[K:
+[01m[K/usr/include/ignition/gazebo6/gz/sim/config.hh:30:13:[m[K [01;36m[Knote: [m[K‘[01m[Kignition::gazebo[m[K’ declared here
+   30 |   namespace [01;36m[Kgazebo[m[K
+      |             [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/plugin1/gz/plugin/Register.hh:22[m[K,
+                 from [01m[K/usr/include/ignition/plugin1/ignition/plugin/Register.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:7[m[K:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:175:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  175 | [01;31m[KIGNITION_ADD_PLUGIN_ALIAS[m[K(ignition::gazebo::LekiwiServoControlPlugin, "LekiwiServoControlPlugin")
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:175:1:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  175 | [01;31m[KIGNITION_ADD_PLUGIN_ALIAS[m[K(ignition::gazebo::LekiwiServoControlPlugin, "LekiwiServoControlPlugin")
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:[m[K At global scope:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:175:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  175 | [01;31m[KIGNITION_ADD_PLUGIN_ALIAS[m[K(ignition::gazebo::LekiwiServoControlPlugin, "LekiwiServoControlPlugin")
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:18:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   18 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/lekiwi_servo_control.dir/build.make:79: CMakeFiles/lekiwi_servo_control.dir/src/lekiwi_servo_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/lekiwi_servo_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

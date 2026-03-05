@@ -1,0 +1,10 @@
+[0.011s] Invoking command in '/home/nam/Lekiwi_ws/build/three_omni_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12
+[0.109s] [ 50%] [32mBuilding CXX object CMakeFiles/three_omni_plugin.dir/src/three_omni_plugin.cpp.o[0m
+[0.882s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/joint_state.hpp: No such file or directory
+[0.882s]     9 | #include [01;31m[K<sensor_msgs/msg/joint_state.hpp>[m[K
+[0.882s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.882s] compilation terminated.
+[0.895s] gmake[2]: *** [CMakeFiles/three_omni_plugin.dir/build.make:79: CMakeFiles/three_omni_plugin.dir/src/three_omni_plugin.cpp.o] Error 1
+[0.895s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/three_omni_plugin.dir/all] Error 2
+[0.896s] gmake: *** [Makefile:146: all] Error 2
+[0.898s] Invoked command in '/home/nam/Lekiwi_ws/build/three_omni_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12

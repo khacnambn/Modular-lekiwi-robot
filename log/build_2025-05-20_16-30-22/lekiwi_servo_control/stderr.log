@@ -1,0 +1,21 @@
+[0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)
+  /home/nam/ignition_fortress_ws/install/ignition-fuel_tools7/lib/cmake/ignition-fuel_tools7/ignition-fuel_tools7-config.cmake:94 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/ignition-gazebo6/ignition-gazebo6-config.cmake:97 (find_package)
+  CMakeLists.txt:8 (find_package)
+
+[0m
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kignition/common/PID.hh: No such file or directory
+   13 | #include [01;31m[K<ignition/common/PID.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lekiwi_servo_control.dir/build.make:79: CMakeFiles/lekiwi_servo_control.dir/src/lekiwi_servo_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/lekiwi_servo_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

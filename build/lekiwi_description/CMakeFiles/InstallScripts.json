@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/nam/Lekiwi_ws/build/lekiwi_description/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

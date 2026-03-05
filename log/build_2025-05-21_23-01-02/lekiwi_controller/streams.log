@@ -1,0 +1,16 @@
+[0.546s] Invoking command in '/home/nam/Lekiwi_ws/src/lekiwi_controller': PYTHONPATH=/home/nam/Lekiwi_ws/build/lekiwi_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nam/Lekiwi_ws/install/lekiwi_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lekiwi_controller build --build-base /home/nam/Lekiwi_ws/build/lekiwi_controller/build install --record /home/nam/Lekiwi_ws/build/lekiwi_controller/install.log --single-version-externally-managed install_data
+[0.766s] running egg_info
+[0.766s] writing ../../build/lekiwi_controller/lekiwi_controller.egg-info/PKG-INFO
+[0.767s] writing dependency_links to ../../build/lekiwi_controller/lekiwi_controller.egg-info/dependency_links.txt
+[0.767s] writing entry points to ../../build/lekiwi_controller/lekiwi_controller.egg-info/entry_points.txt
+[0.767s] writing requirements to ../../build/lekiwi_controller/lekiwi_controller.egg-info/requires.txt
+[0.767s] writing top-level names to ../../build/lekiwi_controller/lekiwi_controller.egg-info/top_level.txt
+[0.767s] reading manifest file '../../build/lekiwi_controller/lekiwi_controller.egg-info/SOURCES.txt'
+[0.768s] writing manifest file '../../build/lekiwi_controller/lekiwi_controller.egg-info/SOURCES.txt'
+[0.768s] running build
+[0.768s] running install
+[0.768s] running install_data
+[0.768s] copying launch/control.launch.py -> /home/nam/Lekiwi_ws/install/lekiwi_controller/share/lekiwi_controller/launch
+[0.769s] creating /home/nam/Lekiwi_ws/install/lekiwi_controller/lib/lekiwi_controller
+[0.769s] error: can't copy 'scripts/omni_controller.py': doesn't exist or not a regular file
+[0.784s] Invoked command in '/home/nam/Lekiwi_ws/src/lekiwi_controller' returned '1': PYTHONPATH=/home/nam/Lekiwi_ws/build/lekiwi_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nam/Lekiwi_ws/install/lekiwi_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lekiwi_controller build --build-base /home/nam/Lekiwi_ws/build/lekiwi_controller/build install --record /home/nam/Lekiwi_ws/build/lekiwi_controller/install.log --single-version-externally-managed install_data

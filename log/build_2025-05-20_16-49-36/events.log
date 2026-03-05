@@ -1,0 +1,386 @@
+[0.000000] (-) TimerEvent: {}
+[0.000566] (-) JobUnselected: {'identifier': 'lekiwi_description'}
+[0.000607] (-) JobUnselected: {'identifier': 'omni_teleop'}
+[0.000627] (-) JobUnselected: {'identifier': 'three_omni_plugin'}
+[0.000644] (lekiwi_servo_control) JobQueued: {'identifier': 'lekiwi_servo_control', 'dependencies': OrderedDict()}
+[0.000662] (lekiwi_servo_control) JobStarted: {'identifier': 'lekiwi_servo_control'}
+[0.010452] (lekiwi_servo_control) JobProgress: {'identifier': 'lekiwi_servo_control', 'progress': 'cmake'}
+[0.011014] (lekiwi_servo_control) JobProgress: {'identifier': 'lekiwi_servo_control', 'progress': 'build'}
+[0.011588] (lekiwi_servo_control) Command: {'cmd': ['/home/nam/.local/bin/cmake', '--build', '/home/nam/Lekiwi_ws/build/lekiwi_servo_control', '--', '-j12', '-l12'], 'cwd': '/home/nam/Lekiwi_ws/build/lekiwi_servo_control', 'env': OrderedDict([('LINOROBOT2_BASE', 'mecanum'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nam'), ('LC_TIME', 'km_KH'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nam/Lekiwi_ws/install/three_omni_plugin/lib:/home/nam/Lekiwi_ws/install/lekiwi_servo_control/lib:/home/nam/ignition_fortress_ws/install/ignition-fuel_tools7/lib:/home/nam/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nam/turtlebot3_ws/install/dynamixel_sdk/lib:/home/nam/plan_ws/install/rrt_planner/lib:/home/nam/plan_ws/install/jps_planner/lib:/home/nam/plan_ws/install/planner_core/lib:/home/nam/plan_ws/install/utils/lib:/home/nam/dev_ws/install/tutorial_interfaces/lib:/home/nam/dev_ws/install/nav2_straightline_planner/lib:/home/nam/dev_ws/install/nav2_pure_pursuit_controller/lib:/home/nam/dev_ws/install/nav2_custom_controller/lib:/home/nam/dev_ws/install/action_tutorials_cpp/lib:/home/nam/dev_ws/install/action_tutorials_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'km_KH'), ('SYSTEMD_EXEC_PID', '4906'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/nam/Lekiwi_ws/install:/home/nam/ignition_fortress_ws/install:/home/nam/plan_ws/install:/home/nam/turtlebot3_ws/install:/home/nam/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/nam/ignition_fortress_ws/install/ignition-fuel_tools7/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nam-Legion-5:@/tmp/.ICE-unix/1836,unix/nam-Legion-5:/tmp/.ICE-unix/1836'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'km_KH'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9dbf3731_189d_45a3_a340_d5ae92166cf2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'km_KH'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nam/Lekiwi_ws/install/three_omni_plugin:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/Lekiwi_ws/install/lekiwi_servo_control:/home/nam/Lekiwi_ws/install/lekiwi_description:/home/nam/turtlebot3_ws/install/turtlebot3:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_simulations:/home/nam/turtlebot3_ws/install/turtlebot3_bringup:/home/nam/turtlebot3_ws/install/turtlebot3_node:/home/nam/turtlebot3_ws/install/turtlebot3_navigation2:/home/nam/turtlebot3_ws/install/turtlebot3_fake_node:/home/nam/turtlebot3_ws/install/turtlebot3_example:/home/nam/turtlebot3_ws/install/turtlebot3_msgs:/home/nam/turtlebot3_ws/install/turtlebot3_gazebo:/home/nam/turtlebot3_ws/install/turtlebot3_description:/home/nam/turtlebot3_ws/install/turtlebot3_cartographer:/home/nam/turtlebot3_ws/install/nav2_bringup:/home/nam/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nam/turtlebot3_ws/install/dynamixel_sdk:/home/nam/plan_ws/install/rrt_planner:/home/nam/plan_ws/install/jps_planner:/home/nam/plan_ws/install/planner_core:/home/nam/plan_ws/install/utils:/home/nam/dev_ws/install/waypoint_follow:/home/nam/dev_ws/install/cpp_srvcli:/home/nam/dev_ws/install/cpp_pubsub:/home/nam/dev_ws/install/tutorial_interfaces:/home/nam/dev_ws/install/odom_sub:/home/nam/dev_ws/install/nav2_straightline_planner:/home/nam/dev_ws/install/nav2_pure_pursuit_controller:/home/nam/dev_ws/install/nav2_custom_controller:/home/nam/dev_ws/install/action_tutorials_cpp:/home/nam/dev_ws/install/action_tutorials_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'km_KH'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'km_KH'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'km_KH'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nam/Lekiwi_ws/build/lekiwi_servo_control'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LINOROBOT2_DEPTH_SENSOR', ''), ('PYTHONPATH', '/home/nam/Lekiwi_ws/install/omni_teleop/lib/python3.10/site-packages:/home/nam/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/nam/turtlebot3_ws/build/turtlebot3_example:/home/nam/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/nam/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nam/dev_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/nam/dev_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'km_KH'), ('LC_PAPER', 'km_KH'), ('COLCON', '1'), ('LINOROBOT2_LASER_SENSOR', 'a1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nam/Lekiwi_ws/install/three_omni_plugin:/home/nam/Lekiwi_ws/install/lekiwi_servo_control:/home/nam/Lekiwi_ws/install/lekiwi_description:/home/nam/ignition_fortress_ws/install/ignition-fuel_tools7:/home/nam/turtlebot3_ws/install/turtlebot3:/home/nam/turtlebot3_ws/install/turtlebot3_simulations:/home/nam/turtlebot3_ws/install/turtlebot3_bringup:/home/nam/turtlebot3_ws/install/turtlebot3_node:/home/nam/turtlebot3_ws/install/turtlebot3_navigation2:/home/nam/turtlebot3_ws/install/turtlebot3_fake_node:/home/nam/turtlebot3_ws/install/turtlebot3_msgs:/home/nam/turtlebot3_ws/install/turtlebot3_gazebo:/home/nam/turtlebot3_ws/install/turtlebot3_description:/home/nam/turtlebot3_ws/install/turtlebot3_cartographer:/home/nam/turtlebot3_ws/install/nav2_bringup:/home/nam/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nam/turtlebot3_ws/install/dynamixel_sdk:/home/nam/plan_ws/install/rrt_planner:/home/nam/plan_ws/install/jps_planner:/home/nam/plan_ws/install/planner_core:/home/nam/plan_ws/install/utils:/home/nam/dev_ws/install/waypoint_follow:/home/nam/dev_ws/install/cpp_srvcli:/home/nam/dev_ws/install/cpp_pubsub:/home/nam/dev_ws/install/tutorial_interfaces:/home/nam/dev_ws/install/odom_sub:/home/nam/dev_ws/install/nav2_straightline_planner:/home/nam/dev_ws/install/nav2_pure_pursuit_controller:/home/nam/dev_ws/install/nav2_custom_controller:/home/nam/dev_ws/install/action_tutorials_cpp:/home/nam/dev_ws/install/action_tutorials_interfaces:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.094132] (lekiwi_servo_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099819] (-) TimerEvent: {}
+[0.200033] (-) TimerEvent: {}
+[0.269628] (lekiwi_servo_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.298113] (lekiwi_servo_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.300100] (-) TimerEvent: {}
+[0.300460] (lekiwi_servo_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.305667] (lekiwi_servo_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.315634] (lekiwi_servo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.328106] (lekiwi_servo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.361665] (lekiwi_servo_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.363694] (lekiwi_servo_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400192] (-) TimerEvent: {}
+[0.489990] (lekiwi_servo_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500300] (-) TimerEvent: {}
+[0.543716] (lekiwi_servo_control) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.576824] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-gazebo6 -- found version 6.17.0\n'}
+[0.580568] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gazebo6\n'}
+[0.580861] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[0.580994] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of sdformat12\n'}
+[0.586088] (lekiwi_servo_control) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.600400] (-) TimerEvent: {}
+[0.600631] (lekiwi_servo_control) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.632642] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.632884] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.633901] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[0.634069] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[0.635353] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[0.635532] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[0.635965] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [loader]\n'}
+[0.636365] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1-loader -- found version 1.4.0\n'}
+[0.636575] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-loader\n'}
+[0.637010] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[0.637966] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1-register -- found version 1.4.0\n'}
+[0.638118] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-register\n'}
+[0.638818] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[0.638946] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11\n'}
+[0.677620] (lekiwi_servo_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.682046] (lekiwi_servo_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.696655] (lekiwi_servo_control) StdoutLine: {'line': b'--   Found libzmq, version 4.3.4\n'}
+[0.700475] (-) TimerEvent: {}
+[0.736815] (lekiwi_servo_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.750828] (lekiwi_servo_control) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.783369] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[0.783588] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[0.783690] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-utils1> component [cli]\n'}
+[0.784049] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-utils1-cli -- found version 1.5.1\n'}
+[0.784229] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1-cli\n'}
+[0.784925] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[0.785051] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs8\n'}
+[0.800550] (-) TimerEvent: {}
+[0.807640] (lekiwi_servo_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3")\n'}
+[0.808372] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.817806] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [log]\n'}
+[0.818134] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-transport11-log -- found version 11.4.1\n'}
+[0.818295] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-log\n'}
+[0.818687] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [parameters]\n'}
+[0.819011] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-transport11-parameters -- found version 11.4.1\n'}
+[0.819159] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-parameters\n'}
+[0.819951] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[0.820314] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[0.820455] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[0.820581] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.820635] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.830962] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [profiler]\n'}
+[0.831309] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-common4-profiler -- found version 4.7.0\n'}
+[0.831477] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-profiler\n'}
+[0.831867] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[0.832196] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-common4-events -- found version 4.7.0\n'}
+[0.832347] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-events\n'}
+[0.832694] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.833109] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [av]\n'}
+[0.833435] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-common4-av -- found version 4.7.0\n'}
+[0.833609] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-av\n'}
+[0.838410] (lekiwi_servo_control) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[0.852989] (lekiwi_servo_control) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[0.890028] (lekiwi_servo_control) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[0.900640] (-) TimerEvent: {}
+[0.904504] (lekiwi_servo_control) StdoutLine: {'line': b'--   Found libavdevice, version 58.13.100\n'}
+[0.944641] (lekiwi_servo_control) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[0.959226] (lekiwi_servo_control) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[0.997473] (lekiwi_servo_control) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[1.000730] (-) TimerEvent: {}
+[1.011792] (lekiwi_servo_control) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[1.050511] (lekiwi_servo_control) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[1.064884] (lekiwi_servo_control) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[1.097469] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools7 -- found version 7.3.1\n'}
+[1.097651] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools7\n'}
+[1.100808] (-) TimerEvent: {}
+[1.139923] (lekiwi_servo_control) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):\n'}
+[1.140095] (lekiwi_servo_control) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[1.140160] (lekiwi_servo_control) StderrLine: {'line': b'  CMake.\n'}
+[1.140216] (lekiwi_servo_control) StderrLine: {'line': b'\n'}
+[1.140267] (lekiwi_servo_control) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[1.140321] (lekiwi_servo_control) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[1.140370] (lekiwi_servo_control) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[1.140420] (lekiwi_servo_control) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.140487] (lekiwi_servo_control) StderrLine: {'line': b'  /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)\n'}
+[1.140549] (lekiwi_servo_control) StderrLine: {'line': b'  /home/nam/ignition_fortress_ws/install/ignition-fuel_tools7/lib/cmake/ignition-fuel_tools7/ignition-fuel_tools7-config.cmake:94 (find_package)\n'}
+[1.140601] (lekiwi_servo_control) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/ignition-gazebo6/ignition-gazebo6-config.cmake:97 (find_package)\n'}
+[1.140650] (lekiwi_servo_control) StderrLine: {'line': b'  CMakeLists.txt:8 (find_package)\n'}
+[1.140699] (lekiwi_servo_control) StderrLine: {'line': b'\n'}
+[1.140747] (lekiwi_servo_control) StderrLine: {'line': b'\x1b[0m\n'}
+[1.145109] (lekiwi_servo_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.159686] (lekiwi_servo_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.198081] (lekiwi_servo_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.200895] (-) TimerEvent: {}
+[1.212819] (lekiwi_servo_control) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.245540] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.245830] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.246167] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.247052] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-gui6 -- found version 6.8.0\n'}
+[1.247194] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gui6\n'}
+[1.279045] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.279365] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.279746] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.280100] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[1.280463] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.280613] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-rendering6\n'}
+[1.280919] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.281064] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.281159] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-math6> component [eigen3]\n'}
+[1.281510] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-math6-eigen3 -- found version 6.15.1\n'}
+[1.281678] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6-eigen3\n'}
+[1.282963] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.283098] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[1.283213] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.283274] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.292979] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [graphics]\n'}
+[1.293342] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-common4-graphics -- found version 4.7.0\n'}
+[1.293555] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-graphics\n'}
+[1.293882] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.294243] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.294732] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[1.295125] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.295281] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[1.295370] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [all]\n'}
+[1.295722] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for all libraries of ignition-plugin1 -- found version 1.4.0\n'}
+[1.296188] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.297419] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.300979] (-) TimerEvent: {}
+[1.311791] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-physics5 -- found version 5.3.2\n'}
+[1.311939] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5\n'}
+[1.312175] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.312525] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.312861] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.313806] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [heightmap]\n'}
+[1.314147] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-physics5-heightmap -- found version 5.3.2\n'}
+[1.314312] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-heightmap\n'}
+[1.314641] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.315073] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [mesh]\n'}
+[1.315456] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-physics5-mesh -- found version 5.3.2\n'}
+[1.315662] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-mesh\n'}
+[1.315997] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.316377] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [sdf]\n'}
+[1.316744] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-physics5-sdf -- found version 5.3.2\n'}
+[1.316905] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-sdf\n'}
+[1.317229] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[1.318022] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.318160] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6\n'}
+[1.341361] (lekiwi_servo_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4")\n'}
+[1.342069] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.342430] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.342824] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[1.343194] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.343581] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.343935] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[1.344461] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [air_pressure]\n'}
+[1.344834] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-air_pressure -- found version 6.8.1\n'}
+[1.345010] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-air_pressure\n'}
+[1.345414] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [altimeter]\n'}
+[1.345765] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-altimeter -- found version 6.8.1\n'}
+[1.345923] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-altimeter\n'}
+[1.346312] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [imu]\n'}
+[1.346666] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-imu -- found version 6.8.1\n'}
+[1.346815] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-imu\n'}
+[1.347202] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [force_torque]\n'}
+[1.347549] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-force_torque -- found version 6.8.1\n'}
+[1.347702] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-force_torque\n'}
+[1.348100] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [logical_camera]\n'}
+[1.348480] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-logical_camera -- found version 6.8.1\n'}
+[1.348607] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-logical_camera\n'}
+[1.349004] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [magnetometer]\n'}
+[1.349344] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-magnetometer -- found version 6.8.1\n'}
+[1.349508] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-magnetometer\n'}
+[1.349897] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [navsat]\n'}
+[1.350229] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-navsat -- found version 6.8.1\n'}
+[1.350384] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-navsat\n'}
+[1.350790] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rendering]\n'}
+[1.351126] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rendering -- found version 6.8.1\n'}
+[1.351279] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rendering\n'}
+[1.351690] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [lidar]\n'}
+[1.352010] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-lidar -- found version 6.8.1\n'}
+[1.352161] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-lidar\n'}
+[1.352517] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.352969] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [gpu_lidar]\n'}
+[1.353302] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1\n'}
+[1.353462] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-gpu_lidar\n'}
+[1.353781] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.354374] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [camera]\n'}
+[1.354713] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-camera -- found version 6.8.1\n'}
+[1.354883] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-camera\n'}
+[1.355245] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.355831] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [boundingbox_camera]\n'}
+[1.356182] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1\n'}
+[1.356334] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-boundingbox_camera\n'}
+[1.356768] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [segmentation_camera]\n'}
+[1.357104] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1\n'}
+[1.357266] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-segmentation_camera\n'}
+[1.357716] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [depth_camera]\n'}
+[1.358056] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-depth_camera -- found version 6.8.1\n'}
+[1.358206] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-depth_camera\n'}
+[1.358551] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.359020] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rgbd_camera]\n'}
+[1.359367] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1\n'}
+[1.359527] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rgbd_camera\n'}
+[1.359852] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.360320] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [thermal_camera]\n'}
+[1.360684] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1\n'}
+[1.360837] (lekiwi_servo_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-thermal_camera\n'}
+[1.361163] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.362110] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.362496] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.363047] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.388412] (lekiwi_servo_control) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.401074] (-) TimerEvent: {}
+[1.445063] (lekiwi_servo_control) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.461978] (lekiwi_servo_control) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.464768] (lekiwi_servo_control) StdoutLine: {'line': b'-- Build files have been written to: /home/nam/Lekiwi_ws/build/lekiwi_servo_control\n'}
+[1.501163] (lekiwi_servo_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lekiwi_servo_control.dir/src/lekiwi_servo_control.cpp.o\x1b[0m\n'}
+[1.501338] (-) TimerEvent: {}
+[1.601516] (-) TimerEvent: {}
+[1.701797] (-) TimerEvent: {}
+[1.802082] (-) TimerEvent: {}
+[1.902374] (-) TimerEvent: {}
+[2.002728] (-) TimerEvent: {}
+[2.103015] (-) TimerEvent: {}
+[2.203455] (-) TimerEvent: {}
+[2.304019] (-) TimerEvent: {}
+[2.404340] (-) TimerEvent: {}
+[2.504642] (-) TimerEvent: {}
+[2.604906] (-) TimerEvent: {}
+[2.705178] (-) TimerEvent: {}
+[2.805479] (-) TimerEvent: {}
+[2.905764] (-) TimerEvent: {}
+[3.006045] (-) TimerEvent: {}
+[3.106311] (-) TimerEvent: {}
+[3.206578] (-) TimerEvent: {}
+[3.306867] (-) TimerEvent: {}
+[3.407149] (-) TimerEvent: {}
+[3.507470] (-) TimerEvent: {}
+[3.607747] (-) TimerEvent: {}
+[3.708015] (-) TimerEvent: {}
+[3.808300] (-) TimerEvent: {}
+[3.908611] (-) TimerEvent: {}
+[4.008888] (-) TimerEvent: {}
+[4.109149] (-) TimerEvent: {}
+[4.209417] (-) TimerEvent: {}
+[4.309701] (-) TimerEvent: {}
+[4.409981] (-) TimerEvent: {}
+[4.510279] (-) TimerEvent: {}
+[4.610556] (-) TimerEvent: {}
+[4.710927] (-) TimerEvent: {}
+[4.811241] (-) TimerEvent: {}
+[4.911513] (-) TimerEvent: {}
+[5.011801] (-) TimerEvent: {}
+[5.112079] (-) TimerEvent: {}
+[5.212367] (-) TimerEvent: {}
+[5.313059] (-) TimerEvent: {}
+[5.413347] (-) TimerEvent: {}
+[5.513635] (-) TimerEvent: {}
+[5.613928] (-) TimerEvent: {}
+[5.714205] (-) TimerEvent: {}
+[5.814517] (-) TimerEvent: {}
+[5.914849] (-) TimerEvent: {}
+[6.015133] (-) TimerEvent: {}
+[6.115408] (-) TimerEvent: {}
+[6.215776] (-) TimerEvent: {}
+[6.316055] (-) TimerEvent: {}
+[6.416344] (-) TimerEvent: {}
+[6.516669] (-) TimerEvent: {}
+[6.617003] (-) TimerEvent: {}
+[6.717367] (-) TimerEvent: {}
+[6.817789] (-) TimerEvent: {}
+[6.918083] (-) TimerEvent: {}
+[7.018411] (-) TimerEvent: {}
+[7.118765] (-) TimerEvent: {}
+[7.219062] (-) TimerEvent: {}
+[7.319346] (-) TimerEvent: {}
+[7.419671] (-) TimerEvent: {}
+[7.519957] (-) TimerEvent: {}
+[7.620259] (-) TimerEvent: {}
+[7.720635] (-) TimerEvent: {}
+[7.820953] (-) TimerEvent: {}
+[7.921248] (-) TimerEvent: {}
+[8.021603] (-) TimerEvent: {}
+[8.121933] (-) TimerEvent: {}
+[8.222239] (-) TimerEvent: {}
+[8.322523] (-) TimerEvent: {}
+[8.422848] (-) TimerEvent: {}
+[8.523167] (-) TimerEvent: {}
+[8.623484] (-) TimerEvent: {}
+[8.723772] (-) TimerEvent: {}
+[8.824076] (-) TimerEvent: {}
+[8.924432] (-) TimerEvent: {}
+[9.024776] (-) TimerEvent: {}
+[9.125092] (-) TimerEvent: {}
+[9.225391] (-) TimerEvent: {}
+[9.325694] (-) TimerEvent: {}
+[9.426003] (-) TimerEvent: {}
+[9.526366] (-) TimerEvent: {}
+[9.626695] (-) TimerEvent: {}
+[9.727006] (-) TimerEvent: {}
+[9.827326] (-) TimerEvent: {}
+[9.927645] (-) TimerEvent: {}
+[10.027950] (-) TimerEvent: {}
+[10.128261] (-) TimerEvent: {}
+[10.228592] (-) TimerEvent: {}
+[10.328905] (-) TimerEvent: {}
+[10.429221] (-) TimerEvent: {}
+[10.529530] (-) TimerEvent: {}
+[10.629820] (-) TimerEvent: {}
+[10.730103] (-) TimerEvent: {}
+[10.830362] (-) TimerEvent: {}
+[10.930642] (-) TimerEvent: {}
+[11.030901] (-) TimerEvent: {}
+[11.131157] (-) TimerEvent: {}
+[11.231416] (-) TimerEvent: {}
+[11.331710] (-) TimerEvent: {}
+[11.431978] (-) TimerEvent: {}
+[11.532256] (-) TimerEvent: {}
+[11.632522] (-) TimerEvent: {}
+[11.732820] (-) TimerEvent: {}
+[11.833087] (-) TimerEvent: {}
+[11.933356] (-) TimerEvent: {}
+[12.033638] (-) TimerEvent: {}
+[12.133922] (-) TimerEvent: {}
+[12.234198] (-) TimerEvent: {}
+[12.334494] (-) TimerEvent: {}
+[12.435056] (-) TimerEvent: {}
+[12.535359] (-) TimerEvent: {}
+[12.635684] (-) TimerEvent: {}
+[12.736095] (-) TimerEvent: {}
+[12.796829] (lekiwi_servo_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library liblekiwi_servo_control.so\x1b[0m\n'}
+[12.836226] (-) TimerEvent: {}
+[12.936522] (-) TimerEvent: {}
+[13.036841] (-) TimerEvent: {}
+[13.137183] (-) TimerEvent: {}
+[13.237493] (-) TimerEvent: {}
+[13.337793] (-) TimerEvent: {}
+[13.410010] (lekiwi_servo_control) StdoutLine: {'line': b'[100%] Built target lekiwi_servo_control\n'}
+[13.415933] (lekiwi_servo_control) CommandEnded: {'returncode': 0}
+[13.416728] (lekiwi_servo_control) JobProgress: {'identifier': 'lekiwi_servo_control', 'progress': 'install'}
+[13.437879] (-) TimerEvent: {}
+[13.482521] (lekiwi_servo_control) Command: {'cmd': ['/home/nam/.local/bin/cmake', '--install', '/home/nam/Lekiwi_ws/build/lekiwi_servo_control'], 'cwd': '/home/nam/Lekiwi_ws/build/lekiwi_servo_control', 'env': OrderedDict([('LINOROBOT2_BASE', 'mecanum'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nam'), ('LC_TIME', 'km_KH'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nam/Lekiwi_ws/install/three_omni_plugin/lib:/home/nam/Lekiwi_ws/install/lekiwi_servo_control/lib:/home/nam/ignition_fortress_ws/install/ignition-fuel_tools7/lib:/home/nam/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nam/turtlebot3_ws/install/dynamixel_sdk/lib:/home/nam/plan_ws/install/rrt_planner/lib:/home/nam/plan_ws/install/jps_planner/lib:/home/nam/plan_ws/install/planner_core/lib:/home/nam/plan_ws/install/utils/lib:/home/nam/dev_ws/install/tutorial_interfaces/lib:/home/nam/dev_ws/install/nav2_straightline_planner/lib:/home/nam/dev_ws/install/nav2_pure_pursuit_controller/lib:/home/nam/dev_ws/install/nav2_custom_controller/lib:/home/nam/dev_ws/install/action_tutorials_cpp/lib:/home/nam/dev_ws/install/action_tutorials_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'km_KH'), ('SYSTEMD_EXEC_PID', '4906'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/nam/Lekiwi_ws/install:/home/nam/ignition_fortress_ws/install:/home/nam/plan_ws/install:/home/nam/turtlebot3_ws/install:/home/nam/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/nam/ignition_fortress_ws/install/ignition-fuel_tools7/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nam-Legion-5:@/tmp/.ICE-unix/1836,unix/nam-Legion-5:/tmp/.ICE-unix/1836'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'km_KH'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9dbf3731_189d_45a3_a340_d5ae92166cf2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'km_KH'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nam/Lekiwi_ws/install/three_omni_plugin:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/Lekiwi_ws/install/lekiwi_servo_control:/home/nam/Lekiwi_ws/install/lekiwi_description:/home/nam/turtlebot3_ws/install/turtlebot3:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_simulations:/home/nam/turtlebot3_ws/install/turtlebot3_bringup:/home/nam/turtlebot3_ws/install/turtlebot3_node:/home/nam/turtlebot3_ws/install/turtlebot3_navigation2:/home/nam/turtlebot3_ws/install/turtlebot3_fake_node:/home/nam/turtlebot3_ws/install/turtlebot3_example:/home/nam/turtlebot3_ws/install/turtlebot3_msgs:/home/nam/turtlebot3_ws/install/turtlebot3_gazebo:/home/nam/turtlebot3_ws/install/turtlebot3_description:/home/nam/turtlebot3_ws/install/turtlebot3_cartographer:/home/nam/turtlebot3_ws/install/nav2_bringup:/home/nam/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nam/turtlebot3_ws/install/dynamixel_sdk:/home/nam/plan_ws/install/rrt_planner:/home/nam/plan_ws/install/jps_planner:/home/nam/plan_ws/install/planner_core:/home/nam/plan_ws/install/utils:/home/nam/dev_ws/install/waypoint_follow:/home/nam/dev_ws/install/cpp_srvcli:/home/nam/dev_ws/install/cpp_pubsub:/home/nam/dev_ws/install/tutorial_interfaces:/home/nam/dev_ws/install/odom_sub:/home/nam/dev_ws/install/nav2_straightline_planner:/home/nam/dev_ws/install/nav2_pure_pursuit_controller:/home/nam/dev_ws/install/nav2_custom_controller:/home/nam/dev_ws/install/action_tutorials_cpp:/home/nam/dev_ws/install/action_tutorials_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'km_KH'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'km_KH'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'km_KH'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nam/Lekiwi_ws/build/lekiwi_servo_control'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LINOROBOT2_DEPTH_SENSOR', ''), ('PYTHONPATH', '/home/nam/Lekiwi_ws/install/omni_teleop/lib/python3.10/site-packages:/home/nam/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/nam/turtlebot3_ws/build/turtlebot3_example:/home/nam/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/nam/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nam/dev_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/nam/dev_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'km_KH'), ('LC_PAPER', 'km_KH'), ('COLCON', '1'), ('LINOROBOT2_LASER_SENSOR', 'a1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nam/Lekiwi_ws/install/three_omni_plugin:/home/nam/Lekiwi_ws/install/lekiwi_servo_control:/home/nam/Lekiwi_ws/install/lekiwi_description:/home/nam/ignition_fortress_ws/install/ignition-fuel_tools7:/home/nam/turtlebot3_ws/install/turtlebot3:/home/nam/turtlebot3_ws/install/turtlebot3_simulations:/home/nam/turtlebot3_ws/install/turtlebot3_bringup:/home/nam/turtlebot3_ws/install/turtlebot3_node:/home/nam/turtlebot3_ws/install/turtlebot3_navigation2:/home/nam/turtlebot3_ws/install/turtlebot3_fake_node:/home/nam/turtlebot3_ws/install/turtlebot3_msgs:/home/nam/turtlebot3_ws/install/turtlebot3_gazebo:/home/nam/turtlebot3_ws/install/turtlebot3_description:/home/nam/turtlebot3_ws/install/turtlebot3_cartographer:/home/nam/turtlebot3_ws/install/nav2_bringup:/home/nam/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nam/turtlebot3_ws/install/dynamixel_sdk:/home/nam/plan_ws/install/rrt_planner:/home/nam/plan_ws/install/jps_planner:/home/nam/plan_ws/install/planner_core:/home/nam/plan_ws/install/utils:/home/nam/dev_ws/install/waypoint_follow:/home/nam/dev_ws/install/cpp_srvcli:/home/nam/dev_ws/install/cpp_pubsub:/home/nam/dev_ws/install/tutorial_interfaces:/home/nam/dev_ws/install/odom_sub:/home/nam/dev_ws/install/nav2_straightline_planner:/home/nam/dev_ws/install/nav2_pure_pursuit_controller:/home/nam/dev_ws/install/nav2_custom_controller:/home/nam/dev_ws/install/action_tutorials_cpp:/home/nam/dev_ws/install/action_tutorials_interfaces:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[13.538005] (-) TimerEvent: {}
+[13.546750] (lekiwi_servo_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.547001] (lekiwi_servo_control) StdoutLine: {'line': b'-- Installing: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/lib/liblekiwi_servo_control.so\n'}
+[13.556350] (lekiwi_servo_control) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nam/Lekiwi_ws/install/lekiwi_servo_control/lib/liblekiwi_servo_control.so" to ""\n'}
+[13.556510] (lekiwi_servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/ament_index/resource_index/package_run_dependencies/lekiwi_servo_control\n'}
+[13.556631] (lekiwi_servo_control) StdoutLine: {'line': b'-- Installing: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/ament_index/resource_index/parent_prefix_path/lekiwi_servo_control\n'}
+[13.556702] (lekiwi_servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/environment/ament_prefix_path.sh\n'}
+[13.556817] (lekiwi_servo_control) StdoutLine: {'line': b'-- Installing: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/environment/ament_prefix_path.dsv\n'}
+[13.556883] (lekiwi_servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/environment/path.sh\n'}
+[13.556954] (lekiwi_servo_control) StdoutLine: {'line': b'-- Installing: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/environment/path.dsv\n'}
+[13.557034] (lekiwi_servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/local_setup.bash\n'}
+[13.557087] (lekiwi_servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/local_setup.sh\n'}
+[13.557138] (lekiwi_servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/local_setup.zsh\n'}
+[13.557207] (lekiwi_servo_control) StdoutLine: {'line': b'-- Installing: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/local_setup.dsv\n'}
+[13.557260] (lekiwi_servo_control) StdoutLine: {'line': b'-- Installing: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/package.dsv\n'}
+[13.557337] (lekiwi_servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/ament_index/resource_index/packages/lekiwi_servo_control\n'}
+[13.557396] (lekiwi_servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/cmake/lekiwi_servo_controlConfig.cmake\n'}
+[13.557448] (lekiwi_servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/cmake/lekiwi_servo_controlConfig-version.cmake\n'}
+[13.557500] (lekiwi_servo_control) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/package.xml\n'}
+[13.558706] (lekiwi_servo_control) CommandEnded: {'returncode': 0}
+[13.572586] (lekiwi_servo_control) JobEnded: {'identifier': 'lekiwi_servo_control', 'rc': 0}
+[13.573067] (-) EventReactorShutdown: {}

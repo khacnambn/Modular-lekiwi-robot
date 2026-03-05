@@ -1,0 +1,58 @@
+[0.012s] Invoking command in '/home/nam/Lekiwi_ws/build/lekiwi_servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake /home/nam/Lekiwi_ws/src/lekiwi_servo_control -DCMAKE_INSTALL_PREFIX=/home/nam/Lekiwi_ws/install/lekiwi_servo_control
+[0.078s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.078s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.078s]   CMake.
+[0.078s] 
+[0.078s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.078s]   to tell CMake that the project requires at least <min> but has been updated
+[0.078s]   to work with policies introduced by <max> or earlier.
+[0.078s] 
+[0.078s] [0m
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.175s] -- The CXX compiler identification is GNU 11.4.0
+[0.182s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.248s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.249s] -- Detecting C compile features - done
+[0.260s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.336s] -- Detecting CXX compile features
+[0.336s] -- Detecting CXX compile features - done
+[0.348s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.472s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.604s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.694s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.703s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.718s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.739s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.767s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.852s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.859s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.977s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.013s] -- Found FastRTPS: /opt/ros/humble/include
+[1.067s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.087s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.145s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.146s] -- Found Threads: TRUE
+[1.222s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.276s] -- Configuring incomplete, errors occurred!
+[1.276s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[1.276s]   By not providing "Findgazebo_ros.cmake" in CMAKE_MODULE_PATH this project
+[1.276s]   has asked CMake to find a package configuration file provided by
+[1.276s]   "gazebo_ros", but CMake did not find one.
+[1.276s] 
+[1.276s]   Could not find a package configuration file provided by "gazebo_ros" with
+[1.276s]   any of the following names:
+[1.276s] 
+[1.276s]     gazebo_rosConfig.cmake
+[1.276s]     gazebo_ros-config.cmake
+[1.276s] 
+[1.276s]   Add the installation prefix of "gazebo_ros" to CMAKE_PREFIX_PATH or set
+[1.276s]   "gazebo_ros_DIR" to a directory containing one of the above files.  If
+[1.277s]   "gazebo_ros" provides a separate development package or SDK, be sure it has
+[1.277s]   been installed.
+[1.277s] 
+[1.277s] [0m
+[1.283s] Invoked command in '/home/nam/Lekiwi_ws/build/lekiwi_servo_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake /home/nam/Lekiwi_ws/src/lekiwi_servo_control -DCMAKE_INSTALL_PREFIX=/home/nam/Lekiwi_ws/install/lekiwi_servo_control

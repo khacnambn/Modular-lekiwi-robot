@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>lekiwi_servo_control</name>
+  <version>0.0.0</version>
+  <description>Plugin for Lekiwi robot servo control</description>
+  <maintainer email="your.email@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>ignition-gazebo6</depend>
+  <depend>ignition-plugin1</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

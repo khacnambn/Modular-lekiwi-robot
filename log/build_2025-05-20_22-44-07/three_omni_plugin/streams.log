@@ -1,0 +1,762 @@
+[0.012s] Invoking command in '/home/nam/Lekiwi_ws/build/three_omni_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12
+[0.093s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.263s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.291s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.293s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.299s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.307s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.353s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.355s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.478s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.530s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.544s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.563s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.658s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.677s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.680s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.681s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.683s] -- Looking for ignition-gazebo6 -- found version 6.17.0
+[0.687s] -- Searching for dependencies of ignition-gazebo6
+[0.688s] -- Looking for sdformat12 -- found version 12.8.0
+[0.688s] -- Searching for dependencies of sdformat12
+[0.693s] -- Checking for module 'tinyxml2'
+[0.707s] --   Found tinyxml2, version 9.0.0
+[0.739s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.739s] -- Searching for dependencies of ignition-math6
+[0.740s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.740s] -- Searching for dependencies of ignition-utils1
+[0.741s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.742s] -- Searching for dependencies of ignition-plugin1
+[0.742s] -- Searching for <ignition-plugin1> component [loader]
+[0.742s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[0.743s] -- Searching for dependencies of ignition-plugin1-loader
+[0.743s] -- Searching for <ignition-plugin1> component [register]
+[0.744s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[0.744s] -- Searching for dependencies of ignition-plugin1-register
+[0.745s] -- Looking for ignition-transport11 -- found version 11.4.1
+[0.745s] -- Searching for dependencies of ignition-transport11
+[0.784s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.789s] -- Checking for module 'libzmq >= 4'
+[0.804s] --   Found libzmq, version 4.3.4
+[0.846s] -- Checking for module 'uuid'
+[0.860s] --   Found uuid, version 2.37.2
+[0.892s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.892s] -- Searching for dependencies of ignition-utils1
+[0.892s] -- Searching for <ignition-utils1> component [cli]
+[0.893s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[0.893s] -- Searching for dependencies of ignition-utils1-cli
+[0.893s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.893s] -- Searching for dependencies of ignition-msgs8
+[0.917s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3")
+[0.917s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.927s] -- Searching for <ignition-transport11> component [log]
+[0.927s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[0.928s] -- Searching for dependencies of ignition-transport11-log
+[0.928s] -- Searching for <ignition-transport11> component [parameters]
+[0.928s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[0.929s] -- Searching for dependencies of ignition-transport11-parameters
+[0.929s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.930s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.930s] -- Searching for dependencies of ignition-common4
+[0.930s] -- Looking for dlfcn.h - found
+[0.930s] -- Looking for libdl - found
+[0.941s] -- Searching for <ignition-common4> component [profiler]
+[0.941s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[0.941s] -- Searching for dependencies of ignition-common4-profiler
+[0.942s] -- Searching for <ignition-common4> component [events]
+[0.942s] -- Looking for ignition-common4-events -- found version 4.7.0
+[0.942s] -- Searching for dependencies of ignition-common4-events
+[0.943s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.943s] -- Searching for <ignition-common4> component [av]
+[0.943s] -- Looking for ignition-common4-av -- found version 4.7.0
+[0.944s] -- Searching for dependencies of ignition-common4-av
+[0.948s] -- Checking for module 'libswscale'
+[0.963s] --   Found libswscale, version 5.9.100
+[0.999s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.013s] --   Found libavdevice, version 58.13.100
+[1.054s] -- Checking for module 'libavformat'
+[1.068s] --   Found libavformat, version 58.76.100
+[1.107s] -- Checking for module 'libavcodec'
+[1.122s] --   Found libavcodec, version 58.134.100
+[1.162s] -- Checking for module 'libavutil'
+[1.176s] --   Found libavutil, version 56.70.100
+[1.210s] -- Looking for ignition-fuel_tools7 -- found version 7.3.1
+[1.210s] -- Searching for dependencies of ignition-fuel_tools7
+[1.253s] [0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):
+[1.253s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.254s]   CMake.
+[1.254s] 
+[1.254s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[1.254s]   to tell CMake that the project requires at least <min> but has been updated
+[1.254s]   to work with policies introduced by <max> or earlier.
+[1.254s] Call Stack (most recent call first):
+[1.254s]   /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)
+[1.254s]   /home/nam/ignition_fortress_ws/install/ignition-fuel_tools7/lib/cmake/ignition-fuel_tools7/ignition-fuel_tools7-config.cmake:94 (find_package)
+[1.254s]   /usr/lib/x86_64-linux-gnu/cmake/ignition-gazebo6/ignition-gazebo6-config.cmake:97 (find_package)
+[1.254s]   CMakeLists.txt:16 (find_package)
+[1.254s] 
+[1.254s] [0m
+[1.259s] -- Checking for module 'jsoncpp'
+[1.273s] --   Found jsoncpp, version 1.9.5
+[1.311s] -- Checking for module 'libzip'
+[1.325s] --   Found libzip, version 1.7.3
+[1.357s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.358s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.358s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.359s] -- Looking for ignition-gui6 -- found version 6.8.0
+[1.359s] -- Searching for dependencies of ignition-gui6
+[1.392s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.392s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.393s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.393s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.393s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.394s] -- Searching for dependencies of ignition-rendering6
+[1.394s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.394s] -- Searching for dependencies of ignition-math6
+[1.394s] -- Searching for <ignition-math6> component [eigen3]
+[1.394s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[1.395s] -- Searching for dependencies of ignition-math6-eigen3
+[1.396s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.396s] -- Searching for dependencies of ignition-common4
+[1.396s] -- Looking for dlfcn.h - found
+[1.396s] -- Looking for libdl - found
+[1.406s] -- Searching for <ignition-common4> component [graphics]
+[1.407s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[1.407s] -- Searching for dependencies of ignition-common4-graphics
+[1.407s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.408s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.408s] -- Searching for <ignition-common4> component [events]
+[1.409s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.409s] -- Searching for dependencies of ignition-plugin1
+[1.409s] -- Searching for <ignition-plugin1> component [all]
+[1.409s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[1.410s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.411s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.426s] -- Looking for ignition-physics5 -- found version 5.3.2
+[1.426s] -- Searching for dependencies of ignition-physics5
+[1.426s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.426s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.427s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.428s] -- Searching for <ignition-physics5> component [heightmap]
+[1.428s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[1.428s] -- Searching for dependencies of ignition-physics5-heightmap
+[1.429s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.429s] -- Searching for <ignition-physics5> component [mesh]
+[1.429s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[1.430s] -- Searching for dependencies of ignition-physics5-mesh
+[1.430s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.430s] -- Searching for <ignition-physics5> component [sdf]
+[1.431s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[1.431s] -- Searching for dependencies of ignition-physics5-sdf
+[1.431s] -- Looking for sdformat12 -- found version 12.8.0
+[1.432s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.432s] -- Searching for dependencies of ignition-sensors6
+[1.456s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4")
+[1.457s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.457s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.457s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.458s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.458s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.458s] -- Looking for sdformat12 -- found version 12.8.0
+[1.459s] -- Searching for <ignition-sensors6> component [air_pressure]
+[1.459s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.1
+[1.460s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[1.460s] -- Searching for <ignition-sensors6> component [altimeter]
+[1.460s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.1
+[1.460s] -- Searching for dependencies of ignition-sensors6-altimeter
+[1.461s] -- Searching for <ignition-sensors6> component [imu]
+[1.461s] -- Looking for ignition-sensors6-imu -- found version 6.8.1
+[1.461s] -- Searching for dependencies of ignition-sensors6-imu
+[1.462s] -- Searching for <ignition-sensors6> component [force_torque]
+[1.462s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.1
+[1.462s] -- Searching for dependencies of ignition-sensors6-force_torque
+[1.463s] -- Searching for <ignition-sensors6> component [logical_camera]
+[1.463s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.1
+[1.463s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[1.464s] -- Searching for <ignition-sensors6> component [magnetometer]
+[1.464s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.1
+[1.464s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[1.464s] -- Searching for <ignition-sensors6> component [navsat]
+[1.465s] -- Looking for ignition-sensors6-navsat -- found version 6.8.1
+[1.465s] -- Searching for dependencies of ignition-sensors6-navsat
+[1.465s] -- Searching for <ignition-sensors6> component [rendering]
+[1.466s] -- Looking for ignition-sensors6-rendering -- found version 6.8.1
+[1.466s] -- Searching for dependencies of ignition-sensors6-rendering
+[1.466s] -- Searching for <ignition-sensors6> component [lidar]
+[1.467s] -- Looking for ignition-sensors6-lidar -- found version 6.8.1
+[1.467s] -- Searching for dependencies of ignition-sensors6-lidar
+[1.467s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.468s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[1.468s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1
+[1.468s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[1.468s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.469s] -- Searching for <ignition-sensors6> component [camera]
+[1.469s] -- Looking for ignition-sensors6-camera -- found version 6.8.1
+[1.469s] -- Searching for dependencies of ignition-sensors6-camera
+[1.470s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.470s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[1.470s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1
+[1.471s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[1.471s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[1.471s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1
+[1.472s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[1.472s] -- Searching for <ignition-sensors6> component [depth_camera]
+[1.472s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.1
+[1.473s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[1.473s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.473s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[1.474s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1
+[1.474s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[1.474s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.475s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[1.475s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1
+[1.475s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[1.476s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.476s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.477s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.477s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.501s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.561s] -- Configuring done (1.5s)
+[1.580s] -- Generating done (0.0s)
+[1.583s] -- Build files have been written to: /home/nam/Lekiwi_ws/build/three_omni_plugin
+[1.619s] [ 50%] [32mBuilding CXX object CMakeFiles/three_omni_plugin.dir/src/three_omni_plugin.cpp.o[0m
+[5.871s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:27:38:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K,[m[K’ token
+[5.871s]    27 | class ThreeOmniPlugin : public System[01;31m[K,[m[K public ISystemConfigure, public ISystemUpdate
+[5.871s]       |                                      [01;31m[K^[m[K
+[5.871s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:27:63:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K,[m[K’ token
+[5.871s]    27 | ass ThreeOmniPlugin : public System, public ISystemConfigure[01;31m[K,[m[K public ISystemUpdate
+[5.871s]       |                                                             [01;31m[K^[m[K
+[5.871s] 
+[5.871s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:28:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[5.871s]    28 | [01;31m[K{[m[K
+[5.871s]       | [01;31m[K^[m[K
+[5.872s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:45:20:[m[K [01;31m[Kerror: [m[K‘[01m[KEventManager[m[K’ has not been declared
+[5.872s]    45 |                    [01;31m[KEventManager[m[K &/*_eventMgr*/) override
+[5.872s]       |                    [01;31m[K^~~~~~~~~~~~[m[K
+[5.910s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:389:43:[m[K [01;31m[Kerror: [m[K‘[01m[KTwistStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KPointStamped[m[K’?
+[5.910s]   389 |     rclcpp::Publisher<geometry_msgs::msg::[01;31m[KTwistStamped[m[K>::SharedPtr pub_wheels_;
+[5.910s]       |                                           [01;31m[K^~~~~~~~~~~~[m[K
+[5.911s]       |                                           [32m[KPointStamped[m[K
+[5.911s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:389:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.911s]   389 |     rclcpp::Publisher<geometry_msgs::msg::TwistStamped[01;31m[K>[m[K::SharedPtr pub_wheels_;
+[5.911s]       |                                                       [01;31m[K^[m[K
+[5.911s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:389:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[5.911s]   389 |     rclcpp::Publisher<geometry_msgs::msg::TwistStamped>::[01;31m[KSharedPtr[m[K pub_wheels_;
+[5.911s]       |                                                          [01;31m[K^~~~~~~~~[m[K
+[5.911s]       |                                                                   [32m[K;[m[K
+[5.913s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:389:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_wheels_[m[K’ does not name a type
+[5.913s]   389 | cpp::Publisher<geometry_msgs::msg::TwistStamped>::SharedPtr [01;31m[Kpub_wheels_[m[K;
+[5.913s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[5.913s] 
+[5.916s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kignition::gazebo::systems::ThreeOmniPlugin::~ThreeOmniPlugin()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[5.916s]    37 |     [01;31m[K~[m[KThreeOmniPlugin() override
+[5.916s]       |     [01;31m[K^[m[K
+[5.916s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:42:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid ignition::gazebo::systems::ThreeOmniPlugin::Configure(const Entity&, const std::shared_ptr<const sdf::v12::Element>&, ignition::gazebo::v6::EntityComponentManager&, int&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[5.916s]    42 |     void [01;31m[KConfigure[m[K(const Entity &_entity,
+[5.916s]       |          [01;31m[K^~~~~~~~~[m[K
+[5.916s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:131:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid ignition::gazebo::systems::ThreeOmniPlugin::Update(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[5.916s]   131 |     void [01;31m[KUpdate[m[K(const UpdateInfo &_info, EntityComponentManager &_ecm) override
+[5.916s]       |          [01;31m[K^~~~~~[m[K
+[5.917s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:[m[K In member function ‘[01m[Kvoid ignition::gazebo::systems::ThreeOmniPlugin::Configure(const Entity&, const std::shared_ptr<const sdf::v12::Element>&, ignition::gazebo::v6::EntityComponentManager&, int&)[m[K’:
+[5.917s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:48:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ignition::gazebo::v6::Model[m[K’ has no member named ‘[01m[KWorld[m[K’
+[5.917s]    48 |         world_ = model_.[01;31m[KWorld[m[K(_ecm);
+[5.918s]       |                         [01;31m[K^~~~~[m[K
+[5.936s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:95:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_wheels_[m[K’ was not declared in this scope
+[5.936s]    95 |         [01;31m[Kpub_wheels_[m[K = node_->create_publisher<geometry_msgs::msg::TwistStamped>("wheels", 1);
+[5.936s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[5.936s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:95:67:[m[K [01;31m[Kerror: [m[K‘[01m[KTwistStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KPointStamped[m[K’?
+[5.936s]    95 |   pub_wheels_ = node_->create_publisher<geometry_msgs::msg::[01;31m[KTwistStamped[m[K>("wheels", 1);
+[5.936s]       |                                                             [01;31m[K^~~~~~~~~~~~[m[K
+[5.936s]       |                                                             [32m[KPointStamped[m[K
+[5.936s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:95:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [7], int)[m[K’
+[5.936s]    95 |  = [01;31m[Knode_->create_publisher<geometry_msgs::msg::TwistStamped>("wheels", 1)[m[K;
+[5.936s]       |    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[5.936s] 
+[5.936s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[5.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[5.937s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.937s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:6[m[K:
+[5.937s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[5.937s]    73 | [01;36m[KNode[m[K::create_publisher(
+[5.937s]       | [01;36m[K^~~~[m[K
+[5.937s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.937s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:95:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.937s]    95 |  = [01;31m[Knode_->create_publisher<geometry_msgs::msg::TwistStamped>("wheels", 1)[m[K;
+[5.937s]       |    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[5.937s] 
+[5.937s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:112:35:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[5.937s]   112 |         prev_update_time_ = world_[01;31m[K->[m[KSimTime(_ecm).Double();
+[5.937s]       |                                   [01;31m[K^~[m[K
+[5.937s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:113:58:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KWorldPose[m[K’ in ‘[01m[K((ignition::gazebo::systems::ThreeOmniPlugin*)this)->ignition::gazebo::systems::ThreeOmniPlugin::model_.ignition::gazebo::v6::Model::LinkByName((*(const ignition::gazebo::v6::EntityComponentManager*)(& _ecm)), std::__cxx11::basic_string<char>(((const char*)"base_link"), std::allocator<char>()))[m[K’, which is of non-class type ‘[01m[Kignition::gazebo::v6::Entity[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[5.937s]   113 |         auto pose = model_.LinkByName(_ecm, "base_link").[01;31m[KWorldPose[m[K(_ecm);
+[5.937s]       |                                                          [01;31m[K^~~~~~~~~[m[K
+[5.939s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:[m[K In member function ‘[01m[Kvoid ignition::gazebo::systems::ThreeOmniPlugin::Update(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[5.940s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:135:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst duration[m[K’ {aka ‘[01m[Kconst struct std::chrono::duration<long int, std::ratio<1, 1000000000> >[m[K’} has no member named ‘[01m[KDouble[m[K’
+[5.940s]   135 |         double curr_time = _info.simTime.[01;31m[KDouble[m[K();
+[5.940s]       |                                          [01;31m[K^~~~~~[m[K
+[5.940s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:139:58:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KWorldPose[m[K’ in ‘[01m[K((ignition::gazebo::systems::ThreeOmniPlugin*)this)->ignition::gazebo::systems::ThreeOmniPlugin::model_.ignition::gazebo::v6::Model::LinkByName((*(const ignition::gazebo::v6::EntityComponentManager*)(& _ecm)), std::__cxx11::basic_string<char>(((const char*)"base_link"), std::allocator<char>()))[m[K’, which is of non-class type ‘[01m[Kignition::gazebo::v6::Entity[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[5.940s]   139 |         auto pose = model_.LinkByName(_ecm, "base_link").[01;31m[KWorldPose[m[K(_ecm);
+[5.940s]       |                                                          [01;31m[K^~~~~~~~~[m[K
+[5.941s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:188:57:[m[K [01;31m[Kerror: [m[K‘[01m[KJointPosition[m[K’ is not a member of ‘[01m[Kignition::gazebo::v6::components[m[K’
+[5.941s]   188 |             double w0_pose = _ecm.Component<components::[01;31m[KJointPosition[m[K>(joints_[0]) ? _ecm.Component<components::JointPosition>(joints_[0])->Data()[0] : 0.0;
+[5.941s]       |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[5.941s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:188:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kignition::gazebo::v6::EntityComponentManager::Component<<expression error> >(__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type&)[m[K’
+[5.941s]   188 |   double w0_pose = [01;31m[K_ecm.Component<components::JointPosition>(joints_[0])[m[K ? _ecm.Component<components::JointPosition>(joints_[0])->Data()[0] : 0.0;
+[5.941s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.941s] 
+[5.941s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.941s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.942s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.942s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity) const[m[K’
+[5.942s]   264 |               const ComponentTypeT *[01;36m[KComponent[m[K(const Entity _entity) const;
+[5.942s]       |                                     [01;36m[K^~~~~~~~~[m[K
+[5.942s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.942s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:188:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.942s]   188 |   double w0_pose = [01;31m[K_ecm.Component<components::JointPosition>(joints_[0])[m[K ? _ecm.Component<components::JointPosition>(joints_[0])->Data()[0] : 0.0;
+[5.942s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.942s] 
+[5.942s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:851[m[K,
+[5.942s]                  from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.942s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.942s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.942s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity)[m[K’
+[5.942s]   128 | ComponentTypeT *[01;36m[KEntityComponentManager[m[K::Component(const Entity _entity)
+[5.942s]       |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.942s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.943s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:188:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.943s]   188 |   double w0_pose = [01;31m[K_ecm.Component<components::JointPosition>(joints_[0])[m[K ? _ecm.Component<components::JointPosition>(joints_[0])->Data()[0] : 0.0;
+[5.943s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.943s] 
+[5.943s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.943s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.943s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.943s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&) const[m[K’
+[5.943s]   279 |               const ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.943s]       |                                                        [01;36m[K^~~~~~~~~[m[K
+[5.943s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.943s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:188:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.943s]   188 |   double w0_pose = [01;31m[K_ecm.Component<components::JointPosition>(joints_[0])[m[K ? _ecm.Component<components::JointPosition>(joints_[0])->Data()[0] : 0.0;
+[5.943s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.943s] 
+[5.943s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.943s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.943s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.944s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&)[m[K’
+[5.944s]   287 |               ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.944s]       |                                                  [01;36m[K^~~~~~~~~[m[K
+[5.944s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.944s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:188:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.944s]   188 |   double w0_pose = [01;31m[K_ecm.Component<components::JointPosition>(joints_[0])[m[K ? _ecm.Component<components::JointPosition>(joints_[0])->Data()[0] : 0.0;
+[5.944s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.944s] 
+[5.944s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:188:113:[m[K [01;31m[Kerror: [m[K‘[01m[KJointPosition[m[K’ is not a member of ‘[01m[Kignition::gazebo::v6::components[m[K’
+[5.944s]   188 | ts::JointPosition>(joints_[0]) ? _ecm.Component<components::[01;31m[KJointPosition[m[K>(joints_[0])->Data()[0] : 0.0;
+[5.944s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[5.944s] 
+[5.944s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:188:127:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kignition::gazebo::v6::EntityComponentManager::Component<<expression error> >(__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type&)[m[K’
+[5.944s]   188 | ion>(joints_[0]) ? [01;31m[K_ecm.Component<components::JointPosition>(joints_[0])[m[K->Data()[0] : 0.0;
+[5.944s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.945s] 
+[5.945s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.945s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.945s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.945s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity) const[m[K’
+[5.945s]   264 |               const ComponentTypeT *[01;36m[KComponent[m[K(const Entity _entity) const;
+[5.945s]       |                                     [01;36m[K^~~~~~~~~[m[K
+[5.945s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.945s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:188:127:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.945s]   188 | ion>(joints_[0]) ? [01;31m[K_ecm.Component<components::JointPosition>(joints_[0])[m[K->Data()[0] : 0.0;
+[5.945s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.945s] 
+[5.945s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:851[m[K,
+[5.945s]                  from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.945s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.945s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.945s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity)[m[K’
+[5.945s]   128 | ComponentTypeT *[01;36m[KEntityComponentManager[m[K::Component(const Entity _entity)
+[5.945s]       |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.945s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.945s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:188:127:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.946s]   188 | ion>(joints_[0]) ? [01;31m[K_ecm.Component<components::JointPosition>(joints_[0])[m[K->Data()[0] : 0.0;
+[5.946s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.946s] 
+[5.946s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.946s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.946s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.946s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&) const[m[K’
+[5.946s]   279 |               const ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.946s]       |                                                        [01;36m[K^~~~~~~~~[m[K
+[5.946s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.946s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:188:127:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.946s]   188 | ion>(joints_[0]) ? [01;31m[K_ecm.Component<components::JointPosition>(joints_[0])[m[K->Data()[0] : 0.0;
+[5.946s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.946s] 
+[5.946s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.946s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.946s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.946s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&)[m[K’
+[5.946s]   287 |               ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.946s]       |                                                  [01;36m[K^~~~~~~~~[m[K
+[5.946s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.946s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:188:127:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.946s]   188 | ion>(joints_[0]) ? [01;31m[K_ecm.Component<components::JointPosition>(joints_[0])[m[K->Data()[0] : 0.0;
+[5.946s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.946s] 
+[5.947s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:189:57:[m[K [01;31m[Kerror: [m[K‘[01m[KJointPosition[m[K’ is not a member of ‘[01m[Kignition::gazebo::v6::components[m[K’
+[5.947s]   189 |             double w1_pose = _ecm.Component<components::[01;31m[KJointPosition[m[K>(joints_[1]) ? _ecm.Component<components::JointPosition>(joints_[1])->Data()[0] : 0.0;
+[5.947s]       |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[5.947s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:189:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kignition::gazebo::v6::EntityComponentManager::Component<<expression error> >(__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type&)[m[K’
+[5.947s]   189 |   double w1_pose = [01;31m[K_ecm.Component<components::JointPosition>(joints_[1])[m[K ? _ecm.Component<components::JointPosition>(joints_[1])->Data()[0] : 0.0;
+[5.947s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.947s] 
+[5.947s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.947s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.947s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.947s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity) const[m[K’
+[5.947s]   264 |               const ComponentTypeT *[01;36m[KComponent[m[K(const Entity _entity) const;
+[5.947s]       |                                     [01;36m[K^~~~~~~~~[m[K
+[5.947s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.947s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:189:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.947s]   189 |   double w1_pose = [01;31m[K_ecm.Component<components::JointPosition>(joints_[1])[m[K ? _ecm.Component<components::JointPosition>(joints_[1])->Data()[0] : 0.0;
+[5.947s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.947s] 
+[5.947s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:851[m[K,
+[5.947s]                  from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.947s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.947s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.947s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity)[m[K’
+[5.948s]   128 | ComponentTypeT *[01;36m[KEntityComponentManager[m[K::Component(const Entity _entity)
+[5.948s]       |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.948s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.948s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:189:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.948s]   189 |   double w1_pose = [01;31m[K_ecm.Component<components::JointPosition>(joints_[1])[m[K ? _ecm.Component<components::JointPosition>(joints_[1])->Data()[0] : 0.0;
+[5.948s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.948s] 
+[5.948s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.948s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.948s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.948s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&) const[m[K’
+[5.948s]   279 |               const ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.948s]       |                                                        [01;36m[K^~~~~~~~~[m[K
+[5.948s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.948s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:189:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.948s]   189 |   double w1_pose = [01;31m[K_ecm.Component<components::JointPosition>(joints_[1])[m[K ? _ecm.Component<components::JointPosition>(joints_[1])->Data()[0] : 0.0;
+[5.948s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.948s] 
+[5.948s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.948s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.948s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.948s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&)[m[K’
+[5.948s]   287 |               ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.948s]       |                                                  [01;36m[K^~~~~~~~~[m[K
+[5.948s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.949s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:189:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.949s]   189 |   double w1_pose = [01;31m[K_ecm.Component<components::JointPosition>(joints_[1])[m[K ? _ecm.Component<components::JointPosition>(joints_[1])->Data()[0] : 0.0;
+[5.949s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.949s] 
+[5.949s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:189:113:[m[K [01;31m[Kerror: [m[K‘[01m[KJointPosition[m[K’ is not a member of ‘[01m[Kignition::gazebo::v6::components[m[K’
+[5.949s]   189 | ts::JointPosition>(joints_[1]) ? _ecm.Component<components::[01;31m[KJointPosition[m[K>(joints_[1])->Data()[0] : 0.0;
+[5.949s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[5.949s] 
+[5.949s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:189:127:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kignition::gazebo::v6::EntityComponentManager::Component<<expression error> >(__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type&)[m[K’
+[5.949s]   189 | ion>(joints_[1]) ? [01;31m[K_ecm.Component<components::JointPosition>(joints_[1])[m[K->Data()[0] : 0.0;
+[5.949s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.949s] 
+[5.949s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.949s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.949s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.949s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity) const[m[K’
+[5.949s]   264 |               const ComponentTypeT *[01;36m[KComponent[m[K(const Entity _entity) const;
+[5.949s]       |                                     [01;36m[K^~~~~~~~~[m[K
+[5.949s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.949s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:189:127:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.949s]   189 | ion>(joints_[1]) ? [01;31m[K_ecm.Component<components::JointPosition>(joints_[1])[m[K->Data()[0] : 0.0;
+[5.949s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.949s] 
+[5.949s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:851[m[K,
+[5.949s]                  from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.950s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.950s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.950s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity)[m[K’
+[5.950s]   128 | ComponentTypeT *[01;36m[KEntityComponentManager[m[K::Component(const Entity _entity)
+[5.950s]       |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.950s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.950s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:189:127:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.950s]   189 | ion>(joints_[1]) ? [01;31m[K_ecm.Component<components::JointPosition>(joints_[1])[m[K->Data()[0] : 0.0;
+[5.950s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.950s] 
+[5.950s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.950s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.950s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.950s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&) const[m[K’
+[5.950s]   279 |               const ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.950s]       |                                                        [01;36m[K^~~~~~~~~[m[K
+[5.950s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.950s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:189:127:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.950s]   189 | ion>(joints_[1]) ? [01;31m[K_ecm.Component<components::JointPosition>(joints_[1])[m[K->Data()[0] : 0.0;
+[5.950s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.950s] 
+[5.950s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.950s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.950s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.951s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&)[m[K’
+[5.951s]   287 |               ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.951s]       |                                                  [01;36m[K^~~~~~~~~[m[K
+[5.951s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.951s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:189:127:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.951s]   189 | ion>(joints_[1]) ? [01;31m[K_ecm.Component<components::JointPosition>(joints_[1])[m[K->Data()[0] : 0.0;
+[5.951s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.951s] 
+[5.951s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:190:57:[m[K [01;31m[Kerror: [m[K‘[01m[KJointPosition[m[K’ is not a member of ‘[01m[Kignition::gazebo::v6::components[m[K’
+[5.951s]   190 |             double w2_pose = _ecm.Component<components::[01;31m[KJointPosition[m[K>(joints_[2]) ? _ecm.Component<components::JointPosition>(joints_[2])->Data()[0] : 0.0;
+[5.951s]       |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[5.951s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:190:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kignition::gazebo::v6::EntityComponentManager::Component<<expression error> >(__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type&)[m[K’
+[5.951s]   190 |   double w2_pose = [01;31m[K_ecm.Component<components::JointPosition>(joints_[2])[m[K ? _ecm.Component<components::JointPosition>(joints_[2])->Data()[0] : 0.0;
+[5.951s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.951s] 
+[5.951s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.951s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.951s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.951s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity) const[m[K’
+[5.951s]   264 |               const ComponentTypeT *[01;36m[KComponent[m[K(const Entity _entity) const;
+[5.951s]       |                                     [01;36m[K^~~~~~~~~[m[K
+[5.951s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.951s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:190:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.952s]   190 |   double w2_pose = [01;31m[K_ecm.Component<components::JointPosition>(joints_[2])[m[K ? _ecm.Component<components::JointPosition>(joints_[2])->Data()[0] : 0.0;
+[5.952s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.952s] 
+[5.952s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:851[m[K,
+[5.952s]                  from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.952s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.952s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.952s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity)[m[K’
+[5.952s]   128 | ComponentTypeT *[01;36m[KEntityComponentManager[m[K::Component(const Entity _entity)
+[5.952s]       |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.952s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.952s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:190:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.952s]   190 |   double w2_pose = [01;31m[K_ecm.Component<components::JointPosition>(joints_[2])[m[K ? _ecm.Component<components::JointPosition>(joints_[2])->Data()[0] : 0.0;
+[5.952s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.952s] 
+[5.952s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.952s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.952s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.952s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&) const[m[K’
+[5.952s]   279 |               const ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.952s]       |                                                        [01;36m[K^~~~~~~~~[m[K
+[5.952s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.952s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:190:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.952s]   190 |   double w2_pose = [01;31m[K_ecm.Component<components::JointPosition>(joints_[2])[m[K ? _ecm.Component<components::JointPosition>(joints_[2])->Data()[0] : 0.0;
+[5.952s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.953s] 
+[5.953s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.953s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.953s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.953s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&)[m[K’
+[5.953s]   287 |               ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.953s]       |                                                  [01;36m[K^~~~~~~~~[m[K
+[5.953s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.953s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:190:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.953s]   190 |   double w2_pose = [01;31m[K_ecm.Component<components::JointPosition>(joints_[2])[m[K ? _ecm.Component<components::JointPosition>(joints_[2])->Data()[0] : 0.0;
+[5.953s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.953s] 
+[5.953s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:190:113:[m[K [01;31m[Kerror: [m[K‘[01m[KJointPosition[m[K’ is not a member of ‘[01m[Kignition::gazebo::v6::components[m[K’
+[5.953s]   190 | ts::JointPosition>(joints_[2]) ? _ecm.Component<components::[01;31m[KJointPosition[m[K>(joints_[2])->Data()[0] : 0.0;
+[5.953s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[5.953s] 
+[5.953s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:190:127:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kignition::gazebo::v6::EntityComponentManager::Component<<expression error> >(__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type&)[m[K’
+[5.953s]   190 | ion>(joints_[2]) ? [01;31m[K_ecm.Component<components::JointPosition>(joints_[2])[m[K->Data()[0] : 0.0;
+[5.953s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.953s] 
+[5.953s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.953s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.953s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.953s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity) const[m[K’
+[5.954s]   264 |               const ComponentTypeT *[01;36m[KComponent[m[K(const Entity _entity) const;
+[5.954s]       |                                     [01;36m[K^~~~~~~~~[m[K
+[5.954s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.954s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:190:127:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.954s]   190 | ion>(joints_[2]) ? [01;31m[K_ecm.Component<components::JointPosition>(joints_[2])[m[K->Data()[0] : 0.0;
+[5.954s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.954s] 
+[5.954s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:851[m[K,
+[5.954s]                  from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.954s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.954s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.954s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity)[m[K’
+[5.954s]   128 | ComponentTypeT *[01;36m[KEntityComponentManager[m[K::Component(const Entity _entity)
+[5.954s]       |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.954s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.954s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:190:127:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.954s]   190 | ion>(joints_[2]) ? [01;31m[K_ecm.Component<components::JointPosition>(joints_[2])[m[K->Data()[0] : 0.0;
+[5.954s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.954s] 
+[5.954s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.954s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.954s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.954s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&) const[m[K’
+[5.954s]   279 |               const ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.954s]       |                                                        [01;36m[K^~~~~~~~~[m[K
+[5.955s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.955s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:190:127:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.955s]   190 | ion>(joints_[2]) ? [01;31m[K_ecm.Component<components::JointPosition>(joints_[2])[m[K->Data()[0] : 0.0;
+[5.955s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.955s] 
+[5.955s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.955s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.955s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.955s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&)[m[K’
+[5.955s]   287 |               ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.955s]       |                                                  [01;36m[K^~~~~~~~~[m[K
+[5.955s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.955s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:190:127:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.955s]   190 | ion>(joints_[2]) ? [01;31m[K_ecm.Component<components::JointPosition>(joints_[2])[m[K->Data()[0] : 0.0;
+[5.955s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.955s] 
+[5.955s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:204:33:[m[K [01;31m[Kerror: [m[K‘[01m[KTwistStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KPointStamped[m[K’?
+[5.955s]   204 |             geometry_msgs::msg::[01;31m[KTwistStamped[m[K wheel_speed;
+[5.955s]       |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[5.955s]       |                                 [32m[KPointStamped[m[K
+[5.955s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:205:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_speed[m[K’ was not declared in this scope
+[5.955s]   205 |             [01;31m[Kwheel_speed[m[K.header.stamp = node_->now();
+[5.955s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[5.956s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:209:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_wheels_[m[K’ was not declared in this scope
+[5.956s]   209 |             [01;31m[Kpub_wheels_[m[K->publish(wheel_speed);
+[5.956s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[5.957s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:[m[K In member function ‘[01m[Kvoid ignition::gazebo::systems::ThreeOmniPlugin::odomPublisher(double, double, ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[5.957s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:259:58:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KWorldPose[m[K’ in ‘[01m[K((ignition::gazebo::systems::ThreeOmniPlugin*)this)->ignition::gazebo::systems::ThreeOmniPlugin::model_.ignition::gazebo::v6::Model::LinkByName((*(const ignition::gazebo::v6::EntityComponentManager*)(& _ecm)), std::__cxx11::basic_string<char>(((const char*)"base_link"), std::allocator<char>()))[m[K’, which is of non-class type ‘[01m[Kignition::gazebo::v6::Entity[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+[5.957s]   259 |         auto pose = model_.LinkByName(_ecm, "base_link").[01;31m[KWorldPose[m[K(_ecm);
+[5.957s]       |                                                          [01;31m[K^~~~~~~~~[m[K
+[5.962s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:[m[K In member function ‘[01m[Kvoid ignition::gazebo::systems::ThreeOmniPlugin::publishJointStates(ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[5.962s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:372:58:[m[K [01;31m[Kerror: [m[K‘[01m[KJointPosition[m[K’ is not a member of ‘[01m[Kignition::gazebo::v6::components[m[K’
+[5.962s]   372 |             double position = _ecm.Component<components::[01;31m[KJointPosition[m[K>(joint) ? _ecm.Component<components::JointPosition>(joint)->Data()[0] : 0.0;
+[5.962s]       |                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[5.962s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:372:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kignition::gazebo::v6::EntityComponentManager::Component<<expression error> >(long unsigned int&)[m[K’
+[5.962s]   372 |  double position = [01;31m[K_ecm.Component<components::JointPosition>(joint)[m[K ? _ecm.Component<components::JointPosition>(joint)->Data()[0] : 0.0;
+[5.962s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.962s] 
+[5.962s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.962s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.962s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.962s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity) const[m[K’
+[5.963s]   264 |               const ComponentTypeT *[01;36m[KComponent[m[K(const Entity _entity) const;
+[5.963s]       |                                     [01;36m[K^~~~~~~~~[m[K
+[5.963s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.963s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:372:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.963s]   372 |  double position = [01;31m[K_ecm.Component<components::JointPosition>(joint)[m[K ? _ecm.Component<components::JointPosition>(joint)->Data()[0] : 0.0;
+[5.963s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.963s] 
+[5.963s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:851[m[K,
+[5.963s]                  from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.963s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.963s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.963s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity)[m[K’
+[5.963s]   128 | ComponentTypeT *[01;36m[KEntityComponentManager[m[K::Component(const Entity _entity)
+[5.963s]       |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.963s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.963s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:372:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.963s]   372 |  double position = [01;31m[K_ecm.Component<components::JointPosition>(joint)[m[K ? _ecm.Component<components::JointPosition>(joint)->Data()[0] : 0.0;
+[5.963s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.963s] 
+[5.963s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.963s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.964s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.964s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&) const[m[K’
+[5.964s]   279 |               const ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.964s]       |                                                        [01;36m[K^~~~~~~~~[m[K
+[5.964s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.964s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:372:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.964s]   372 |  double position = [01;31m[K_ecm.Component<components::JointPosition>(joint)[m[K ? _ecm.Component<components::JointPosition>(joint)->Data()[0] : 0.0;
+[5.964s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.964s] 
+[5.964s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.964s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.964s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.964s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&)[m[K’
+[5.964s]   287 |               ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.964s]       |                                                  [01;36m[K^~~~~~~~~[m[K
+[5.964s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.964s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:372:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.964s]   372 |  double position = [01;31m[K_ecm.Component<components::JointPosition>(joint)[m[K ? _ecm.Component<components::JointPosition>(joint)->Data()[0] : 0.0;
+[5.964s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.964s] 
+[5.964s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:372:109:[m[K [01;31m[Kerror: [m[K‘[01m[KJointPosition[m[K’ is not a member of ‘[01m[Kignition::gazebo::v6::components[m[K’
+[5.964s]   372 | ponents::JointPosition>(joint) ? _ecm.Component<components::[01;31m[KJointPosition[m[K>(joint)->Data()[0] : 0.0;
+[5.964s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[5.964s] 
+[5.965s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:372:123:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kignition::gazebo::v6::EntityComponentManager::Component<<expression error> >(long unsigned int&)[m[K’
+[5.965s]   372 | Position>(joint) ? [01;31m[K_ecm.Component<components::JointPosition>(joint)[m[K->Data()[0] : 0.0;
+[5.965s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.965s] 
+[5.965s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.965s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.965s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.965s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity) const[m[K’
+[5.965s]   264 |               const ComponentTypeT *[01;36m[KComponent[m[K(const Entity _entity) const;
+[5.965s]       |                                     [01;36m[K^~~~~~~~~[m[K
+[5.965s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.965s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:372:123:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.965s]   372 | Position>(joint) ? [01;31m[K_ecm.Component<components::JointPosition>(joint)[m[K->Data()[0] : 0.0;
+[5.965s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.965s] 
+[5.965s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:851[m[K,
+[5.965s]                  from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.965s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.965s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.965s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity)[m[K’
+[5.965s]   128 | ComponentTypeT *[01;36m[KEntityComponentManager[m[K::Component(const Entity _entity)
+[5.965s]       |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.965s] [01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.965s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:372:123:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.965s]   372 | Position>(joint) ? [01;31m[K_ecm.Component<components::JointPosition>(joint)[m[K->Data()[0] : 0.0;
+[5.966s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.966s] 
+[5.966s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.966s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.966s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.966s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&) const[m[K’
+[5.966s]   279 |               const ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.966s]       |                                                        [01;36m[K^~~~~~~~~[m[K
+[5.966s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.966s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:372:123:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.966s]   372 | Position>(joint) ? [01;31m[K_ecm.Component<components::JointPosition>(joint)[m[K->Data()[0] : 0.0;
+[5.966s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.966s] 
+[5.966s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/Model.hh:27[m[K,
+[5.966s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/Model.hh:18[m[K,
+[5.966s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[5.966s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&)[m[K’
+[5.966s]   287 |               ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+[5.966s]       |                                                  [01;36m[K^~~~~~~~~[m[K
+[5.966s] [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.966s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:372:123:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.966s]   372 | Position>(joint) ? [01;31m[K_ecm.Component<components::JointPosition>(joint)[m[K->Data()[0] : 0.0;
+[5.966s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.966s] 
+[5.966s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:374:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ignition::gazebo::v6::Model[m[K’ has no member named ‘[01m[KJointName[m[K’; did you mean ‘[01m[KJointByName[m[K’?
+[5.967s]   374 |             joint_state.name[i] = model_.[01;31m[KJointName[m[K(_ecm, joint);
+[5.967s]       |                                          [01;31m[K^~~~~~~~~[m[K
+[5.967s]       |                                          [32m[KJointByName[m[K
+[5.967s] In file included from [01m[K/usr/include/ignition/plugin1/gz/plugin/Register.hh:22[m[K,
+[5.967s]                  from [01m[K/usr/include/ignition/plugin1/ignition/plugin/Register.hh:18[m[K,
+[5.967s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:5[m[K:
+[5.967s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:[m[K In constructor ‘[01m[Kignition::plugin::{anonymous}::ExecuteWhenLoadingLibrary0::ExecuteWhenLoadingLibrary0()[m[K’:
+[5.967s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:419:23:[m[K [01;31m[Kerror: [m[K‘[01m[KSystem[m[K’ is not a member of ‘[01m[Kignition::gazebo[m[K’; did you mean ‘[01m[Ksystems[m[K’?
+[5.967s]   419 |     ignition::gazebo::[01;31m[KSystem[m[K,
+[5.967s]       |                       [01;31m[K^~~~~~[m[K
+[5.967s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:420:49:[m[K [01;31m[Kerror: [m[K‘[01m[KISystemConfigure[m[K’ is not a member of ‘[01m[Kignition::gazebo::systems::ThreeOmniPlugin[m[K’
+[5.967s]   420 |     ignition::gazebo::systems::ThreeOmniPlugin::[01;31m[KISystemConfigure[m[K,
+[5.967s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.967s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:421:49:[m[K [01;31m[Kerror: [m[K‘[01m[KISystemUpdate[m[K’ is not a member of ‘[01m[Kignition::gazebo::systems::ThreeOmniPlugin[m[K’
+[5.967s]   421 |     ignition::gazebo::systems::ThreeOmniPlugin::[01;31m[KISystemUpdate[m[K)
+[5.967s]       |                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[5.967s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:417:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[5.967s]   417 | [01;31m[KIGNITION_ADD_PLUGIN[m[K(
+[5.967s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.967s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:417:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[5.967s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:417:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[8.721s] gmake[2]: *** [CMakeFiles/three_omni_plugin.dir/build.make:79: CMakeFiles/three_omni_plugin.dir/src/three_omni_plugin.cpp.o] Error 1
+[8.721s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/three_omni_plugin.dir/all] Error 2
+[8.721s] gmake: *** [Makefile:146: all] Error 2
+[8.723s] Invoked command in '/home/nam/Lekiwi_ws/build/three_omni_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12

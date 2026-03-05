@@ -1,0 +1,16 @@
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/lib/liblekiwi_servo_control.so
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/ament_index/resource_index/package_run_dependencies/lekiwi_servo_control
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/ament_index/resource_index/parent_prefix_path/lekiwi_servo_control
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/environment/ament_prefix_path.sh
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/environment/ament_prefix_path.dsv
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/environment/path.sh
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/environment/path.dsv
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/local_setup.bash
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/local_setup.sh
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/local_setup.zsh
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/local_setup.dsv
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/package.dsv
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/ament_index/resource_index/packages/lekiwi_servo_control
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/cmake/lekiwi_servo_controlConfig.cmake
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/cmake/lekiwi_servo_controlConfig-version.cmake
+/home/nam/Lekiwi_ws/install/lekiwi_servo_control/share/lekiwi_servo_control/package.xml

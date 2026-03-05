@@ -1,0 +1,4 @@
+source;share/lekiwi_servo_control/local_setup.bash
+source;share/lekiwi_servo_control/local_setup.dsv
+source;share/lekiwi_servo_control/local_setup.sh
+source;share/lekiwi_servo_control/local_setup.zsh

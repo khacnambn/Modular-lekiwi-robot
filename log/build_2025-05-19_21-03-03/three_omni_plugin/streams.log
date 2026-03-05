@@ -1,0 +1,250 @@
+[0.265s] Invoking command in '/home/nam/Lekiwi_ws/build/three_omni_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12
+[0.347s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.526s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.555s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.557s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.563s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.573s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.619s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.621s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.753s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.807s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.820s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.840s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.934s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.937s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.938s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.940s] -- Looking for ignition-gazebo6 -- found version 6.17.0
+[0.944s] -- Searching for dependencies of ignition-gazebo6
+[0.944s] -- Looking for sdformat12 -- found version 12.8.0
+[0.944s] -- Searching for dependencies of sdformat12
+[0.949s] -- Checking for module 'tinyxml2'
+[0.964s] --   Found tinyxml2, version 9.0.0
+[0.995s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.995s] -- Searching for dependencies of ignition-math6
+[0.995s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.996s] -- Searching for dependencies of ignition-utils1
+[0.997s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.997s] -- Searching for dependencies of ignition-plugin1
+[0.997s] -- Searching for <ignition-plugin1> component [loader]
+[0.998s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[0.998s] -- Searching for dependencies of ignition-plugin1-loader
+[0.998s] -- Searching for <ignition-plugin1> component [register]
+[0.999s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[0.999s] -- Searching for dependencies of ignition-plugin1-register
+[1.000s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.000s] -- Searching for dependencies of ignition-transport11
+[1.038s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.043s] -- Checking for module 'libzmq >= 4'
+[1.057s] --   Found libzmq, version 4.3.4
+[1.098s] -- Checking for module 'uuid'
+[1.112s] --   Found uuid, version 2.37.2
+[1.144s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.144s] -- Searching for dependencies of ignition-utils1
+[1.145s] -- Searching for <ignition-utils1> component [cli]
+[1.145s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[1.145s] -- Searching for dependencies of ignition-utils1-cli
+[1.146s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.146s] -- Searching for dependencies of ignition-msgs8
+[1.169s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3")
+[1.169s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.179s] -- Searching for <ignition-transport11> component [log]
+[1.179s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[1.180s] -- Searching for dependencies of ignition-transport11-log
+[1.180s] -- Searching for <ignition-transport11> component [parameters]
+[1.180s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[1.180s] -- Searching for dependencies of ignition-transport11-parameters
+[1.181s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.182s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.182s] -- Searching for dependencies of ignition-common4
+[1.182s] -- Looking for dlfcn.h - found
+[1.182s] -- Looking for libdl - found
+[1.194s] -- Searching for <ignition-common4> component [profiler]
+[1.194s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[1.194s] -- Searching for dependencies of ignition-common4-profiler
+[1.195s] -- Searching for <ignition-common4> component [events]
+[1.195s] -- Looking for ignition-common4-events -- found version 4.7.0
+[1.195s] -- Searching for dependencies of ignition-common4-events
+[1.195s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.196s] -- Searching for <ignition-common4> component [av]
+[1.196s] -- Looking for ignition-common4-av -- found version 4.7.0
+[1.196s] -- Searching for dependencies of ignition-common4-av
+[1.202s] -- Checking for module 'libswscale'
+[1.217s] --   Found libswscale, version 5.9.100
+[1.255s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.271s] --   Found libavdevice, version 58.13.100
+[1.312s] -- Checking for module 'libavformat'
+[1.327s] --   Found libavformat, version 58.76.100
+[1.366s] -- Checking for module 'libavcodec'
+[1.380s] --   Found libavcodec, version 58.134.100
+[1.420s] -- Checking for module 'libavutil'
+[1.433s] --   Found libavutil, version 56.70.100
+[1.466s] -- Looking for ignition-fuel_tools7 -- found version 7.3.1
+[1.467s] -- Searching for dependencies of ignition-fuel_tools7
+[1.509s] [0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):
+[1.509s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.509s]   CMake.
+[1.510s] 
+[1.510s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[1.510s]   to tell CMake that the project requires at least <min> but has been updated
+[1.510s]   to work with policies introduced by <max> or earlier.
+[1.510s] Call Stack (most recent call first):
+[1.510s]   /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)
+[1.510s]   /home/nam/ignition_fortress_ws/install/lib/cmake/ignition-fuel_tools7/ignition-fuel_tools7-config.cmake:94 (find_package)
+[1.510s]   /usr/lib/x86_64-linux-gnu/cmake/ignition-gazebo6/ignition-gazebo6-config.cmake:97 (find_package)
+[1.510s]   CMakeLists.txt:15 (find_package)
+[1.510s] 
+[1.510s] [0m
+[1.514s] -- Checking for module 'jsoncpp'
+[1.529s] --   Found jsoncpp, version 1.9.5
+[1.567s] -- Checking for module 'libzip'
+[1.581s] --   Found libzip, version 1.7.3
+[1.615s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.615s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.616s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.616s] -- Looking for ignition-gui6 -- found version 6.8.0
+[1.617s] -- Searching for dependencies of ignition-gui6
+[1.649s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.649s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.650s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.650s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.650s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.651s] -- Searching for dependencies of ignition-rendering6
+[1.651s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.651s] -- Searching for dependencies of ignition-math6
+[1.651s] -- Searching for <ignition-math6> component [eigen3]
+[1.651s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[1.652s] -- Searching for dependencies of ignition-math6-eigen3
+[1.653s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.653s] -- Searching for dependencies of ignition-common4
+[1.653s] -- Looking for dlfcn.h - found
+[1.653s] -- Looking for libdl - found
+[1.663s] -- Searching for <ignition-common4> component [graphics]
+[1.664s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[1.664s] -- Searching for dependencies of ignition-common4-graphics
+[1.664s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.665s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.665s] -- Searching for <ignition-common4> component [events]
+[1.666s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.666s] -- Searching for dependencies of ignition-plugin1
+[1.666s] -- Searching for <ignition-plugin1> component [all]
+[1.666s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[1.667s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.668s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.682s] -- Looking for ignition-physics5 -- found version 5.3.2
+[1.683s] -- Searching for dependencies of ignition-physics5
+[1.683s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.683s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.684s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.685s] -- Searching for <ignition-physics5> component [heightmap]
+[1.685s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[1.685s] -- Searching for dependencies of ignition-physics5-heightmap
+[1.685s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.686s] -- Searching for <ignition-physics5> component [mesh]
+[1.686s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[1.686s] -- Searching for dependencies of ignition-physics5-mesh
+[1.687s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.687s] -- Searching for <ignition-physics5> component [sdf]
+[1.687s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[1.687s] -- Searching for dependencies of ignition-physics5-sdf
+[1.688s] -- Looking for sdformat12 -- found version 12.8.0
+[1.689s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.689s] -- Searching for dependencies of ignition-sensors6
+[1.712s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4")
+[1.712s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.713s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.713s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.714s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.714s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.715s] -- Looking for sdformat12 -- found version 12.8.0
+[1.715s] -- Searching for <ignition-sensors6> component [air_pressure]
+[1.716s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.1
+[1.716s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[1.716s] -- Searching for <ignition-sensors6> component [altimeter]
+[1.717s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.1
+[1.717s] -- Searching for dependencies of ignition-sensors6-altimeter
+[1.717s] -- Searching for <ignition-sensors6> component [imu]
+[1.718s] -- Looking for ignition-sensors6-imu -- found version 6.8.1
+[1.718s] -- Searching for dependencies of ignition-sensors6-imu
+[1.718s] -- Searching for <ignition-sensors6> component [force_torque]
+[1.718s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.1
+[1.719s] -- Searching for dependencies of ignition-sensors6-force_torque
+[1.719s] -- Searching for <ignition-sensors6> component [logical_camera]
+[1.719s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.1
+[1.719s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[1.720s] -- Searching for <ignition-sensors6> component [magnetometer]
+[1.720s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.1
+[1.720s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[1.721s] -- Searching for <ignition-sensors6> component [navsat]
+[1.721s] -- Looking for ignition-sensors6-navsat -- found version 6.8.1
+[1.721s] -- Searching for dependencies of ignition-sensors6-navsat
+[1.722s] -- Searching for <ignition-sensors6> component [rendering]
+[1.722s] -- Looking for ignition-sensors6-rendering -- found version 6.8.1
+[1.722s] -- Searching for dependencies of ignition-sensors6-rendering
+[1.723s] -- Searching for <ignition-sensors6> component [lidar]
+[1.723s] -- Looking for ignition-sensors6-lidar -- found version 6.8.1
+[1.723s] -- Searching for dependencies of ignition-sensors6-lidar
+[1.723s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.724s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[1.724s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1
+[1.724s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[1.725s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.725s] -- Searching for <ignition-sensors6> component [camera]
+[1.726s] -- Looking for ignition-sensors6-camera -- found version 6.8.1
+[1.726s] -- Searching for dependencies of ignition-sensors6-camera
+[1.726s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.727s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[1.727s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1
+[1.727s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[1.728s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[1.728s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1
+[1.728s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[1.729s] -- Searching for <ignition-sensors6> component [depth_camera]
+[1.729s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.1
+[1.729s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[1.730s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.730s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[1.730s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1
+[1.730s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[1.731s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.731s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[1.732s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1
+[1.732s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[1.732s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.733s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.734s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.734s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.758s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.818s] -- Configuring done (1.5s)
+[1.837s] -- Generating done (0.0s)
+[1.840s] -- Build files have been written to: /home/nam/Lekiwi_ws/build/three_omni_plugin
+[1.872s] gmake[2]: Warning: File '/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp' has modification time 415250 s in the future
+[1.879s] [ 50%] [32mBuilding CXX object CMakeFiles/three_omni_plugin.dir/src/three_omni_plugin.cpp.o[0m
+[13.246s] [100%] [32m[1mLinking CXX shared library libthree_omni_plugin.so[0m
+[13.841s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[13.844s] [100%] Built target three_omni_plugin
+[13.850s] Invoked command in '/home/nam/Lekiwi_ws/build/three_omni_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12
+[13.851s] Invoking command in '/home/nam/Lekiwi_ws/build/three_omni_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake --install /home/nam/Lekiwi_ws/build/three_omni_plugin
+[13.915s] -- Install configuration: ""
+[13.915s] -- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/lib/libthree_omni_plugin.so
+[13.924s] -- Set non-toolchain portion of runtime path of "/home/nam/Lekiwi_ws/install/three_omni_plugin/lib/libthree_omni_plugin.so" to ""
+[13.924s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/library_path.sh
+[13.924s] -- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/library_path.dsv
+[13.924s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/ament_index/resource_index/package_run_dependencies/three_omni_plugin
+[13.925s] -- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/ament_index/resource_index/parent_prefix_path/three_omni_plugin
+[13.925s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/ament_prefix_path.sh
+[13.925s] -- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/ament_prefix_path.dsv
+[13.925s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/path.sh
+[13.925s] -- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/path.dsv
+[13.925s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/local_setup.bash
+[13.925s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/local_setup.sh
+[13.925s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/local_setup.zsh
+[13.925s] -- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/local_setup.dsv
+[13.925s] -- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/package.dsv
+[13.925s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/ament_index/resource_index/packages/three_omni_plugin
+[13.925s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[13.925s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/cmake/three_omni_pluginConfig.cmake
+[13.925s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/cmake/three_omni_pluginConfig-version.cmake
+[13.925s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/package.xml
+[13.927s] Invoked command in '/home/nam/Lekiwi_ws/build/three_omni_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake --install /home/nam/Lekiwi_ws/build/three_omni_plugin

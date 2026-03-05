@@ -1,0 +1,14 @@
+running egg_info
+writing ../../build/lekiwi_controller/lekiwi_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/lekiwi_controller/lekiwi_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/lekiwi_controller/lekiwi_controller.egg-info/entry_points.txt
+writing requirements to ../../build/lekiwi_controller/lekiwi_controller.egg-info/requires.txt
+writing top-level names to ../../build/lekiwi_controller/lekiwi_controller.egg-info/top_level.txt
+reading manifest file '../../build/lekiwi_controller/lekiwi_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/lekiwi_controller/lekiwi_controller.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+copying launch/control.launch.py -> /home/nam/Lekiwi_ws/install/lekiwi_controller/share/lekiwi_controller/launch
+creating /home/nam/Lekiwi_ws/install/lekiwi_controller/lib/lekiwi_controller
+error: can't copy 'scripts/omni_controller.py': doesn't exist or not a regular file

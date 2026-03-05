@@ -1,0 +1,395 @@
+[0.000000] (-) TimerEvent: {}
+[0.000566] (-) JobUnselected: {'identifier': 'lekiwi_description'}
+[0.000598] (-) JobUnselected: {'identifier': 'lekiwi_servo_control'}
+[0.000629] (-) JobUnselected: {'identifier': 'omni_teleop'}
+[0.000648] (three_omni_plugin) JobQueued: {'identifier': 'three_omni_plugin', 'dependencies': OrderedDict()}
+[0.000666] (three_omni_plugin) JobStarted: {'identifier': 'three_omni_plugin'}
+[0.010337] (three_omni_plugin) JobProgress: {'identifier': 'three_omni_plugin', 'progress': 'cmake'}
+[0.010975] (three_omni_plugin) JobProgress: {'identifier': 'three_omni_plugin', 'progress': 'build'}
+[0.011485] (three_omni_plugin) Command: {'cmd': ['/home/nam/.local/bin/cmake', '--build', '/home/nam/Lekiwi_ws/build/three_omni_plugin', '--', '-j12', '-l12'], 'cwd': '/home/nam/Lekiwi_ws/build/three_omni_plugin', 'env': OrderedDict([('LINOROBOT2_BASE', 'mecanum'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nam'), ('LC_TIME', 'km_KH'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nam/Lekiwi_ws/install/three_omni_plugin/lib:/home/nam/Lekiwi_ws/install/lekiwi_servo_control/lib:/home/nam/ignition_fortress_ws/install/ignition-fuel_tools7/lib:/home/nam/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nam/turtlebot3_ws/install/dynamixel_sdk/lib:/home/nam/plan_ws/install/rrt_planner/lib:/home/nam/plan_ws/install/jps_planner/lib:/home/nam/plan_ws/install/planner_core/lib:/home/nam/plan_ws/install/utils/lib:/home/nam/dev_ws/install/tutorial_interfaces/lib:/home/nam/dev_ws/install/nav2_straightline_planner/lib:/home/nam/dev_ws/install/nav2_pure_pursuit_controller/lib:/home/nam/dev_ws/install/nav2_custom_controller/lib:/home/nam/dev_ws/install/action_tutorials_cpp/lib:/home/nam/dev_ws/install/action_tutorials_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'km_KH'), ('SYSTEMD_EXEC_PID', '4906'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/nam/Lekiwi_ws/install:/home/nam/ignition_fortress_ws/install:/home/nam/plan_ws/install:/home/nam/turtlebot3_ws/install:/home/nam/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/nam/ignition_fortress_ws/install/ignition-fuel_tools7/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nam-Legion-5:@/tmp/.ICE-unix/1836,unix/nam-Legion-5:/tmp/.ICE-unix/1836'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'km_KH'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9dbf3731_189d_45a3_a340_d5ae92166cf2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'km_KH'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nam/Lekiwi_ws/install/three_omni_plugin:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/Lekiwi_ws/install/lekiwi_servo_control:/home/nam/Lekiwi_ws/install/lekiwi_description:/home/nam/turtlebot3_ws/install/turtlebot3:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_simulations:/home/nam/turtlebot3_ws/install/turtlebot3_bringup:/home/nam/turtlebot3_ws/install/turtlebot3_node:/home/nam/turtlebot3_ws/install/turtlebot3_navigation2:/home/nam/turtlebot3_ws/install/turtlebot3_fake_node:/home/nam/turtlebot3_ws/install/turtlebot3_example:/home/nam/turtlebot3_ws/install/turtlebot3_msgs:/home/nam/turtlebot3_ws/install/turtlebot3_gazebo:/home/nam/turtlebot3_ws/install/turtlebot3_description:/home/nam/turtlebot3_ws/install/turtlebot3_cartographer:/home/nam/turtlebot3_ws/install/nav2_bringup:/home/nam/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nam/turtlebot3_ws/install/dynamixel_sdk:/home/nam/plan_ws/install/rrt_planner:/home/nam/plan_ws/install/jps_planner:/home/nam/plan_ws/install/planner_core:/home/nam/plan_ws/install/utils:/home/nam/dev_ws/install/waypoint_follow:/home/nam/dev_ws/install/cpp_srvcli:/home/nam/dev_ws/install/cpp_pubsub:/home/nam/dev_ws/install/tutorial_interfaces:/home/nam/dev_ws/install/odom_sub:/home/nam/dev_ws/install/nav2_straightline_planner:/home/nam/dev_ws/install/nav2_pure_pursuit_controller:/home/nam/dev_ws/install/nav2_custom_controller:/home/nam/dev_ws/install/action_tutorials_cpp:/home/nam/dev_ws/install/action_tutorials_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'km_KH'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'km_KH'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'km_KH'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nam/Lekiwi_ws/build/three_omni_plugin'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LINOROBOT2_DEPTH_SENSOR', ''), ('PYTHONPATH', '/home/nam/Lekiwi_ws/install/omni_teleop/lib/python3.10/site-packages:/home/nam/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/nam/turtlebot3_ws/build/turtlebot3_example:/home/nam/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/nam/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nam/dev_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/nam/dev_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'km_KH'), ('LC_PAPER', 'km_KH'), ('COLCON', '1'), ('LINOROBOT2_LASER_SENSOR', 'a1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nam/Lekiwi_ws/install/three_omni_plugin:/home/nam/Lekiwi_ws/install/lekiwi_servo_control:/home/nam/Lekiwi_ws/install/lekiwi_description:/home/nam/ignition_fortress_ws/install/ignition-fuel_tools7:/home/nam/turtlebot3_ws/install/turtlebot3:/home/nam/turtlebot3_ws/install/turtlebot3_simulations:/home/nam/turtlebot3_ws/install/turtlebot3_bringup:/home/nam/turtlebot3_ws/install/turtlebot3_node:/home/nam/turtlebot3_ws/install/turtlebot3_navigation2:/home/nam/turtlebot3_ws/install/turtlebot3_fake_node:/home/nam/turtlebot3_ws/install/turtlebot3_msgs:/home/nam/turtlebot3_ws/install/turtlebot3_gazebo:/home/nam/turtlebot3_ws/install/turtlebot3_description:/home/nam/turtlebot3_ws/install/turtlebot3_cartographer:/home/nam/turtlebot3_ws/install/nav2_bringup:/home/nam/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nam/turtlebot3_ws/install/dynamixel_sdk:/home/nam/plan_ws/install/rrt_planner:/home/nam/plan_ws/install/jps_planner:/home/nam/plan_ws/install/planner_core:/home/nam/plan_ws/install/utils:/home/nam/dev_ws/install/waypoint_follow:/home/nam/dev_ws/install/cpp_srvcli:/home/nam/dev_ws/install/cpp_pubsub:/home/nam/dev_ws/install/tutorial_interfaces:/home/nam/dev_ws/install/odom_sub:/home/nam/dev_ws/install/nav2_straightline_planner:/home/nam/dev_ws/install/nav2_pure_pursuit_controller:/home/nam/dev_ws/install/nav2_custom_controller:/home/nam/dev_ws/install/action_tutorials_cpp:/home/nam/dev_ws/install/action_tutorials_interfaces:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.092549] (three_omni_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099822] (-) TimerEvent: {}
+[0.200045] (-) TimerEvent: {}
+[0.261544] (three_omni_plugin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.291950] (three_omni_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.294268] (three_omni_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.299946] (three_omni_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.300069] (-) TimerEvent: {}
+[0.310909] (three_omni_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.324171] (three_omni_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.359470] (three_omni_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.361461] (three_omni_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400196] (-) TimerEvent: {}
+[0.490644] (three_omni_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500294] (-) TimerEvent: {}
+[0.544211] (three_omni_plugin) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.558371] (three_omni_plugin) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.577860] (three_omni_plugin) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.600398] (-) TimerEvent: {}
+[0.669663] (three_omni_plugin) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.672597] (three_omni_plugin) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.673794] (three_omni_plugin) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.675755] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-gazebo6 -- found version 6.17.0\n'}
+[0.679805] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gazebo6\n'}
+[0.680197] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[0.680332] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of sdformat12\n'}
+[0.685535] (three_omni_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.700054] (three_omni_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.700475] (-) TimerEvent: {}
+[0.734567] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.734785] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.735633] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[0.735770] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[0.737296] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[0.737499] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[0.737969] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [loader]\n'}
+[0.738347] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1-loader -- found version 1.4.0\n'}
+[0.738509] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-loader\n'}
+[0.738956] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[0.739323] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1-register -- found version 1.4.0\n'}
+[0.739486] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-register\n'}
+[0.740320] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[0.740480] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11\n'}
+[0.782625] (three_omni_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.788136] (three_omni_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.800617] (-) TimerEvent: {}
+[0.805039] (three_omni_plugin) StdoutLine: {'line': b'--   Found libzmq, version 4.3.4\n'}
+[0.847638] (three_omni_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.862921] (three_omni_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.897059] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[0.897268] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[0.897406] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-utils1> component [cli]\n'}
+[0.897583] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-utils1-cli -- found version 1.5.1\n'}
+[0.897762] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1-cli\n'}
+[0.898460] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[0.898588] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs8\n'}
+[0.900637] (-) TimerEvent: {}
+[0.921862] (three_omni_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3")\n'}
+[0.922670] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.933700] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [log]\n'}
+[0.934036] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport11-log -- found version 11.4.1\n'}
+[0.934218] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-log\n'}
+[0.934627] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [parameters]\n'}
+[0.935004] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport11-parameters -- found version 11.4.1\n'}
+[0.935168] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-parameters\n'}
+[0.936031] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[0.936417] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[0.936549] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[0.936680] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.936741] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.948759] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [profiler]\n'}
+[0.949094] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4-profiler -- found version 4.7.0\n'}
+[0.949262] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-profiler\n'}
+[0.949658] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[0.950010] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4-events -- found version 4.7.0\n'}
+[0.950170] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-events\n'}
+[0.950494] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.950943] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [av]\n'}
+[0.951305] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4-av -- found version 4.7.0\n'}
+[0.951496] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-av\n'}
+[0.956575] (three_omni_plugin) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[0.971525] (three_omni_plugin) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[1.000753] (-) TimerEvent: {}
+[1.011715] (three_omni_plugin) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[1.026467] (three_omni_plugin) StdoutLine: {'line': b'--   Found libavdevice, version 58.13.100\n'}
+[1.068181] (three_omni_plugin) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[1.082735] (three_omni_plugin) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[1.100848] (-) TimerEvent: {}
+[1.121738] (three_omni_plugin) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[1.136371] (three_omni_plugin) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[1.176010] (three_omni_plugin) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[1.190185] (three_omni_plugin) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[1.200949] (-) TimerEvent: {}
+[1.223948] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools7 -- found version 7.3.1\n'}
+[1.224155] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools7\n'}
+[1.272384] (three_omni_plugin) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):\n'}
+[1.272639] (three_omni_plugin) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[1.272746] (three_omni_plugin) StderrLine: {'line': b'  CMake.\n'}
+[1.272813] (three_omni_plugin) StderrLine: {'line': b'\n'}
+[1.272864] (three_omni_plugin) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[1.272911] (three_omni_plugin) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[1.272982] (three_omni_plugin) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[1.273035] (three_omni_plugin) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.273088] (three_omni_plugin) StderrLine: {'line': b'  /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)\n'}
+[1.273145] (three_omni_plugin) StderrLine: {'line': b'  /home/nam/ignition_fortress_ws/install/ignition-fuel_tools7/lib/cmake/ignition-fuel_tools7/ignition-fuel_tools7-config.cmake:94 (find_package)\n'}
+[1.273206] (three_omni_plugin) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/ignition-gazebo6/ignition-gazebo6-config.cmake:97 (find_package)\n'}
+[1.273266] (three_omni_plugin) StderrLine: {'line': b'  CMakeLists.txt:15 (find_package)\n'}
+[1.273326] (three_omni_plugin) StderrLine: {'line': b'\n'}
+[1.273377] (three_omni_plugin) StderrLine: {'line': b'\x1b[0m\n'}
+[1.279232] (three_omni_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.296199] (three_omni_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.301061] (-) TimerEvent: {}
+[1.342055] (three_omni_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.360787] (three_omni_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.401176] (-) TimerEvent: {}
+[1.401780] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.402292] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.402773] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.404101] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-gui6 -- found version 6.8.0\n'}
+[1.404391] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gui6\n'}
+[1.447021] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.447492] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.447967] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.448464] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[1.448937] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.449124] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-rendering6\n'}
+[1.449467] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.449628] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.449814] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-math6> component [eigen3]\n'}
+[1.450280] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6-eigen3 -- found version 6.15.1\n'}
+[1.450487] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6-eigen3\n'}
+[1.452224] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.452434] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[1.452568] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.452691] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.466550] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [graphics]\n'}
+[1.466989] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4-graphics -- found version 4.7.0\n'}
+[1.467177] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-graphics\n'}
+[1.467560] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.468111] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.468932] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[1.469476] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.469745] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[1.469869] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [all]\n'}
+[1.470289] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for all libraries of ignition-plugin1 -- found version 1.4.0\n'}
+[1.470851] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.472237] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.490017] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-physics5 -- found version 5.3.2\n'}
+[1.490204] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5\n'}
+[1.490468] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.490864] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.491248] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.492341] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [heightmap]\n'}
+[1.492741] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-physics5-heightmap -- found version 5.3.2\n'}
+[1.492925] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-heightmap\n'}
+[1.493272] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.493703] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [mesh]\n'}
+[1.494072] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-physics5-mesh -- found version 5.3.2\n'}
+[1.494235] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-mesh\n'}
+[1.494574] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.495006] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [sdf]\n'}
+[1.495355] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-physics5-sdf -- found version 5.3.2\n'}
+[1.495522] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-sdf\n'}
+[1.495873] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[1.496728] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.496870] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6\n'}
+[1.501266] (-) TimerEvent: {}
+[1.521631] (three_omni_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4")\n'}
+[1.522647] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.523165] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.523663] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[1.524092] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.524488] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.525184] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[1.525791] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [air_pressure]\n'}
+[1.526181] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-air_pressure -- found version 6.8.1\n'}
+[1.526370] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-air_pressure\n'}
+[1.526810] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [altimeter]\n'}
+[1.527164] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-altimeter -- found version 6.8.1\n'}
+[1.527327] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-altimeter\n'}
+[1.527750] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [imu]\n'}
+[1.528101] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-imu -- found version 6.8.1\n'}
+[1.528272] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-imu\n'}
+[1.528701] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [force_torque]\n'}
+[1.529058] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-force_torque -- found version 6.8.1\n'}
+[1.529220] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-force_torque\n'}
+[1.529683] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [logical_camera]\n'}
+[1.530037] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-logical_camera -- found version 6.8.1\n'}
+[1.530210] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-logical_camera\n'}
+[1.530697] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [magnetometer]\n'}
+[1.531082] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-magnetometer -- found version 6.8.1\n'}
+[1.531240] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-magnetometer\n'}
+[1.531661] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [navsat]\n'}
+[1.532016] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-navsat -- found version 6.8.1\n'}
+[1.532169] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-navsat\n'}
+[1.532572] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rendering]\n'}
+[1.532937] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rendering -- found version 6.8.1\n'}
+[1.533103] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rendering\n'}
+[1.533510] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [lidar]\n'}
+[1.533873] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-lidar -- found version 6.8.1\n'}
+[1.534032] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-lidar\n'}
+[1.534375] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.534865] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [gpu_lidar]\n'}
+[1.535213] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1\n'}
+[1.535408] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-gpu_lidar\n'}
+[1.535764] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.536256] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [camera]\n'}
+[1.536632] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-camera -- found version 6.8.1\n'}
+[1.536781] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-camera\n'}
+[1.537123] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.537613] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [boundingbox_camera]\n'}
+[1.537968] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1\n'}
+[1.538120] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-boundingbox_camera\n'}
+[1.538542] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [segmentation_camera]\n'}
+[1.538904] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1\n'}
+[1.539059] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-segmentation_camera\n'}
+[1.539583] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [depth_camera]\n'}
+[1.539988] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-depth_camera -- found version 6.8.1\n'}
+[1.540152] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-depth_camera\n'}
+[1.540558] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.541322] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rgbd_camera]\n'}
+[1.541823] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1\n'}
+[1.541984] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rgbd_camera\n'}
+[1.542331] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.542855] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [thermal_camera]\n'}
+[1.543225] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1\n'}
+[1.543394] (three_omni_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-thermal_camera\n'}
+[1.543747] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.544733] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.545110] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.545685] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.571984] (three_omni_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.601367] (-) TimerEvent: {}
+[1.637147] (three_omni_plugin) StdoutLine: {'line': b'-- Configuring done (1.6s)\n'}
+[1.658166] (three_omni_plugin) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.661704] (three_omni_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/nam/Lekiwi_ws/build/three_omni_plugin\n'}
+[1.700472] (three_omni_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/three_omni_plugin.dir/src/three_omni_plugin.cpp.o\x1b[0m\n'}
+[1.701438] (-) TimerEvent: {}
+[1.801764] (-) TimerEvent: {}
+[1.902036] (-) TimerEvent: {}
+[2.002321] (-) TimerEvent: {}
+[2.102639] (-) TimerEvent: {}
+[2.202948] (-) TimerEvent: {}
+[2.303221] (-) TimerEvent: {}
+[2.403488] (-) TimerEvent: {}
+[2.503794] (-) TimerEvent: {}
+[2.604060] (-) TimerEvent: {}
+[2.704332] (-) TimerEvent: {}
+[2.804657] (-) TimerEvent: {}
+[2.904927] (-) TimerEvent: {}
+[3.005225] (-) TimerEvent: {}
+[3.105505] (-) TimerEvent: {}
+[3.205796] (-) TimerEvent: {}
+[3.306055] (-) TimerEvent: {}
+[3.406321] (-) TimerEvent: {}
+[3.506574] (-) TimerEvent: {}
+[3.606860] (-) TimerEvent: {}
+[3.707226] (-) TimerEvent: {}
+[3.807542] (-) TimerEvent: {}
+[3.907876] (-) TimerEvent: {}
+[4.008160] (-) TimerEvent: {}
+[4.108418] (-) TimerEvent: {}
+[4.208675] (-) TimerEvent: {}
+[4.308953] (-) TimerEvent: {}
+[4.409220] (-) TimerEvent: {}
+[4.509504] (-) TimerEvent: {}
+[4.609871] (-) TimerEvent: {}
+[4.710161] (-) TimerEvent: {}
+[4.810448] (-) TimerEvent: {}
+[4.910753] (-) TimerEvent: {}
+[5.011034] (-) TimerEvent: {}
+[5.111316] (-) TimerEvent: {}
+[5.211621] (-) TimerEvent: {}
+[5.311908] (-) TimerEvent: {}
+[5.412196] (-) TimerEvent: {}
+[5.512489] (-) TimerEvent: {}
+[5.612802] (-) TimerEvent: {}
+[5.713104] (-) TimerEvent: {}
+[5.813383] (-) TimerEvent: {}
+[5.913675] (-) TimerEvent: {}
+[6.013952] (-) TimerEvent: {}
+[6.114234] (-) TimerEvent: {}
+[6.214519] (-) TimerEvent: {}
+[6.314820] (-) TimerEvent: {}
+[6.415093] (-) TimerEvent: {}
+[6.515353] (-) TimerEvent: {}
+[6.615658] (-) TimerEvent: {}
+[6.715939] (-) TimerEvent: {}
+[6.816223] (-) TimerEvent: {}
+[6.916485] (-) TimerEvent: {}
+[7.016810] (-) TimerEvent: {}
+[7.117091] (-) TimerEvent: {}
+[7.217376] (-) TimerEvent: {}
+[7.317664] (-) TimerEvent: {}
+[7.417947] (-) TimerEvent: {}
+[7.518257] (-) TimerEvent: {}
+[7.618543] (-) TimerEvent: {}
+[7.718835] (-) TimerEvent: {}
+[7.819123] (-) TimerEvent: {}
+[7.919398] (-) TimerEvent: {}
+[8.019681] (-) TimerEvent: {}
+[8.119965] (-) TimerEvent: {}
+[8.220258] (-) TimerEvent: {}
+[8.320539] (-) TimerEvent: {}
+[8.420840] (-) TimerEvent: {}
+[8.521124] (-) TimerEvent: {}
+[8.621415] (-) TimerEvent: {}
+[8.721698] (-) TimerEvent: {}
+[8.821979] (-) TimerEvent: {}
+[8.922265] (-) TimerEvent: {}
+[9.022556] (-) TimerEvent: {}
+[9.122865] (-) TimerEvent: {}
+[9.223202] (-) TimerEvent: {}
+[9.323487] (-) TimerEvent: {}
+[9.423778] (-) TimerEvent: {}
+[9.524050] (-) TimerEvent: {}
+[9.624339] (-) TimerEvent: {}
+[9.724651] (-) TimerEvent: {}
+[9.824922] (-) TimerEvent: {}
+[9.925204] (-) TimerEvent: {}
+[10.025485] (-) TimerEvent: {}
+[10.125777] (-) TimerEvent: {}
+[10.226049] (-) TimerEvent: {}
+[10.326325] (-) TimerEvent: {}
+[10.426634] (-) TimerEvent: {}
+[10.526973] (-) TimerEvent: {}
+[10.627292] (-) TimerEvent: {}
+[10.727550] (-) TimerEvent: {}
+[10.827815] (-) TimerEvent: {}
+[10.928080] (-) TimerEvent: {}
+[11.028359] (-) TimerEvent: {}
+[11.128640] (-) TimerEvent: {}
+[11.228917] (-) TimerEvent: {}
+[11.329193] (-) TimerEvent: {}
+[11.429457] (-) TimerEvent: {}
+[11.529744] (-) TimerEvent: {}
+[11.630025] (-) TimerEvent: {}
+[11.730301] (-) TimerEvent: {}
+[11.830586] (-) TimerEvent: {}
+[11.930890] (-) TimerEvent: {}
+[12.031160] (-) TimerEvent: {}
+[12.131419] (-) TimerEvent: {}
+[12.231669] (-) TimerEvent: {}
+[12.331928] (-) TimerEvent: {}
+[12.432210] (-) TimerEvent: {}
+[12.532504] (-) TimerEvent: {}
+[12.632858] (-) TimerEvent: {}
+[12.733199] (-) TimerEvent: {}
+[12.833474] (-) TimerEvent: {}
+[12.927478] (three_omni_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libthree_omni_plugin.so\x1b[0m\n'}
+[12.933550] (-) TimerEvent: {}
+[13.033792] (-) TimerEvent: {}
+[13.134095] (-) TimerEvent: {}
+[13.234371] (-) TimerEvent: {}
+[13.334664] (-) TimerEvent: {}
+[13.434941] (-) TimerEvent: {}
+[13.503338] (three_omni_plugin) StdoutLine: {'line': b'[100%] Built target three_omni_plugin\n'}
+[13.509211] (three_omni_plugin) CommandEnded: {'returncode': 0}
+[13.509796] (three_omni_plugin) JobProgress: {'identifier': 'three_omni_plugin', 'progress': 'install'}
+[13.535021] (-) TimerEvent: {}
+[13.575534] (three_omni_plugin) Command: {'cmd': ['/home/nam/.local/bin/cmake', '--install', '/home/nam/Lekiwi_ws/build/three_omni_plugin'], 'cwd': '/home/nam/Lekiwi_ws/build/three_omni_plugin', 'env': OrderedDict([('LINOROBOT2_BASE', 'mecanum'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nam'), ('LC_TIME', 'km_KH'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nam/Lekiwi_ws/install/three_omni_plugin/lib:/home/nam/Lekiwi_ws/install/lekiwi_servo_control/lib:/home/nam/ignition_fortress_ws/install/ignition-fuel_tools7/lib:/home/nam/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nam/turtlebot3_ws/install/dynamixel_sdk/lib:/home/nam/plan_ws/install/rrt_planner/lib:/home/nam/plan_ws/install/jps_planner/lib:/home/nam/plan_ws/install/planner_core/lib:/home/nam/plan_ws/install/utils/lib:/home/nam/dev_ws/install/tutorial_interfaces/lib:/home/nam/dev_ws/install/nav2_straightline_planner/lib:/home/nam/dev_ws/install/nav2_pure_pursuit_controller/lib:/home/nam/dev_ws/install/nav2_custom_controller/lib:/home/nam/dev_ws/install/action_tutorials_cpp/lib:/home/nam/dev_ws/install/action_tutorials_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'km_KH'), ('SYSTEMD_EXEC_PID', '4906'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/nam/Lekiwi_ws/install:/home/nam/ignition_fortress_ws/install:/home/nam/plan_ws/install:/home/nam/turtlebot3_ws/install:/home/nam/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/nam/ignition_fortress_ws/install/ignition-fuel_tools7/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nam-Legion-5:@/tmp/.ICE-unix/1836,unix/nam-Legion-5:/tmp/.ICE-unix/1836'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'km_KH'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9dbf3731_189d_45a3_a340_d5ae92166cf2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'km_KH'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nam/Lekiwi_ws/install/three_omni_plugin:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/Lekiwi_ws/install/lekiwi_servo_control:/home/nam/Lekiwi_ws/install/lekiwi_description:/home/nam/turtlebot3_ws/install/turtlebot3:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_simulations:/home/nam/turtlebot3_ws/install/turtlebot3_bringup:/home/nam/turtlebot3_ws/install/turtlebot3_node:/home/nam/turtlebot3_ws/install/turtlebot3_navigation2:/home/nam/turtlebot3_ws/install/turtlebot3_fake_node:/home/nam/turtlebot3_ws/install/turtlebot3_example:/home/nam/turtlebot3_ws/install/turtlebot3_msgs:/home/nam/turtlebot3_ws/install/turtlebot3_gazebo:/home/nam/turtlebot3_ws/install/turtlebot3_description:/home/nam/turtlebot3_ws/install/turtlebot3_cartographer:/home/nam/turtlebot3_ws/install/nav2_bringup:/home/nam/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nam/turtlebot3_ws/install/dynamixel_sdk:/home/nam/plan_ws/install/rrt_planner:/home/nam/plan_ws/install/jps_planner:/home/nam/plan_ws/install/planner_core:/home/nam/plan_ws/install/utils:/home/nam/dev_ws/install/waypoint_follow:/home/nam/dev_ws/install/cpp_srvcli:/home/nam/dev_ws/install/cpp_pubsub:/home/nam/dev_ws/install/tutorial_interfaces:/home/nam/dev_ws/install/odom_sub:/home/nam/dev_ws/install/nav2_straightline_planner:/home/nam/dev_ws/install/nav2_pure_pursuit_controller:/home/nam/dev_ws/install/nav2_custom_controller:/home/nam/dev_ws/install/action_tutorials_cpp:/home/nam/dev_ws/install/action_tutorials_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'km_KH'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'km_KH'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'km_KH'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nam/Lekiwi_ws/build/three_omni_plugin'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LINOROBOT2_DEPTH_SENSOR', ''), ('PYTHONPATH', '/home/nam/Lekiwi_ws/install/omni_teleop/lib/python3.10/site-packages:/home/nam/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/nam/turtlebot3_ws/build/turtlebot3_example:/home/nam/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/nam/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nam/dev_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/nam/dev_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'km_KH'), ('LC_PAPER', 'km_KH'), ('COLCON', '1'), ('LINOROBOT2_LASER_SENSOR', 'a1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nam/Lekiwi_ws/install/three_omni_plugin:/home/nam/Lekiwi_ws/install/lekiwi_servo_control:/home/nam/Lekiwi_ws/install/lekiwi_description:/home/nam/ignition_fortress_ws/install/ignition-fuel_tools7:/home/nam/turtlebot3_ws/install/turtlebot3:/home/nam/turtlebot3_ws/install/turtlebot3_simulations:/home/nam/turtlebot3_ws/install/turtlebot3_bringup:/home/nam/turtlebot3_ws/install/turtlebot3_node:/home/nam/turtlebot3_ws/install/turtlebot3_navigation2:/home/nam/turtlebot3_ws/install/turtlebot3_fake_node:/home/nam/turtlebot3_ws/install/turtlebot3_msgs:/home/nam/turtlebot3_ws/install/turtlebot3_gazebo:/home/nam/turtlebot3_ws/install/turtlebot3_description:/home/nam/turtlebot3_ws/install/turtlebot3_cartographer:/home/nam/turtlebot3_ws/install/nav2_bringup:/home/nam/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nam/turtlebot3_ws/install/dynamixel_sdk:/home/nam/plan_ws/install/rrt_planner:/home/nam/plan_ws/install/jps_planner:/home/nam/plan_ws/install/planner_core:/home/nam/plan_ws/install/utils:/home/nam/dev_ws/install/waypoint_follow:/home/nam/dev_ws/install/cpp_srvcli:/home/nam/dev_ws/install/cpp_pubsub:/home/nam/dev_ws/install/tutorial_interfaces:/home/nam/dev_ws/install/odom_sub:/home/nam/dev_ws/install/nav2_straightline_planner:/home/nam/dev_ws/install/nav2_pure_pursuit_controller:/home/nam/dev_ws/install/nav2_custom_controller:/home/nam/dev_ws/install/action_tutorials_cpp:/home/nam/dev_ws/install/action_tutorials_interfaces:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[13.635146] (-) TimerEvent: {}
+[13.639563] (three_omni_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.639779] (three_omni_plugin) StdoutLine: {'line': b'-- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/lib/libthree_omni_plugin.so\n'}
+[13.649002] (three_omni_plugin) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nam/Lekiwi_ws/install/three_omni_plugin/lib/libthree_omni_plugin.so" to ""\n'}
+[13.649145] (three_omni_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/library_path.sh\n'}
+[13.649301] (three_omni_plugin) StdoutLine: {'line': b'-- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/library_path.dsv\n'}
+[13.649415] (three_omni_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/ament_index/resource_index/package_run_dependencies/three_omni_plugin\n'}
+[13.649474] (three_omni_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/ament_index/resource_index/parent_prefix_path/three_omni_plugin\n'}
+[13.649566] (three_omni_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/ament_prefix_path.sh\n'}
+[13.649661] (three_omni_plugin) StdoutLine: {'line': b'-- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/ament_prefix_path.dsv\n'}
+[13.649720] (three_omni_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/path.sh\n'}
+[13.649793] (three_omni_plugin) StdoutLine: {'line': b'-- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/path.dsv\n'}
+[13.649868] (three_omni_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/local_setup.bash\n'}
+[13.649944] (three_omni_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/local_setup.sh\n'}
+[13.649990] (three_omni_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/local_setup.zsh\n'}
+[13.650031] (three_omni_plugin) StdoutLine: {'line': b'-- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/local_setup.dsv\n'}
+[13.650097] (three_omni_plugin) StdoutLine: {'line': b'-- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/package.dsv\n'}
+[13.650220] (three_omni_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/ament_index/resource_index/packages/three_omni_plugin\n'}
+[13.650327] (three_omni_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.650485] (three_omni_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/cmake/three_omni_pluginConfig.cmake\n'}
+[13.650557] (three_omni_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/cmake/three_omni_pluginConfig-version.cmake\n'}
+[13.650659] (three_omni_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/package.xml\n'}
+[13.652068] (three_omni_plugin) CommandEnded: {'returncode': 0}
+[13.666913] (three_omni_plugin) JobEnded: {'identifier': 'three_omni_plugin', 'rc': 0}
+[13.667431] (-) EventReactorShutdown: {}

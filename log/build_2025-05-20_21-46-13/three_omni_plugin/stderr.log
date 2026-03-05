@@ -1,0 +1,42 @@
+[0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)
+  /home/nam/ignition_fortress_ws/install/ignition-fuel_tools7/lib/cmake/ignition-fuel_tools7/ignition-fuel_tools7-config.cmake:94 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/ignition-gazebo6/ignition-gazebo6-config.cmake:97 (find_package)
+  CMakeLists.txt:15 (find_package)
+
+[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:8[m[K:
+[01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo_sim::ThreeOmniPlugin::PreUpdate(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:201:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kdx[m[K’ was not declared in this scope; did you mean ‘[01m[Kdt[m[K’?
+  201 |                 x_, y_, theta_, [01;31m[Kdx[m[K, dy);
+      |                                 [01;31m[K^~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:201:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kdy[m[K’ was not declared in this scope; did you mean ‘[01m[Kdt[m[K’?
+  201 |                 x_, y_, theta_, dx, [01;31m[Kdy[m[K);
+      |                                     [01;31m[K^~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:212:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ktf2::Quaternion q[m[K’
+  212 |     tf2::Quaternion [01;31m[Kq[m[K;
+      |                     [01;31m[K^[m[K
+[01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:183:21:[m[K [01;36m[Knote: [m[K‘[01m[Ktf2::Quaternion q[m[K’ previously declared here
+  183 |     tf2::Quaternion [01;36m[Kq[m[K(pose.Rot().X(), pose.Rot().Y(), pose.Rot().Z(), pose.Rot().W());
+      |                     [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/three_omni_plugin.dir/build.make:79: CMakeFiles/three_omni_plugin.dir/src/three_omni_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/three_omni_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

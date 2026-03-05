@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>three_omni_plugin</name>
+  <version>0.1.0</version>
+  <description>Ignition Gazebo plugin for 3-wheel omni robot with ROS 2 interface</description>
+
+  <maintainer email="your_email@domain.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+
+  <exec_depend>ignition-gazebo6</exec_depend>
+  <exec_depend>ignition-math6</exec_depend>
+  <exec_depend>ignition-plugin1</exec_depend>
+
+</package>

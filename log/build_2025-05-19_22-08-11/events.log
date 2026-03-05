@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000119] (-) JobUnselected: {'identifier': 'lekiwi_control'}
+[0.000147] (-) JobUnselected: {'identifier': 'lekiwi_description'}
+[0.000167] (-) JobUnselected: {'identifier': 'omni_teleop'}
+[0.000194] (-) JobUnselected: {'identifier': 'three_omni_plugin'}
+[0.000338] (-) EventReactorShutdown: {}

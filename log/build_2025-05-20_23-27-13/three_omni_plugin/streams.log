@@ -1,0 +1,315 @@
+[0.011s] Invoking command in '/home/nam/Lekiwi_ws/build/three_omni_plugin': /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12
+[0.116s] [ 50%] [32mBuilding CXX object CMakeFiles/three_omni_plugin.dir/src/three_omni_plugin.cpp.o[0m
+[5.246s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:146:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[5.246s]   146 | }[01;31m[K [m[K// namespace three_omni_plugin_ns
+[5.246s]       |  [01;31m[K^[m[K
+[5.246s]       |  [32m[K;[m[K
+[5.247s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void three_omni_plugin_ns::ThreeOmniPlugin::Configure(const Entity&, const std::shared_ptr<const sdf::v12::Element>&, ignition::gazebo::v6::EntityComponentManager&, ignition::gazebo::v6::EventManager&)[m[K’:
+[5.247s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:32:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Kmodel_[m[K’
+[5.247s]    32 |     this->[01;31m[Kmodel_[m[K = ignition::gazebo::Model(entity);
+[5.247s]       |           [01;31m[K^~~~~~[m[K
+[5.247s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:41:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Knode_[m[K’
+[5.247s]    41 |     this->[01;31m[Knode_[m[K = std::make_shared<rclcpp::Node>("three_omni_plugin");
+[5.247s]       |           [01;31m[K^~~~~[m[K
+[5.247s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:44:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Kodom_frame_[m[K’
+[5.247s]    44 |     this->[01;31m[Kodom_frame_[m[K = sdf->Get<std::string>("odom_frame", "odom").first;
+[5.247s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[5.250s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:45:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Kbase_frame_[m[K’
+[5.250s]    45 |     this->[01;31m[Kbase_frame_[m[K = sdf->Get<std::string>("base_frame", "base_link").first;
+[5.250s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[5.250s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:46:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Kcmd_vel_topic_[m[K’
+[5.250s]    46 |     this->[01;31m[Kcmd_vel_topic_[m[K = sdf->Get<std::string>("cmd_vel_topic", "/cmd_vel").first;
+[5.250s]       |           [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.251s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:47:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Kodom_topic_[m[K’
+[5.251s]    47 |     this->[01;31m[Kodom_topic_[m[K = sdf->Get<std::string>("odom_topic", "/odom").first;
+[5.251s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[5.251s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:48:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Kwheel_radius_[m[K’
+[5.251s]    48 |     this->[01;31m[Kwheel_radius_[m[K = sdf->Get<double>("wheel_radius", 0.05).first;
+[5.251s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[5.251s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:49:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Kwheel_separation_[m[K’
+[5.252s]    49 |     this->[01;31m[Kwheel_separation_[m[K = sdf->Get<double>("wheel_separation", 0.2).first;
+[5.252s]       |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.252s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:50:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Kjoint_x_name_[m[K’
+[5.252s]    50 |     this->[01;31m[Kjoint_x_name_[m[K = sdf->Get<std::string>("joint_x", "").first;
+[5.252s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[5.252s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:51:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Kjoint_y_name_[m[K’
+[5.252s]    51 |     this->[01;31m[Kjoint_y_name_[m[K = sdf->Get<std::string>("joint_y", "").first;
+[5.252s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[5.253s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:52:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Kjoint_yaw_name_[m[K’
+[5.253s]    52 |     this->[01;31m[Kjoint_yaw_name_[m[K = sdf->Get<std::string>("joint_yaw", "").first;
+[5.253s]       |           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.253s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.253s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:15[m[K:
+[5.253s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Knode_[m[K’
+[5.253s]    54 |     RCLCPP_INFO(this->[01;31m[Knode_[m[K->get_logger(), "Plugin configured");
+[5.254s]       |                       [01;31m[K^~~~~[m[K
+[5.254s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Knode_[m[K’
+[5.254s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:54:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.254s]    54 |     [01;31m[KRCLCPP_INFO[m[K(this->node_->get_logger(), "Plugin configured");
+[5.254s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.254s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:54:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.254s]    54 |     [01;31m[KRCLCPP_INFO[m[K(this->node_->get_logger(), "Plugin configured");
+[5.254s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.254s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:54:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.254s]    54 |     [01;31m[KRCLCPP_INFO[m[K(this->node_->get_logger(), "Plugin configured");
+[5.254s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.254s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.255s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.255s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.255s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.255s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.255s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:15[m[K:
+[5.255s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Knode_[m[K’
+[5.255s]    54 |     RCLCPP_INFO(this->[01;31m[Knode_[m[K->get_logger(), "Plugin configured");
+[5.255s]       |                       [01;31m[K^~~~~[m[K
+[5.255s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Knode_[m[K’
+[5.255s]    54 |     RCLCPP_INFO(this->[01;31m[Knode_[m[K->get_logger(), "Plugin configured");
+[5.255s]       |                       [01;31m[K^~~~~[m[K
+[5.261s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_sub_[m[K’ was not declared in this scope
+[5.261s]    57 |     [01;31m[Kcmd_vel_sub_[m[K = this->node_->create_subscription<geometry_msgs::msg::Twist>(
+[5.261s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[5.261s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:57:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass three_omni_plugin_ns::ThreeOmniPlugin[m[K’ has no member named ‘[01m[Knode_[m[K’
+[5.261s]    57 |     cmd_vel_sub_ = this->[01;31m[Knode_[m[K->create_subscription<geometry_msgs::msg::Twist>(
+[5.261s]       |                          [01;31m[K^~~~~[m[K
+[5.261s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:57:78:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.261s]    57 | vel_sub_ = this->node_->create_subscription<geometry_msgs::msg::Twist[01;31m[K>[m[K(
+[5.261s]       |                                                                      [01;31m[K^[m[K
+[5.262s] 
+[5.268s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:58:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_topic_[m[K’ was not declared in this scope
+[5.269s]    58 |         [01;31m[Kcmd_vel_topic_[m[K, 10,
+[5.269s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.269s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:59:37:[m[K [01;31m[Kerror: [m[K‘[01m[KOnCmdVel[m[K’ is not a member of ‘[01m[Kthree_omni_plugin_ns::ThreeOmniPlugin[m[K’
+[5.269s]    59 |         std::bind(&ThreeOmniPlugin::[01;31m[KOnCmdVel[m[K, this, std::placeholders::_1));
+[5.269s]       |                                     [01;31m[K^~~~~~~~[m[K
+[5.275s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor_[m[K’ was not declared in this scope
+[5.275s]    62 |     [01;31m[Kexecutor_[m[K = std::make_shared<rclcpp::executors::SingleThreadedExecutor>();
+[5.275s]       |     [01;31m[K^~~~~~~~~[m[K
+[5.280s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:63:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[5.280s]    63 |     executor_->add_node([01;31m[Knode_[m[K);
+[5.280s]       |                         [01;31m[K^~~~~[m[K
+[5.280s]       |                         [32m[Kmode_t[m[K
+[5.288s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_spin_thread_[m[K’ was not declared in this scope
+[5.288s]    64 |     [01;31m[Kros_spin_thread_[m[K = std::thread([this]() {
+[5.288s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.288s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:[m[K In lambda function:
+[5.289s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:65:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor_[m[K’ is not captured
+[5.289s]    65 |       [01;31m[Kexecutor_[m[K->spin();
+[5.289s]       |       [01;31m[K^~~~~~~~~[m[K
+[5.289s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:64:41:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[5.289s]    64 |     ros_spin_thread_ = std::thread([this[01;36m[K][m[K() {
+[5.289s]       |                                         [01;36m[K^[m[K
+[5.289s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:62:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>executor_[m[K’ declared here
+[5.289s]    62 |     [01;36m[Kexecutor_[m[K = std::make_shared<rclcpp::executors::SingleThreadedExecutor>();
+[5.289s]       |     [01;36m[K^~~~~~~~~[m[K
+[5.289s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void three_omni_plugin_ns::ThreeOmniPlugin::Configure(const Entity&, const std::shared_ptr<const sdf::v12::Element>&, ignition::gazebo::v6::EntityComponentManager&, ignition::gazebo::v6::EventManager&)[m[K’:
+[5.290s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:71:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[5.290s]    71 |   [01;31m[K{[m[K
+[5.290s]       |   [01;31m[K^[m[K
+[5.290s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:118:20:[m[K [01;31m[Kerror: [m[Kinvalid cast to abstract class type ‘[01m[Kthree_omni_plugin_ns::ThreeOmniPlugin[m[K’
+[5.290s]   118 |   ~ThreeOmniPlugin([01;31m[K)[m[K
+[5.290s]       |                    [01;31m[K^[m[K
+[5.290s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:22:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kthree_omni_plugin_ns::ThreeOmniPlugin[m[K’:
+[5.290s]    22 | class [01;36m[KThreeOmniPlugin[m[K : public ignition::gazebo::System,
+[5.290s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[5.290s] In file included from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+[5.290s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:5[m[K:
+[5.290s] [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:122:28:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void ignition::gazebo::v6::ISystemPreUpdate::PreUpdate(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’
+[5.290s]   122 |       public: virtual void [01;36m[KPreUpdate[m[K(const UpdateInfo &_info,
+[5.290s]       |                            [01;36m[K^~~~~~~~~[m[K
+[5.290s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:125:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+[5.290s]   125 | [01;31m[Kprivate[m[K:
+[5.290s]       | [01;31m[K^~~~~~~[m[K
+[5.327s] In file included from [01m[K/usr/include/ignition/plugin1/gz/plugin/Register.hh:22[m[K,
+[5.327s]                  from [01m[K/usr/include/ignition/plugin1/ignition/plugin/Register.hh:18[m[K,
+[5.327s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:11[m[K:
+[5.327s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:[m[K In constructor ‘[01m[Kthree_omni_plugin_ns::ignition::plugin::{anonymous}::ExecuteWhenLoadingLibrary0::ExecuteWhenLoadingLibrary0()[m[K’:
+[5.327s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:149:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo[m[K’ is not a member of ‘[01m[Kthree_omni_plugin_ns::ignition[m[K’; did you mean ‘[01m[Kignition::gazebo[m[K’?
+[5.327s]   149 |                     ignition::[01;31m[Kgazebo[m[K::System,
+[5.327s]       |                               [01;31m[K^~~~~~[m[K
+[5.327s] In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:22[m[K,
+[5.327s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+[5.328s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:5[m[K:
+[5.328s] [01m[K/usr/include/ignition/gazebo6/gz/sim/config.hh:30:13:[m[K [01;36m[Knote: [m[K‘[01m[Kignition::gazebo[m[K’ declared here
+[5.328s]    30 |   namespace [01;36m[Kgazebo[m[K
+[5.328s]       |             [01;36m[K^~~~~~[m[K
+[5.328s] In file included from [01m[K/usr/include/ignition/plugin1/gz/plugin/Register.hh:22[m[K,
+[5.328s]                  from [01m[K/usr/include/ignition/plugin1/ignition/plugin/Register.hh:18[m[K,
+[5.328s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:11[m[K:
+[5.328s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:148:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[5.328s]   148 | [01;31m[KIGNITION_ADD_PLUGIN[m[K(three_omni_plugin_ns::ThreeOmniPlugin,
+[5.328s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.328s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:148:1:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[5.328s]   148 | [01;31m[KIGNITION_ADD_PLUGIN[m[K(three_omni_plugin_ns::ThreeOmniPlugin,
+[5.328s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.328s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:[m[K At global scope:
+[5.328s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:153:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[5.328s]   153 | [01;31m[KIGNITION_ADD_PLUGIN_ALIAS[m[K(three_omni_plugin_ns::ThreeOmniPlugin, "three_omni_plugin")
+[5.328s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.328s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:21:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[5.328s]    21 | [01;36m[K{[m[K
+[5.328s]       | [01;36m[K^[m[K
+[6.224s] In file included from [01m[K/usr/include/ignition/plugin1/gz/plugin/Register.hh:22[m[K,
+[6.224s]                  from [01m[K/usr/include/ignition/plugin1/ignition/plugin/Register.hh:18[m[K,
+[6.224s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:11[m[K:
+[6.225s] /usr/include/ignition/plugin1/gz/plugin/detail/Register.hh: In instantiation of ‘[01m[Kstatic ignition::plugin::v1::Info ignition::plugin::detail::Registrar<PluginClass, Interfaces>::MakeInfo() [with PluginClass = three_omni_plugin_ns::ThreeOmniPlugin; Interfaces = {}][m[K’:
+[6.225s] [01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:424:31:[m[K   required from ‘[01m[Kstatic void ignition::plugin::detail::Registrar<PluginClass, Interfaces>::RegisterAlias(Aliases&& ...) [with Aliases = {const char (&)[18]}; PluginClass = three_omni_plugin_ns::ThreeOmniPlugin; Interfaces = {}][m[K’
+[6.225s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:153:1:[m[K   required from here
+[6.225s] [01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:373:39:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kthree_omni_plugin_ns::ThreeOmniPlugin[m[K’
+[6.225s]   373 |             return static_cast<void*>([01;31m[Knew PluginClass[m[K);
+[6.225s]       |                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.225s] [01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:361:24:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::function<void*()>[m[K’ and ‘[01m[Kignition::plugin::detail::Registrar<three_omni_plugin_ns::ThreeOmniPlugin>::MakeInfo()::<lambda()>[m[K’)
+[6.225s]   361 |           [01;31m[Kinfo.factory = [=]()[m[K
+[6.225s]       |           [01;31m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[6.225s]   362 | [01;31m[K          {[m[K
+[6.225s]       |           [01;31m[K~[m[K             
+[6.225s]   363 | [01;31m[K            // vvvvvvvvvvvvvvvvvvvvvvvv  READ ME  vvvvvvvvvvvvvvvvvvvvvvvvvvvvv[m[K
+[6.225s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.226s]   364 | [01;31m[K            // If you get a compilation error here, then you are trying to[m[K
+[6.226s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.226s]   365 | [01;31m[K            // register an abstract class as a plugin, which is not allowed. To[m[K
+[6.226s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.226s]   366 | [01;31m[K            // register a plugin class, every one if its virtual functions must[m[K
+[6.226s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.226s]   367 | [01;31m[K            // have a definition.[m[K
+[6.226s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.226s]   368 | [01;31m[K            //[m[K
+[6.226s]       |             [01;31m[K~~[m[K          
+[6.226s]   369 | [01;31m[K            // Read through the error produced by your compiler to see which[m[K
+[6.226s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.226s]   370 | [01;31m[K            // pure virtual functions you are neglecting to provide overrides[m[K
+[6.226s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.226s]   371 | [01;31m[K            // for.[m[K
+[6.227s]       |             [01;31m[K~~~~~~~[m[K     
+[6.227s]   372 | [01;31m[K            // ^^^^^^^^^^^^^ READ ABOVE FOR COMPILATION ERRORS ^^^^^^^^^^^^^^^^[m[K
+[6.227s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.227s]   373 | [01;31m[K            return static_cast<void*>(new PluginClass);[m[K
+[6.227s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.227s]   374 | [01;31m[K          }[m[K;
+[6.227s]       |           [01;31m[K~[m[K             
+[6.227s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[6.227s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[6.227s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[6.227s]                  from [01m[K/usr/include/google/protobuf/stubs/common.h:38[m[K,
+[6.227s]                  from [01m[K/usr/include/google/protobuf/io/coded_stream.h:141[m[K,
+[6.227s]                  from [01m[K/usr/include/ignition/msgs8/ignition/msgs/serialized.pb.h:23[m[K,
+[6.227s]                  from [01m[K/usr/include/ignition/msgs8/gz/msgs/serialized.pb.h:18[m[K,
+[6.227s]                  from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:20[m[K,
+[6.227s]                  from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:23[m[K,
+[6.227s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+[6.227s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:5[m[K:
+[6.227s] [01m[K/usr/include/c++/11/bits/std_function.h:530:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<_Functor>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = void*; _ArgTypes = {}][m[K’
+[6.228s]   530 |         [01;36m[Koperator[m[K=(_Functor&& __f)
+[6.228s]       |         [01;36m[K^~~~~~~~[m[K
+[6.228s] [01m[K/usr/include/c++/11/bits/std_function.h:530:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.228s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[6.228s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[6.228s]                  from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+[6.228s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[6.228s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:1[m[K:
+[6.228s] /usr/include/c++/11/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using __enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void*()>&][m[K’:
+[6.228s] [01m[K/usr/include/c++/11/bits/std_function.h:353:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void*()>::_Callable<ignition::plugin::detail::Registrar<three_omni_plugin_ns::ThreeOmniPlugin>::MakeInfo()::<lambda()>, ignition::plugin::detail::Registrar<three_omni_plugin_ns::ThreeOmniPlugin>::MakeInfo()::<lambda()>, std::__invoke_result<ignition::plugin::detail::Registrar<three_omni_plugin_ns::ThreeOmniPlugin>::MakeInfo()::<lambda()>&> >; _Tp = std::function<void*()>&; _Res = void*; _ArgTypes = {}][m[K’
+[6.228s] [01m[K/usr/include/c++/11/bits/std_function.h:530:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Functor> std::function<void*()>::_Requires<std::function<void*()>::_Callable<_Functor, typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<void*()> >::value), std::decay<_Tp> >::type::type, std::__invoke_result<typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<void*()> >::value), std::decay<_Tp> >::type::type&> >, std::function<void*()>&> std::function<void*()>::operator=<_Functor>(_Functor&&) [with _Functor = ignition::plugin::detail::Registrar<three_omni_plugin_ns::ThreeOmniPlugin>::MakeInfo()::<lambda()>][m[K’
+[6.228s] [01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:361:24:[m[K   required from ‘[01m[Kstatic ignition::plugin::v1::Info ignition::plugin::detail::Registrar<PluginClass, Interfaces>::MakeInfo() [with PluginClass = three_omni_plugin_ns::ThreeOmniPlugin; Interfaces = {}][m[K’
+[6.228s] [01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:424:31:[m[K   required from ‘[01m[Kstatic void ignition::plugin::detail::Registrar<PluginClass, Interfaces>::RegisterAlias(Aliases&& ...) [with Aliases = {const char (&)[18]}; PluginClass = three_omni_plugin_ns::ThreeOmniPlugin; Interfaces = {}][m[K’
+[6.228s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:153:1:[m[K   required from here
+[6.228s] [01m[K/usr/include/c++/11/type_traits:2205:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::function<void*()>&>[m[K’
+[6.228s]  2205 |     using [01;31m[K__enable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+[6.228s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[6.228s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[6.228s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[6.228s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[6.229s]                  from [01m[K/usr/include/google/protobuf/stubs/common.h:38[m[K,
+[6.229s]                  from [01m[K/usr/include/google/protobuf/io/coded_stream.h:141[m[K,
+[6.229s]                  from [01m[K/usr/include/ignition/msgs8/ignition/msgs/serialized.pb.h:23[m[K,
+[6.229s]                  from [01m[K/usr/include/ignition/msgs8/gz/msgs/serialized.pb.h:18[m[K,
+[6.229s]                  from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:20[m[K,
+[6.229s]                  from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:23[m[K,
+[6.229s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+[6.229s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:5[m[K:
+[6.229s] /usr/include/ignition/plugin1/gz/plugin/detail/Register.hh: In instantiation of ‘[01m[Kstatic ignition::plugin::v1::Info ignition::plugin::detail::Registrar<PluginClass, Interfaces>::MakeInfo() [with PluginClass = three_omni_plugin_ns::ThreeOmniPlugin; Interfaces = {}][m[K’:
+[6.229s] [01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:424:31:[m[K   required from ‘[01m[Kstatic void ignition::plugin::detail::Registrar<PluginClass, Interfaces>::RegisterAlias(Aliases&& ...) [with Aliases = {const char (&)[18]}; PluginClass = three_omni_plugin_ns::ThreeOmniPlugin; Interfaces = {}][m[K’
+[6.229s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:153:1:[m[K   required from here
+[6.229s] [01m[K/usr/include/c++/11/bits/std_function.h:540:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = void*; _ArgTypes = {}][m[K’
+[6.229s]   540 |         [01;36m[Koperator[m[K=(reference_wrapper<_Functor> __f) noexcept
+[6.229s]       |         [01;36m[K^~~~~~~~[m[K
+[6.229s] [01m[K/usr/include/c++/11/bits/std_function.h:540:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.229s] In file included from [01m[K/usr/include/ignition/plugin1/gz/plugin/Register.hh:22[m[K,
+[6.229s]                  from [01m[K/usr/include/ignition/plugin1/ignition/plugin/Register.hh:18[m[K,
+[6.229s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:11[m[K:
+[6.229s] [01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:361:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kignition::plugin::detail::Registrar<three_omni_plugin_ns::ThreeOmniPlugin>::MakeInfo()::<lambda()>[m[K’ is not derived from ‘[01m[Kstd::reference_wrapper<_Tp>[m[K’
+[6.229s]   361 |           [01;36m[Kinfo.factory = [=]()[m[K
+[6.230s]       |           [01;36m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[6.230s]   362 | [01;36m[K          {[m[K
+[6.230s]       |           [01;36m[K~[m[K             
+[6.230s]   363 | [01;36m[K            // vvvvvvvvvvvvvvvvvvvvvvvv  READ ME  vvvvvvvvvvvvvvvvvvvvvvvvvvvvv[m[K
+[6.230s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.230s]   364 | [01;36m[K            // If you get a compilation error here, then you are trying to[m[K
+[6.230s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.230s]   365 | [01;36m[K            // register an abstract class as a plugin, which is not allowed. To[m[K
+[6.230s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.230s]   366 | [01;36m[K            // register a plugin class, every one if its virtual functions must[m[K
+[6.230s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.230s]   367 | [01;36m[K            // have a definition.[m[K
+[6.230s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.230s]   368 | [01;36m[K            //[m[K
+[6.230s]       |             [01;36m[K~~[m[K          
+[6.230s]   369 | [01;36m[K            // Read through the error produced by your compiler to see which[m[K
+[6.230s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.230s]   370 | [01;36m[K            // pure virtual functions you are neglecting to provide overrides[m[K
+[6.230s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.230s]   371 | [01;36m[K            // for.[m[K
+[6.230s]       |             [01;36m[K~~~~~~~[m[K     
+[6.230s]   372 | [01;36m[K            // ^^^^^^^^^^^^^ READ ABOVE FOR COMPILATION ERRORS ^^^^^^^^^^^^^^^^[m[K
+[6.231s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.231s]   373 | [01;36m[K            return static_cast<void*>(new PluginClass);[m[K
+[6.231s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.231s]   374 | [01;36m[K          }[m[K;
+[6.231s]       |           [01;36m[K~[m[K             
+[6.231s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[6.231s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[6.231s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[6.231s]                  from [01m[K/usr/include/google/protobuf/stubs/common.h:38[m[K,
+[6.231s]                  from [01m[K/usr/include/google/protobuf/io/coded_stream.h:141[m[K,
+[6.231s]                  from [01m[K/usr/include/ignition/msgs8/ignition/msgs/serialized.pb.h:23[m[K,
+[6.231s]                  from [01m[K/usr/include/ignition/msgs8/gz/msgs/serialized.pb.h:18[m[K,
+[6.231s]                  from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:20[m[K,
+[6.231s]                  from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:23[m[K,
+[6.231s]                  from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+[6.231s]                  from [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:5[m[K:
+[6.231s] [01m[K/usr/include/c++/11/bits/std_function.h:469:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = void*; _ArgTypes = {}][m[K’
+[6.231s]   469 |       [01;36m[Koperator[m[K=(const function& __x)
+[6.231s]       |       [01;36m[K^~~~~~~~[m[K
+[6.231s] [01m[K/usr/include/c++/11/bits/std_function.h:469:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kignition::plugin::detail::Registrar<three_omni_plugin_ns::ThreeOmniPlugin>::MakeInfo()::<lambda()>[m[K’ to ‘[01m[Kconst std::function<void*()>&[m[K’
+[6.231s]   469 |       operator=([01;36m[Kconst function& __x[m[K)
+[6.231s]       |                 [01;36m[K~~~~~~~~~~~~~~~~^~~[m[K
+[6.232s] [01m[K/usr/include/c++/11/bits/std_function.h:487:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = void*; _ArgTypes = {}][m[K’
+[6.232s]   487 |       [01;36m[Koperator[m[K=(function&& __x) noexcept
+[6.232s]       |       [01;36m[K^~~~~~~~[m[K
+[6.232s] [01m[K/usr/include/c++/11/bits/std_function.h:487:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kignition::plugin::detail::Registrar<three_omni_plugin_ns::ThreeOmniPlugin>::MakeInfo()::<lambda()>[m[K’ to ‘[01m[Kstd::function<void*()>&&[m[K’
+[6.232s]   487 |       operator=([01;36m[Kfunction&& __x[m[K) noexcept
+[6.232s]       |                 [01;36m[K~~~~~~~~~~~^~~[m[K
+[6.232s] [01m[K/usr/include/c++/11/bits/std_function.h:501:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = void*; _ArgTypes = {}; std::nullptr_t = std::nullptr_t][m[K’
+[6.232s]   501 |       [01;36m[Koperator[m[K=(nullptr_t) noexcept
+[6.232s]       |       [01;36m[K^~~~~~~~[m[K
+[6.232s] [01m[K/usr/include/c++/11/bits/std_function.h:501:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kignition::plugin::detail::Registrar<three_omni_plugin_ns::ThreeOmniPlugin>::MakeInfo()::<lambda()>[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+[6.232s]   501 |       operator=([01;36m[Knullptr_t[m[K) noexcept
+[6.232s]       |                 [01;36m[K^~~~~~~~~[m[K
+[7.097s] gmake[2]: *** [CMakeFiles/three_omni_plugin.dir/build.make:79: CMakeFiles/three_omni_plugin.dir/src/three_omni_plugin.cpp.o] Error 1
+[7.098s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/three_omni_plugin.dir/all] Error 2
+[7.098s] gmake: *** [Makefile:146: all] Error 2
+[7.100s] Invoked command in '/home/nam/Lekiwi_ws/build/three_omni_plugin' returned '2': /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12

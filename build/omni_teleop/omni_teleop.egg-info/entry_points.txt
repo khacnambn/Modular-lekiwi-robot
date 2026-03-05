@@ -1,0 +1,3 @@
+[console_scripts]
+omni_teleop_node = omni_teleop.omni_teleop_node:main
+

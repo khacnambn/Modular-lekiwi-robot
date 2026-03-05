@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/home/nam/Lekiwi_ws/build/three_omni_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12
+[0.117s] [ 50%] [32mBuilding CXX object CMakeFiles/three_omni_plugin.dir/src/three_omni_plugin.cpp.o[0m
+[11.480s] [100%] [32m[1mLinking CXX shared library libthree_omni_plugin.so[0m
+[12.223s] [100%] Built target three_omni_plugin
+[12.229s] Invoked command in '/home/nam/Lekiwi_ws/build/three_omni_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12
+[12.295s] Invoking command in '/home/nam/Lekiwi_ws/build/three_omni_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake --install /home/nam/Lekiwi_ws/build/three_omni_plugin
+[12.358s] -- Install configuration: ""
+[12.358s] -- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/lib/libthree_omni_plugin.so
+[12.368s] -- Set non-toolchain portion of runtime path of "/home/nam/Lekiwi_ws/install/three_omni_plugin/lib/libthree_omni_plugin.so" to ""
+[12.368s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/library_path.sh
+[12.368s] -- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/library_path.dsv
+[12.369s] -- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/ament_index/resource_index/package_run_dependencies/three_omni_plugin
+[12.369s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/ament_index/resource_index/parent_prefix_path/three_omni_plugin
+[12.369s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/ament_prefix_path.sh
+[12.369s] -- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/ament_prefix_path.dsv
+[12.369s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/path.sh
+[12.369s] -- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/environment/path.dsv
+[12.369s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/local_setup.bash
+[12.369s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/local_setup.sh
+[12.369s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/local_setup.zsh
+[12.369s] -- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/local_setup.dsv
+[12.370s] -- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/package.dsv
+[12.370s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/ament_index/resource_index/packages/three_omni_plugin
+[12.370s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[12.370s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/cmake/three_omni_pluginConfig.cmake
+[12.370s] -- Up-to-date: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/cmake/three_omni_pluginConfig-version.cmake
+[12.370s] -- Installing: /home/nam/Lekiwi_ws/install/three_omni_plugin/share/three_omni_plugin/package.xml
+[12.372s] Invoked command in '/home/nam/Lekiwi_ws/build/three_omni_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake --install /home/nam/Lekiwi_ws/build/three_omni_plugin

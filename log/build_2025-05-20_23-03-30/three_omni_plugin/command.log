@@ -1,0 +1,4 @@
+Invoking command in '/home/nam/Lekiwi_ws/build/three_omni_plugin': /home/nam/.local/bin/cmake /home/nam/Lekiwi_ws/src/three_omni_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nam/Lekiwi_ws/install/three_omni_plugin
+Invoked command in '/home/nam/Lekiwi_ws/build/three_omni_plugin' returned '0': /home/nam/.local/bin/cmake /home/nam/Lekiwi_ws/src/three_omni_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nam/Lekiwi_ws/install/three_omni_plugin
+Invoking command in '/home/nam/Lekiwi_ws/build/three_omni_plugin': /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12
+Invoked command in '/home/nam/Lekiwi_ws/build/three_omni_plugin' returned '2': /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12

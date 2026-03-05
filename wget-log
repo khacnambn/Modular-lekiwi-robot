@@ -1,0 +1,11 @@
+--2025-05-17 16:53:25--  https://packages.osrfoundation.org/gazebo.key
+Resolving packages.osrfoundation.org (packages.osrfoundation.org)... 52.52.171.73
+Connecting to packages.osrfoundation.org (packages.osrfoundation.org)|52.52.171.73|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1755 (1.7K) [application/octet-stream]
+Saving to: ‘STDOUT’
+
+-                     0%[                    ]       0  --.-KB/s               -                   100%[===================>]   1.71K  --.-KB/s    in 0s      
+
+2025-05-17 16:53:26 (585 MB/s) - written to stdout [1755/1755]
+

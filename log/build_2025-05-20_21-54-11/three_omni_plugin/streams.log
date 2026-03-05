@@ -1,0 +1,13 @@
+[0.012s] Invoking command in '/home/nam/Lekiwi_ws/build/three_omni_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12
+[0.116s] [ 50%] [32mBuilding CXX object CMakeFiles/three_omni_plugin.dir/src/three_omni_plugin.cpp.o[0m
+[4.400s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo_sim::ThreeOmniPlugin::PreUpdate(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[4.400s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:207:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ktf2::Quaternion q[m[K’
+[4.400s]   207 |     tf2::Quaternion [01;31m[Kq[m[K;
+[4.400s]       |                     [01;31m[K^[m[K
+[4.400s] [01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:183:21:[m[K [01;36m[Knote: [m[K‘[01m[Ktf2::Quaternion q[m[K’ previously declared here
+[4.400s]   183 |     tf2::Quaternion [01;36m[Kq[m[K(pose.Rot().X(), pose.Rot().Y(), pose.Rot().Z(), pose.Rot().W());
+[4.400s]       |                     [01;36m[K^[m[K
+[7.257s] gmake[2]: *** [CMakeFiles/three_omni_plugin.dir/build.make:79: CMakeFiles/three_omni_plugin.dir/src/three_omni_plugin.cpp.o] Error 1
+[7.257s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/three_omni_plugin.dir/all] Error 2
+[7.257s] gmake: *** [Makefile:146: all] Error 2
+[7.259s] Invoked command in '/home/nam/Lekiwi_ws/build/three_omni_plugin' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nam/Lekiwi_ws/install/omni_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_teleop:/home/nam/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12

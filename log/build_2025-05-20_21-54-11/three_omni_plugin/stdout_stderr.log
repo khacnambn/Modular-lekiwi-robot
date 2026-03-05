@@ -1,0 +1,11 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/three_omni_plugin.dir/src/three_omni_plugin.cpp.o[0m
+[01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo_sim::ThreeOmniPlugin::PreUpdate(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:207:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ktf2::Quaternion q[m[K’
+  207 |     tf2::Quaternion [01;31m[Kq[m[K;
+      |                     [01;31m[K^[m[K
+[01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:183:21:[m[K [01;36m[Knote: [m[K‘[01m[Ktf2::Quaternion q[m[K’ previously declared here
+  183 |     tf2::Quaternion [01;36m[Kq[m[K(pose.Rot().X(), pose.Rot().Y(), pose.Rot().Z(), pose.Rot().W());
+      |                     [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/three_omni_plugin.dir/build.make:79: CMakeFiles/three_omni_plugin.dir/src/three_omni_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/three_omni_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

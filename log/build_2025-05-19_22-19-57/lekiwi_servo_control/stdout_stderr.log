@@ -1,0 +1,557 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Looking for ignition-gazebo6 -- found version 6.17.0
+-- Searching for dependencies of ignition-gazebo6
+-- Looking for sdformat12 -- found version 12.8.0
+-- Searching for dependencies of sdformat12
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 9.0.0
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Searching for dependencies of ignition-math6
+-- Looking for ignition-utils1 -- found version 1.5.1
+-- Searching for dependencies of ignition-utils1
+-- Looking for ignition-plugin1 -- found version 1.4.0
+-- Searching for dependencies of ignition-plugin1
+-- Searching for <ignition-plugin1> component [loader]
+-- Looking for ignition-plugin1-loader -- found version 1.4.0
+-- Searching for dependencies of ignition-plugin1-loader
+-- Searching for <ignition-plugin1> component [register]
+-- Looking for ignition-plugin1-register -- found version 1.4.0
+-- Searching for dependencies of ignition-plugin1-register
+-- Looking for ignition-transport11 -- found version 11.4.1
+-- Searching for dependencies of ignition-transport11
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq, version 4.3.4
+-- Checking for module 'uuid'
+--   Found uuid, version 2.37.2
+-- Looking for ignition-utils1 -- found version 1.5.1
+-- Searching for dependencies of ignition-utils1
+-- Searching for <ignition-utils1> component [cli]
+-- Looking for ignition-utils1-cli -- found version 1.5.1
+-- Searching for dependencies of ignition-utils1-cli
+-- Looking for ignition-msgs8 -- found version 8.7.0
+-- Searching for dependencies of ignition-msgs8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3")
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Searching for <ignition-transport11> component [log]
+-- Looking for ignition-transport11-log -- found version 11.4.1
+-- Searching for dependencies of ignition-transport11-log
+-- Searching for <ignition-transport11> component [parameters]
+-- Looking for ignition-transport11-parameters -- found version 11.4.1
+-- Searching for dependencies of ignition-transport11-parameters
+-- Looking for ignition-msgs8 -- found version 8.7.0
+-- Looking for ignition-common4 -- found version 4.7.0
+-- Searching for dependencies of ignition-common4
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <ignition-common4> component [profiler]
+-- Looking for ignition-common4-profiler -- found version 4.7.0
+-- Searching for dependencies of ignition-common4-profiler
+-- Searching for <ignition-common4> component [events]
+-- Looking for ignition-common4-events -- found version 4.7.0
+-- Searching for dependencies of ignition-common4-events
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Searching for <ignition-common4> component [av]
+-- Looking for ignition-common4-av -- found version 4.7.0
+-- Searching for dependencies of ignition-common4-av
+-- Checking for module 'libswscale'
+--   Found libswscale, version 5.9.100
+-- Checking for module 'libavdevice >= 56.4.100'
+--   Found libavdevice, version 58.13.100
+-- Checking for module 'libavformat'
+--   Found libavformat, version 58.76.100
+-- Checking for module 'libavcodec'
+--   Found libavcodec, version 58.134.100
+-- Checking for module 'libavutil'
+--   Found libavutil, version 56.70.100
+-- Looking for ignition-fuel_tools7 -- found version 7.3.1
+-- Searching for dependencies of ignition-fuel_tools7
+[0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)
+  /home/nam/ignition_fortress_ws/install/lib/cmake/ignition-fuel_tools7/ignition-fuel_tools7-config.cmake:94 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/ignition-gazebo6/ignition-gazebo6-config.cmake:97 (find_package)
+  CMakeLists.txt:8 (find_package)
+
+[0m
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.9.5
+-- Checking for module 'libzip'
+--   Found libzip, version 1.7.3
+-- Looking for ignition-common4 -- found version 4.7.0
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-msgs8 -- found version 8.7.0
+-- Looking for ignition-gui6 -- found version 6.8.0
+-- Searching for dependencies of ignition-gui6
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-common4 -- found version 4.7.0
+-- Looking for ignition-plugin1 -- found version 1.4.0
+-- Looking for ignition-transport11 -- found version 11.4.1
+-- Looking for ignition-rendering6 -- found version 6.6.3
+-- Searching for dependencies of ignition-rendering6
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Searching for dependencies of ignition-math6
+-- Searching for <ignition-math6> component [eigen3]
+-- Looking for ignition-math6-eigen3 -- found version 6.15.1
+-- Searching for dependencies of ignition-math6-eigen3
+-- Looking for ignition-common4 -- found version 4.7.0
+-- Searching for dependencies of ignition-common4
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <ignition-common4> component [graphics]
+-- Looking for ignition-common4-graphics -- found version 4.7.0
+-- Searching for dependencies of ignition-common4-graphics
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-utils1 -- found version 1.5.1
+-- Searching for <ignition-common4> component [events]
+-- Looking for ignition-plugin1 -- found version 1.4.0
+-- Searching for dependencies of ignition-plugin1
+-- Searching for <ignition-plugin1> component [all]
+-- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+-- Looking for ignition-plugin1 -- found version 1.4.0
+-- Looking for ignition-msgs8 -- found version 8.7.0
+-- Looking for ignition-physics5 -- found version 5.3.2
+-- Searching for dependencies of ignition-physics5
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-plugin1 -- found version 1.4.0
+-- Looking for ignition-utils1 -- found version 1.5.1
+-- Searching for <ignition-physics5> component [heightmap]
+-- Looking for ignition-physics5-heightmap -- found version 5.3.2
+-- Searching for dependencies of ignition-physics5-heightmap
+-- Looking for ignition-common4 -- found version 4.7.0
+-- Searching for <ignition-physics5> component [mesh]
+-- Looking for ignition-physics5-mesh -- found version 5.3.2
+-- Searching for dependencies of ignition-physics5-mesh
+-- Looking for ignition-common4 -- found version 4.7.0
+-- Searching for <ignition-physics5> component [sdf]
+-- Looking for ignition-physics5-sdf -- found version 5.3.2
+-- Searching for dependencies of ignition-physics5-sdf
+-- Looking for sdformat12 -- found version 12.8.0
+-- Looking for ignition-sensors6 -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4")
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-common4 -- found version 4.7.0
+-- Looking for ignition-transport11 -- found version 11.4.1
+-- Looking for ignition-rendering6 -- found version 6.6.3
+-- Looking for ignition-msgs8 -- found version 8.7.0
+-- Looking for sdformat12 -- found version 12.8.0
+-- Searching for <ignition-sensors6> component [air_pressure]
+-- Looking for ignition-sensors6-air_pressure -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-air_pressure
+-- Searching for <ignition-sensors6> component [altimeter]
+-- Looking for ignition-sensors6-altimeter -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-altimeter
+-- Searching for <ignition-sensors6> component [imu]
+-- Looking for ignition-sensors6-imu -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-imu
+-- Searching for <ignition-sensors6> component [force_torque]
+-- Looking for ignition-sensors6-force_torque -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-force_torque
+-- Searching for <ignition-sensors6> component [logical_camera]
+-- Looking for ignition-sensors6-logical_camera -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-logical_camera
+-- Searching for <ignition-sensors6> component [magnetometer]
+-- Looking for ignition-sensors6-magnetometer -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-magnetometer
+-- Searching for <ignition-sensors6> component [navsat]
+-- Looking for ignition-sensors6-navsat -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-navsat
+-- Searching for <ignition-sensors6> component [rendering]
+-- Looking for ignition-sensors6-rendering -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-rendering
+-- Searching for <ignition-sensors6> component [lidar]
+-- Looking for ignition-sensors6-lidar -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-lidar
+-- Looking for ignition-sensors6 -- found version 6.8.1
+-- Searching for <ignition-sensors6> component [gpu_lidar]
+-- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-gpu_lidar
+-- Looking for ignition-sensors6 -- found version 6.8.1
+-- Searching for <ignition-sensors6> component [camera]
+-- Looking for ignition-sensors6-camera -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-camera
+-- Looking for ignition-sensors6 -- found version 6.8.1
+-- Searching for <ignition-sensors6> component [boundingbox_camera]
+-- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-boundingbox_camera
+-- Searching for <ignition-sensors6> component [segmentation_camera]
+-- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-segmentation_camera
+-- Searching for <ignition-sensors6> component [depth_camera]
+-- Looking for ignition-sensors6-depth_camera -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-depth_camera
+-- Looking for ignition-sensors6 -- found version 6.8.1
+-- Searching for <ignition-sensors6> component [rgbd_camera]
+-- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-rgbd_camera
+-- Looking for ignition-sensors6 -- found version 6.8.1
+-- Searching for <ignition-sensors6> component [thermal_camera]
+-- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1
+-- Searching for dependencies of ignition-sensors6-thermal_camera
+-- Looking for ignition-sensors6 -- found version 6.8.1
+-- Looking for ignition-rendering6 -- found version 6.6.3
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-utils1 -- found version 1.5.1
+-- Configuring done (1.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nam/Lekiwi_ws/build/lekiwi_servo_control
+gmake[2]: Warning: File '/home/nam/ignition_fortress_ws/install/lib/libignition-fuel_tools7.so.7.3.1' has modification time 347060 s in the future
+[ 50%] [32mBuilding CXX object CMakeFiles/lekiwi_servo_control.dir/src/lekiwi_servo_control.cpp.o[0m
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:26:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid LekiwiServoControlPlugin::Configure(const Entity&, std::shared_ptr<const sdf::v12::Element>, ignition::gazebo::v6::EntityComponentManager&, ignition::gazebo::v6::EventManager&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   26 |   void [01;31m[KConfigure[m[K(const Entity &_entity,
+      |        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:[m[K In member function ‘[01m[Kvoid LekiwiServoControlPlugin::Configure(const Entity&, std::shared_ptr<const sdf::v12::Element>, ignition::gazebo::v6::EntityComponentManager&, ignition::gazebo::v6::EventManager&)[m[K’:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:48:42:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kstd::__shared_ptr_access<const sdf::v12::Element, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kconst sdf::v12::Element[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   48 |       auto joints_elem = [01;31m[K_sdf->GetElement("joints")[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:30[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:1[m[K:
+[01m[K/usr/include/ignition/sdformat12/sdf/Element.hh:432:24:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Ksdf::v12::ElementPtr sdf::v12::Element::GetElement(const string&)[m[K’
+  432 |     public: ElementPtr [01;36m[KGetElement[m[K(const std::string &_name);
+      |                        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:[m[K In member function ‘[01m[Kvirtual void LekiwiServoControlPlugin::Update(const ignition::gazebo::v6::UpdateInfo&, ignition::gazebo::v6::EntityComponentManager&)[m[K’:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:121:56:[m[K [01;31m[Kerror: [m[K‘[01m[KName[m[K’ is not a member of ‘[01m[Kignition::gazebo::v6::components[m[K’
+  121 |       joint_state.name[i] = _ecm.Component<components::[01;31m[KName[m[K>(joints_[i])->Data();
+      |                                                        [01;31m[K^~~~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:121:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kignition::gazebo::v6::EntityComponentManager::Component<<expression error> >(__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type&)[m[K’
+  121 |       joint_state.name[i] = [01;31m[K_ecm.Component<components::Name>(joints_[i])[m[K->Data();
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:23[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:1[m[K:
+[01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity) const[m[K’
+  264 |               const ComponentTypeT *[01;36m[KComponent[m[K(const Entity _entity) const;
+      |                                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:264:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:121:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  121 |       joint_state.name[i] = [01;31m[K_ecm.Component<components::Name>(joints_[i])[m[K->Data();
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:851[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:23[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:1[m[K:
+[01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(ignition::gazebo::v6::Entity)[m[K’
+  128 | ComponentTypeT *[01;36m[KEntityComponentManager[m[K::Component(const Entity _entity)
+      |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh:128:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:121:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  121 |       joint_state.name[i] = [01;31m[K_ecm.Component<components::Name>(joints_[i])[m[K->Data();
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:23[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:1[m[K:
+[01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> const ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&) const[m[K’
+  279 |               const ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+      |                                                        [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:279:56:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:121:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  121 |       joint_state.name[i] = [01;31m[K_ecm.Component<components::Name>(joints_[i])[m[K->Data();
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:23[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:1[m[K:
+[01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ComponentTypeT> ComponentTypeT* ignition::gazebo::v6::EntityComponentManager::Component(const ComponentKey&)[m[K’
+  287 |               ComponentTypeT IGN_DEPRECATED(6) * [01;36m[KComponent[m[K(
+      |                                                  [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:287:50:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:121:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  121 |       joint_state.name[i] = [01;31m[K_ecm.Component<components::Name>(joints_[i])[m[K->Data();
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/plugin1/gz/plugin/Register.hh:22[m[K,
+                 from [01m[K/usr/include/ignition/plugin1/ignition/plugin/Register.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:7[m[K:
+/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh: In instantiation of ‘[01m[Kstatic ignition::plugin::v1::Info ignition::plugin::detail::Registrar<PluginClass, Interfaces>::MakeInfo() [with PluginClass = LekiwiServoControlPlugin; Interfaces = {ignition::gazebo::v6::System, ignition::gazebo::v6::ISystemConfigure, ignition::gazebo::v6::ISystemUpdate}][m[K’:
+[01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:396:31:[m[K   required from ‘[01m[Kstatic void ignition::plugin::detail::Registrar<PluginClass, Interfaces>::Register() [with PluginClass = LekiwiServoControlPlugin; Interfaces = {ignition::gazebo::v6::System, ignition::gazebo::v6::ISystemConfigure, ignition::gazebo::v6::ISystemUpdate}][m[K’
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:163:1:[m[K   required from here
+[01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:373:39:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KLekiwiServoControlPlugin[m[K’
+  373 |             return static_cast<void*>([01;31m[Knew PluginClass[m[K);
+      |                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:19:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KLekiwiServoControlPlugin[m[K’:
+   19 | class [01;36m[KLekiwiServoControlPlugin[m[K : public System,
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:1[m[K:
+[01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:98:28:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void ignition::gazebo::v6::ISystemConfigure::Configure(const Entity&, const std::shared_ptr<const sdf::v12::Element>&, ignition::gazebo::v6::EntityComponentManager&, ignition::gazebo::v6::EventManager&)[m[K’
+   98 |       public: virtual void [01;36m[KConfigure[m[K(
+      |                            [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/plugin1/gz/plugin/Register.hh:22[m[K,
+                 from [01m[K/usr/include/ignition/plugin1/ignition/plugin/Register.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:7[m[K:
+[01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:361:24:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::function<void*()>[m[K’ and ‘[01m[Kignition::plugin::detail::Registrar<LekiwiServoControlPlugin, ignition::gazebo::v6::System, ignition::gazebo::v6::ISystemConfigure, ignition::gazebo::v6::ISystemUpdate>::MakeInfo()::<lambda()>[m[K’)
+  361 |           [01;31m[Kinfo.factory = [=]()[m[K
+      |           [01;31m[K~~~~~~~~~~~~~^~~~~~~[m[K
+  362 | [01;31m[K          {[m[K
+      |           [01;31m[K~[m[K             
+  363 | [01;31m[K            // vvvvvvvvvvvvvvvvvvvvvvvv  READ ME  vvvvvvvvvvvvvvvvvvvvvvvvvvvvv[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  364 | [01;31m[K            // If you get a compilation error here, then you are trying to[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  365 | [01;31m[K            // register an abstract class as a plugin, which is not allowed. To[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  366 | [01;31m[K            // register a plugin class, every one if its virtual functions must[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  367 | [01;31m[K            // have a definition.[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  368 | [01;31m[K            //[m[K
+      |             [01;31m[K~~[m[K          
+  369 | [01;31m[K            // Read through the error produced by your compiler to see which[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  370 | [01;31m[K            // pure virtual functions you are neglecting to provide overrides[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  371 | [01;31m[K            // for.[m[K
+      |             [01;31m[K~~~~~~~[m[K     
+  372 | [01;31m[K            // ^^^^^^^^^^^^^ READ ABOVE FOR COMPILATION ERRORS ^^^^^^^^^^^^^^^^[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  373 | [01;31m[K            return static_cast<void*>(new PluginClass);[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  374 | [01;31m[K          }[m[K;
+      |           [01;31m[K~[m[K             
+In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/usr/include/google/protobuf/stubs/common.h:38[m[K,
+                 from [01m[K/usr/include/google/protobuf/io/coded_stream.h:141[m[K,
+                 from [01m[K/usr/include/ignition/msgs8/ignition/msgs/serialized.pb.h:23[m[K,
+                 from [01m[K/usr/include/ignition/msgs8/gz/msgs/serialized.pb.h:18[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:20[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:23[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/std_function.h:530:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<_Functor>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = void*; _ArgTypes = {}][m[K’
+  530 |         [01;36m[Koperator[m[K=(_Functor&& __f)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:530:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+                 from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+                 from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:20[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:1[m[K:
+/usr/include/c++/11/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using __enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void*()>&][m[K’:
+[01m[K/usr/include/c++/11/bits/std_function.h:353:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void*()>::_Callable<ignition::plugin::detail::Registrar<LekiwiServoControlPlugin, ignition::gazebo::v6::System, ignition::gazebo::v6::ISystemConfigure, ignition::gazebo::v6::ISystemUpdate>::MakeInfo()::<lambda()>, ignition::plugin::detail::Registrar<LekiwiServoControlPlugin, ignition::gazebo::v6::System, ignition::gazebo::v6::ISystemConfigure, ignition::gazebo::v6::ISystemUpdate>::MakeInfo()::<lambda()>, std::__invoke_result<ignition::plugin::detail::Registrar<LekiwiServoControlPlugin, ignition::gazebo::v6::System, ignition::gazebo::v6::ISystemConfigure, ignition::gazebo::v6::ISystemUpdate>::MakeInfo()::<lambda()>&> >; _Tp = std::function<void*()>&; _Res = void*; _ArgTypes = {}][m[K’
+[01m[K/usr/include/c++/11/bits/std_function.h:530:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Functor> std::function<void*()>::_Requires<std::function<void*()>::_Callable<_Functor, typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<void*()> >::value), std::decay<_Tp> >::type::type, std::__invoke_result<typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<void*()> >::value), std::decay<_Tp> >::type::type&> >, std::function<void*()>&> std::function<void*()>::operator=<_Functor>(_Functor&&) [with _Functor = ignition::plugin::detail::Registrar<LekiwiServoControlPlugin, ignition::gazebo::v6::System, ignition::gazebo::v6::ISystemConfigure, ignition::gazebo::v6::ISystemUpdate>::MakeInfo()::<lambda()>][m[K’
+[01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:361:24:[m[K   required from ‘[01m[Kstatic ignition::plugin::v1::Info ignition::plugin::detail::Registrar<PluginClass, Interfaces>::MakeInfo() [with PluginClass = LekiwiServoControlPlugin; Interfaces = {ignition::gazebo::v6::System, ignition::gazebo::v6::ISystemConfigure, ignition::gazebo::v6::ISystemUpdate}][m[K’
+[01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:396:31:[m[K   required from ‘[01m[Kstatic void ignition::plugin::detail::Registrar<PluginClass, Interfaces>::Register() [with PluginClass = LekiwiServoControlPlugin; Interfaces = {ignition::gazebo::v6::System, ignition::gazebo::v6::ISystemConfigure, ignition::gazebo::v6::ISystemUpdate}][m[K’
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:163:1:[m[K   required from here
+[01m[K/usr/include/c++/11/type_traits:2205:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::function<void*()>&>[m[K’
+ 2205 |     using [01;31m[K__enable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+      |           [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/usr/include/google/protobuf/stubs/common.h:38[m[K,
+                 from [01m[K/usr/include/google/protobuf/io/coded_stream.h:141[m[K,
+                 from [01m[K/usr/include/ignition/msgs8/ignition/msgs/serialized.pb.h:23[m[K,
+                 from [01m[K/usr/include/ignition/msgs8/gz/msgs/serialized.pb.h:18[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:20[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:23[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:1[m[K:
+/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh: In instantiation of ‘[01m[Kstatic ignition::plugin::v1::Info ignition::plugin::detail::Registrar<PluginClass, Interfaces>::MakeInfo() [with PluginClass = LekiwiServoControlPlugin; Interfaces = {ignition::gazebo::v6::System, ignition::gazebo::v6::ISystemConfigure, ignition::gazebo::v6::ISystemUpdate}][m[K’:
+[01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:396:31:[m[K   required from ‘[01m[Kstatic void ignition::plugin::detail::Registrar<PluginClass, Interfaces>::Register() [with PluginClass = LekiwiServoControlPlugin; Interfaces = {ignition::gazebo::v6::System, ignition::gazebo::v6::ISystemConfigure, ignition::gazebo::v6::ISystemUpdate}][m[K’
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:163:1:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/std_function.h:540:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = void*; _ArgTypes = {}][m[K’
+  540 |         [01;36m[Koperator[m[K=(reference_wrapper<_Functor> __f) noexcept
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:540:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/ignition/plugin1/gz/plugin/Register.hh:22[m[K,
+                 from [01m[K/usr/include/ignition/plugin1/ignition/plugin/Register.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:7[m[K:
+[01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:361:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kignition::plugin::detail::Registrar<LekiwiServoControlPlugin, ignition::gazebo::v6::System, ignition::gazebo::v6::ISystemConfigure, ignition::gazebo::v6::ISystemUpdate>::MakeInfo()::<lambda()>[m[K’ is not derived from ‘[01m[Kstd::reference_wrapper<_Tp>[m[K’
+  361 |           [01;36m[Kinfo.factory = [=]()[m[K
+      |           [01;36m[K~~~~~~~~~~~~~^~~~~~~[m[K
+  362 | [01;36m[K          {[m[K
+      |           [01;36m[K~[m[K             
+  363 | [01;36m[K            // vvvvvvvvvvvvvvvvvvvvvvvv  READ ME  vvvvvvvvvvvvvvvvvvvvvvvvvvvvv[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  364 | [01;36m[K            // If you get a compilation error here, then you are trying to[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  365 | [01;36m[K            // register an abstract class as a plugin, which is not allowed. To[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  366 | [01;36m[K            // register a plugin class, every one if its virtual functions must[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  367 | [01;36m[K            // have a definition.[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  368 | [01;36m[K            //[m[K
+      |             [01;36m[K~~[m[K          
+  369 | [01;36m[K            // Read through the error produced by your compiler to see which[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  370 | [01;36m[K            // pure virtual functions you are neglecting to provide overrides[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  371 | [01;36m[K            // for.[m[K
+      |             [01;36m[K~~~~~~~[m[K     
+  372 | [01;36m[K            // ^^^^^^^^^^^^^ READ ABOVE FOR COMPILATION ERRORS ^^^^^^^^^^^^^^^^[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  373 | [01;36m[K            return static_cast<void*>(new PluginClass);[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  374 | [01;36m[K          }[m[K;
+      |           [01;36m[K~[m[K             
+In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/usr/include/google/protobuf/stubs/common.h:38[m[K,
+                 from [01m[K/usr/include/google/protobuf/io/coded_stream.h:141[m[K,
+                 from [01m[K/usr/include/ignition/msgs8/ignition/msgs/serialized.pb.h:23[m[K,
+                 from [01m[K/usr/include/ignition/msgs8/gz/msgs/serialized.pb.h:18[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:20[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:23[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/std_function.h:469:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = void*; _ArgTypes = {}][m[K’
+  469 |       [01;36m[Koperator[m[K=(const function& __x)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:469:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kignition::plugin::detail::Registrar<LekiwiServoControlPlugin, ignition::gazebo::v6::System, ignition::gazebo::v6::ISystemConfigure, ignition::gazebo::v6::ISystemUpdate>::MakeInfo()::<lambda()>[m[K’ to ‘[01m[Kconst std::function<void*()>&[m[K’
+  469 |       operator=([01;36m[Kconst function& __x[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:487:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = void*; _ArgTypes = {}][m[K’
+  487 |       [01;36m[Koperator[m[K=(function&& __x) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:487:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kignition::plugin::detail::Registrar<LekiwiServoControlPlugin, ignition::gazebo::v6::System, ignition::gazebo::v6::ISystemConfigure, ignition::gazebo::v6::ISystemUpdate>::MakeInfo()::<lambda()>[m[K’ to ‘[01m[Kstd::function<void*()>&&[m[K’
+  487 |       operator=([01;36m[Kfunction&& __x[m[K) noexcept
+      |                 [01;36m[K~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:501:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = void*; _ArgTypes = {}; std::nullptr_t = std::nullptr_t][m[K’
+  501 |       [01;36m[Koperator[m[K=(nullptr_t) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:501:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kignition::plugin::detail::Registrar<LekiwiServoControlPlugin, ignition::gazebo::v6::System, ignition::gazebo::v6::ISystemConfigure, ignition::gazebo::v6::ISystemUpdate>::MakeInfo()::<lambda()>[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+  501 |       operator=([01;36m[Knullptr_t[m[K) noexcept
+      |                 [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ignition/plugin1/gz/plugin/Register.hh:22[m[K,
+                 from [01m[K/usr/include/ignition/plugin1/ignition/plugin/Register.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:7[m[K:
+/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh: In instantiation of ‘[01m[Kstatic ignition::plugin::v1::Info ignition::plugin::detail::Registrar<PluginClass, Interfaces>::MakeInfo() [with PluginClass = LekiwiServoControlPlugin; Interfaces = {}][m[K’:
+[01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:424:31:[m[K   required from ‘[01m[Kstatic void ignition::plugin::detail::Registrar<PluginClass, Interfaces>::RegisterAlias(Aliases&& ...) [with Aliases = {const char (&)[25]}; PluginClass = LekiwiServoControlPlugin; Interfaces = {}][m[K’
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:170:1:[m[K   required from here
+[01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:373:39:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KLekiwiServoControlPlugin[m[K’
+  373 |             return static_cast<void*>([01;31m[Knew PluginClass[m[K);
+      |                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:361:24:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::function<void*()>[m[K’ and ‘[01m[Kignition::plugin::detail::Registrar<LekiwiServoControlPlugin>::MakeInfo()::<lambda()>[m[K’)
+  361 |           [01;31m[Kinfo.factory = [=]()[m[K
+      |           [01;31m[K~~~~~~~~~~~~~^~~~~~~[m[K
+  362 | [01;31m[K          {[m[K
+      |           [01;31m[K~[m[K             
+  363 | [01;31m[K            // vvvvvvvvvvvvvvvvvvvvvvvv  READ ME  vvvvvvvvvvvvvvvvvvvvvvvvvvvvv[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  364 | [01;31m[K            // If you get a compilation error here, then you are trying to[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  365 | [01;31m[K            // register an abstract class as a plugin, which is not allowed. To[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  366 | [01;31m[K            // register a plugin class, every one if its virtual functions must[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  367 | [01;31m[K            // have a definition.[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  368 | [01;31m[K            //[m[K
+      |             [01;31m[K~~[m[K          
+  369 | [01;31m[K            // Read through the error produced by your compiler to see which[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  370 | [01;31m[K            // pure virtual functions you are neglecting to provide overrides[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  371 | [01;31m[K            // for.[m[K
+      |             [01;31m[K~~~~~~~[m[K     
+  372 | [01;31m[K            // ^^^^^^^^^^^^^ READ ABOVE FOR COMPILATION ERRORS ^^^^^^^^^^^^^^^^[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  373 | [01;31m[K            return static_cast<void*>(new PluginClass);[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  374 | [01;31m[K          }[m[K;
+      |           [01;31m[K~[m[K             
+In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/usr/include/google/protobuf/stubs/common.h:38[m[K,
+                 from [01m[K/usr/include/google/protobuf/io/coded_stream.h:141[m[K,
+                 from [01m[K/usr/include/ignition/msgs8/ignition/msgs/serialized.pb.h:23[m[K,
+                 from [01m[K/usr/include/ignition/msgs8/gz/msgs/serialized.pb.h:18[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:20[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:23[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/std_function.h:530:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<_Functor>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = void*; _ArgTypes = {}][m[K’
+  530 |         [01;36m[Koperator[m[K=(_Functor&& __f)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:530:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/c++/11/bits/std_function.h:540:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = void*; _ArgTypes = {}][m[K’
+  540 |         [01;36m[Koperator[m[K=(reference_wrapper<_Functor> __f) noexcept
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:540:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/ignition/plugin1/gz/plugin/Register.hh:22[m[K,
+                 from [01m[K/usr/include/ignition/plugin1/ignition/plugin/Register.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:7[m[K:
+[01m[K/usr/include/ignition/plugin1/gz/plugin/detail/Register.hh:361:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kignition::plugin::detail::Registrar<LekiwiServoControlPlugin>::MakeInfo()::<lambda()>[m[K’ is not derived from ‘[01m[Kstd::reference_wrapper<_Tp>[m[K’
+  361 |           [01;36m[Kinfo.factory = [=]()[m[K
+      |           [01;36m[K~~~~~~~~~~~~~^~~~~~~[m[K
+  362 | [01;36m[K          {[m[K
+      |           [01;36m[K~[m[K             
+  363 | [01;36m[K            // vvvvvvvvvvvvvvvvvvvvvvvv  READ ME  vvvvvvvvvvvvvvvvvvvvvvvvvvvvv[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  364 | [01;36m[K            // If you get a compilation error here, then you are trying to[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  365 | [01;36m[K            // register an abstract class as a plugin, which is not allowed. To[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  366 | [01;36m[K            // register a plugin class, every one if its virtual functions must[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  367 | [01;36m[K            // have a definition.[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  368 | [01;36m[K            //[m[K
+      |             [01;36m[K~~[m[K          
+  369 | [01;36m[K            // Read through the error produced by your compiler to see which[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  370 | [01;36m[K            // pure virtual functions you are neglecting to provide overrides[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  371 | [01;36m[K            // for.[m[K
+      |             [01;36m[K~~~~~~~[m[K     
+  372 | [01;36m[K            // ^^^^^^^^^^^^^ READ ABOVE FOR COMPILATION ERRORS ^^^^^^^^^^^^^^^^[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  373 | [01;36m[K            return static_cast<void*>(new PluginClass);[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  374 | [01;36m[K          }[m[K;
+      |           [01;36m[K~[m[K             
+In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/usr/include/google/protobuf/stubs/common.h:38[m[K,
+                 from [01m[K/usr/include/google/protobuf/io/coded_stream.h:141[m[K,
+                 from [01m[K/usr/include/ignition/msgs8/ignition/msgs/serialized.pb.h:23[m[K,
+                 from [01m[K/usr/include/ignition/msgs8/gz/msgs/serialized.pb.h:18[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh:20[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/gz/sim/System.hh:23[m[K,
+                 from [01m[K/usr/include/ignition/gazebo6/ignition/gazebo/System.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/std_function.h:469:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = void*; _ArgTypes = {}][m[K’
+  469 |       [01;36m[Koperator[m[K=(const function& __x)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:469:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kignition::plugin::detail::Registrar<LekiwiServoControlPlugin>::MakeInfo()::<lambda()>[m[K’ to ‘[01m[Kconst std::function<void*()>&[m[K’
+  469 |       operator=([01;36m[Kconst function& __x[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:487:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = void*; _ArgTypes = {}][m[K’
+  487 |       [01;36m[Koperator[m[K=(function&& __x) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:487:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kignition::plugin::detail::Registrar<LekiwiServoControlPlugin>::MakeInfo()::<lambda()>[m[K’ to ‘[01m[Kstd::function<void*()>&&[m[K’
+  487 |       operator=([01;36m[Kfunction&& __x[m[K) noexcept
+      |                 [01;36m[K~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:501:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = void*; _ArgTypes = {}; std::nullptr_t = std::nullptr_t][m[K’
+  501 |       [01;36m[Koperator[m[K=(nullptr_t) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:501:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kignition::plugin::detail::Registrar<LekiwiServoControlPlugin>::MakeInfo()::<lambda()>[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+  501 |       operator=([01;36m[Knullptr_t[m[K) noexcept
+      |                 [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lekiwi_servo_control.dir/build.make:79: CMakeFiles/lekiwi_servo_control.dir/src/lekiwi_servo_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/lekiwi_servo_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

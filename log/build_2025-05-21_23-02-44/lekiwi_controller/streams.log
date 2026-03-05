@@ -1,0 +1,21 @@
+[0.546s] Invoking command in '/home/nam/Lekiwi_ws/src/lekiwi_controller': PYTHONPATH=/home/nam/Lekiwi_ws/build/lekiwi_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nam/Lekiwi_ws/install/lekiwi_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lekiwi_controller build --build-base /home/nam/Lekiwi_ws/build/lekiwi_controller/build install --record /home/nam/Lekiwi_ws/build/lekiwi_controller/install.log --single-version-externally-managed install_data
+[0.767s] running egg_info
+[0.767s] writing ../../build/lekiwi_controller/lekiwi_controller.egg-info/PKG-INFO
+[0.767s] writing dependency_links to ../../build/lekiwi_controller/lekiwi_controller.egg-info/dependency_links.txt
+[0.768s] writing entry points to ../../build/lekiwi_controller/lekiwi_controller.egg-info/entry_points.txt
+[0.768s] writing requirements to ../../build/lekiwi_controller/lekiwi_controller.egg-info/requires.txt
+[0.768s] writing top-level names to ../../build/lekiwi_controller/lekiwi_controller.egg-info/top_level.txt
+[0.768s] reading manifest file '../../build/lekiwi_controller/lekiwi_controller.egg-info/SOURCES.txt'
+[0.769s] writing manifest file '../../build/lekiwi_controller/lekiwi_controller.egg-info/SOURCES.txt'
+[0.769s] running build
+[0.769s] running install
+[0.769s] running install_data
+[0.769s] copying scripts/omni_controller.py -> /home/nam/Lekiwi_ws/install/lekiwi_controller/lib/lekiwi_controller
+[0.770s] copying scripts/omni_odometry.py -> /home/nam/Lekiwi_ws/install/lekiwi_controller/lib/lekiwi_controller
+[0.770s] running install_egg_info
+[0.771s] Copying ../../build/lekiwi_controller/lekiwi_controller.egg-info to /home/nam/Lekiwi_ws/install/lekiwi_controller/lib/python3.10/site-packages/lekiwi_controller-0.0.0-py3.10.egg-info
+[0.772s] running install_scripts
+[0.786s] Installing omni_controller script to /home/nam/Lekiwi_ws/install/lekiwi_controller/lib/lekiwi_controller
+[0.787s] Installing omni_odometry script to /home/nam/Lekiwi_ws/install/lekiwi_controller/lib/lekiwi_controller
+[0.787s] writing list of installed files to '/home/nam/Lekiwi_ws/build/lekiwi_controller/install.log'
+[0.806s] Invoked command in '/home/nam/Lekiwi_ws/src/lekiwi_controller' returned '0': PYTHONPATH=/home/nam/Lekiwi_ws/build/lekiwi_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nam/Lekiwi_ws/install/lekiwi_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lekiwi_controller build --build-base /home/nam/Lekiwi_ws/build/lekiwi_controller/build install --record /home/nam/Lekiwi_ws/build/lekiwi_controller/install.log --single-version-externally-managed install_data

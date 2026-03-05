@@ -1,0 +1,40 @@
+[0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)
+  /home/nam/ignition_fortress_ws/install/ignition-fuel_tools7/lib/cmake/ignition-fuel_tools7/ignition-fuel_tools7-config.cmake:94 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/ignition-gazebo6/ignition-gazebo6-config.cmake:97 (find_package)
+  CMakeLists.txt:8 (find_package)
+
+[0m
+In file included from [01m[K/usr/include/ignition/plugin1/gz/plugin/Register.hh:22[m[K,
+                 from [01m[K/usr/include/ignition/plugin1/ignition/plugin/Register.hh:18[m[K,
+                 from [01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:7[m[K:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:[m[K In constructor ‘[01m[Kignition::plugin::{anonymous}::ExecuteWhenLoadingLibrary0::ExecuteWhenLoadingLibrary0()[m[K’:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:170:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klekiwi[m[K’ was not declared in this scope
+  170 |   [01;31m[Klekiwi[m[K::ServoControlPlugin,
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:169:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  169 | [01;31m[KIGNITION_ADD_PLUGIN[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:169:1:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  169 | [01;31m[KIGNITION_ADD_PLUGIN[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:[m[K In constructor ‘[01m[Kignition::plugin::{anonymous}::ExecuteWhenLoadingLibrary1::ExecuteWhenLoadingLibrary1()[m[K’:
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:176:27:[m[K [01;31m[Kerror: [m[K‘[01m[Klekiwi[m[K’ was not declared in this scope
+  176 | IGNITION_ADD_PLUGIN_ALIAS([01;31m[Klekiwi[m[K::ServoControlPlugin, "lekiwi_servo_control")
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:176:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  176 | [01;31m[KIGNITION_ADD_PLUGIN_ALIAS[m[K(lekiwi::ServoControlPlugin, "lekiwi_servo_control")
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nam/Lekiwi_ws/src/lekiwi_servo_control/src/lekiwi_servo_control.cpp:176:1:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  176 | [01;31m[KIGNITION_ADD_PLUGIN_ALIAS[m[K(lekiwi::ServoControlPlugin, "lekiwi_servo_control")
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lekiwi_servo_control.dir/build.make:79: CMakeFiles/lekiwi_servo_control.dir/src/lekiwi_servo_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/lekiwi_servo_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

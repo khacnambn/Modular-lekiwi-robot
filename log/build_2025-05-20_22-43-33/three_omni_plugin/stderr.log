@@ -1,0 +1,7 @@
+[01m[K/home/nam/Lekiwi_ws/src/three_omni_plugin/src/three_omni_plugin.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/joint_state.hpp: No such file or directory
+    9 | #include [01;31m[K<sensor_msgs/msg/joint_state.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/three_omni_plugin.dir/build.make:79: CMakeFiles/three_omni_plugin.dir/src/three_omni_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/three_omni_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
