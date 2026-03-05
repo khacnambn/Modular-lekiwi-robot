@@ -1,4 +1,0 @@
-[console_scripts]
-omni_controller = scripts.omni_controller:main
-omni_odometry = scripts.omni_odometry:main
-

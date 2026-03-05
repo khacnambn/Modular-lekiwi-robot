@@ -1,9 +1,0 @@
-/home/nam/Lekiwi_ws/build/lekiwi_description/CMakeFiles/uninstall.dir
-/home/nam/Lekiwi_ws/build/lekiwi_description/CMakeFiles/lekiwi_description_uninstall.dir
-/home/nam/Lekiwi_ws/build/lekiwi_description/CMakeFiles/test.dir
-/home/nam/Lekiwi_ws/build/lekiwi_description/CMakeFiles/edit_cache.dir
-/home/nam/Lekiwi_ws/build/lekiwi_description/CMakeFiles/rebuild_cache.dir
-/home/nam/Lekiwi_ws/build/lekiwi_description/CMakeFiles/list_install_components.dir
-/home/nam/Lekiwi_ws/build/lekiwi_description/CMakeFiles/install.dir
-/home/nam/Lekiwi_ws/build/lekiwi_description/CMakeFiles/install/local.dir
-/home/nam/Lekiwi_ws/build/lekiwi_description/CMakeFiles/install/strip.dir
