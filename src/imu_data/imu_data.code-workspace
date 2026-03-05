@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "micro_rosTEST",
+			"path": "../../../Documents/PlatformIO/Projects/micro_rosTEST"
+		},
+		{
+			"name": "firmware",
+			"path": "../../../../../media/nam/Windows-SSD2/Test_AMR/linorobot2_hardware-humble/firmware"
+		},
+		{
+			"name": "Test-esp32s3",
+			"path": "../../../../../media/nam/Windows-SSD2/Test_AMR/Test-esp32s3"
+		}
+	],
+	"settings": {}
+}
