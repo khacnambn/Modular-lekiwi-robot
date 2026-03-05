@@ -207,28 +207,6 @@ This project builds upon the LeRobot framework from Hugging Face. To contribute 
 3. Update documentation for new features
 4. Submit pull requests with clear descriptions
 
-## Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@thesis{khacnambn2024modular,
-    title={Modular LeKiwi Robot: Autonomous Dual-Robot Docking and Collaborative Manipulation},
-    author={Khac Nam B.N.},
-    year={2024}
-}
-```
-
-Also cite the original LeRobot framework:
-```bibtex
-@misc{cadene2024lerobot,
-    author = {Cadene, Remi and Alibert, Simon and Soare, Alexander and Gallouedec, Quentin and Zouitine, Adil and Wolf, Thomas},
-    title = {LeRobot: State-of-the-art Machine Learning for Real-World Robotics in Pytorch},
-    howpublished = "\url{https://github.com/huggingface/lerobot}",
-    year = {2024}
-}
-```
-
 ## License
 
 This project extends LeRobot which is licensed under Apache License 2.0. See LICENSE files in respective directories.
@@ -244,10 +222,6 @@ This project extends LeRobot which is licensed under Apache License 2.0. See LIC
 
 For questions or issues related to this project:
 - Create an issue on the GitHub repository
-- Refer to the accompanying research paper for detailed methodology
+- Refer to the accompanying research paper for detailed methodology (https://arxiv.org/abs/2510.27178)
 - Check the LeRobot documentation for framework-specific questions
 
----
-
-**Last Updated**: March 2026
-**Status**: Research Project - Experimental
