@@ -1,6 +1,7 @@
 # Modular LeKiwi Robot - Dual Robot Docking and Collaborative Manipulation System
 
 This project extends the **old version of lekiwi-lerobot** with advanced capabilities for autonomous dual-robot coordination, real-time tracking, and collaborative object manipulation.
+Preprint Paper: https://arxiv.org/abs/2510.27178
 
 ## Project Overview
 
@@ -222,6 +223,6 @@ This project extends LeRobot which is licensed under Apache License 2.0. See LIC
 
 For questions or issues related to this project:
 - Create an issue on the GitHub repository
-- Refer to the accompanying research paper for detailed methodology (https://arxiv.org/abs/2510.27178)
+- Refer to the accompanying research paper for detailed methodology 
 - Check the LeRobot documentation for framework-specific questions
 
