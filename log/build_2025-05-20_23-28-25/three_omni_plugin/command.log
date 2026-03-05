@@ -1,4 +1,0 @@
-Invoking command in '/home/nam/Lekiwi_ws/build/three_omni_plugin': /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12
-Invoked command in '/home/nam/Lekiwi_ws/build/three_omni_plugin' returned '0': /home/nam/.local/bin/cmake --build /home/nam/Lekiwi_ws/build/three_omni_plugin -- -j12 -l12
-Invoking command in '/home/nam/Lekiwi_ws/build/three_omni_plugin': /home/nam/.local/bin/cmake --install /home/nam/Lekiwi_ws/build/three_omni_plugin
-Invoked command in '/home/nam/Lekiwi_ws/build/three_omni_plugin' returned '0': /home/nam/.local/bin/cmake --install /home/nam/Lekiwi_ws/build/three_omni_plugin
